@@ -47,7 +47,7 @@ def footer(pre):
     return f'''<footer class="foot" id="contact">
   <h2 class="display">Let's make<br>something.</h2>
   <div class="foot-row">
-    <a href="mailto:hello@adamlarocca.com">Email</a><a href="https://www.linkedin.com/">LinkedIn</a><a href="{pre}LaRoccaResume.pdf">Résumé</a><span>Tallahassee, FL. Working everywhere.</span>
+    <a href="mailto:larocca.ad@gmail.com">larocca.ad@gmail.com</a><a href="https://www.linkedin.com/in/alarocca/" target="_blank" rel="noopener">LinkedIn</a><a href="{pre}LaRoccaResume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a><span>Tallahassee, FL. Working everywhere.</span>
   </div>
   <small>© 2026 Adam LaRocca</small>
 </footer>
@@ -99,6 +99,7 @@ def build_home():
   <div>
     <h2 class="display">Simple ideas. Real feeling.</h2>
     {"".join(f"<p>{E(p)}</p>" for p in about[1:])}
+    <p><a href="LaRoccaResume.pdf" target="_blank" rel="noopener" style="color:var(--sun);border-bottom:1px solid var(--sun)">Download résumé (PDF)</a></p>
     <div class="chips"><span>Cannes Lions</span><span>The One Show</span><span>Effie</span><span>Clio</span><span>Webby</span></div>
   </div>
 </section>
