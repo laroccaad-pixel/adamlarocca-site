@@ -1,0 +1,219 @@
+{
+ "hero": {
+  "video": "video/hero-ri.mp4",
+  "poster": "img/rhode-island.webp"
+ },
+ "lead": "We reframed Rhode Island’s small size as a strength, positioning the state as a year-round destination packed with culture, cuisine, and experiences in close proximity.",
+ "body": [
+  "The campaign challenged the idea that “small” means limited, instead embracing an intentionally overwhelming mix of activities, sights, and flavors to express the feeling of ALL THAT.",
+  "New technologies and bold, unexpected activations helped bring the idea to life beyond traditional media. The result was a destination brand expression that feels unapologetically full, confident, and anything but small."
+ ],
+ "modules": [
+  {
+   "type": "film",
+   "title": "ALL THAT",
+   "src": "https://www.youtube.com/embed/YPsJHlkQaZM?rel=0",
+   "poster": "img/ri/film.webp"
+  },
+  {
+   "type": "loops",
+   "cols": 4,
+   "aspect": "498/522",
+   "items": [
+    "video/ri-phone-inclusivity.mp4",
+    "video/ri-phone-culinary.mp4",
+    "video/ri-phone-outdoors.mp4",
+    "video/ri-phone-history.mp4"
+   ]
+  },
+  {
+   "type": "videos",
+   "cols": 3,
+   "items": [
+    {
+     "src": "https://www.youtube.com/embed/DK0fON-4Kig?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/LsAz_qRGXRQ?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/a0K3-WdIk_I?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/7Fu_I0c79ZM?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/5UQRqXNQvAo?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/1fab46gLVtA?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/SqlLQTdTc8s?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/zJoo6OnOPd8?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/8v9Z8R8_ePQ?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/e8OQ9EYDAG8?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/xmB-nD4xdOI?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/IS8XLWZR1R8?rel=0"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Print & Out of Home",
+   "body": ""
+  },
+  {
+   "type": "rail",
+   "noun": "pieces",
+   "alt": "Print and out of home",
+   "items": [
+    {
+     "src": "img/ri/print2.webp"
+    },
+    {
+     "src": "img/ri/ooh1.webp"
+    },
+    {
+     "src": "img/ri/print1.webp"
+    },
+    {
+     "src": "img/ri/ooh3.webp"
+    },
+    {
+     "src": "img/ri/print3.webp"
+    },
+    {
+     "src": "img/ri/ooh2.webp"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Augmented Reality Portals Experience",
+   "body": "We created an immersive augmented reality experience that allowed users to explore six iconic Rhode Island landmarks through interactive AR portals. Accessible on mobile devices, the experience transformed any physical space into a window onto the Ocean State. Designed to spark curiosity and inspire travel, it delivered high-impact brand storytelling in a simple, intuitive way.\n\nWe custom-designed a large-scale video wall installation for high-traffic locations to promote the AR experience and drive QR code scans.",
+   "credit": "Digital Development Partner: DPT."
+  },
+  {
+   "type": "loop",
+   "layout": "full",
+   "src": "video/ri-ar.mp4",
+   "poster": "img/ri/ar.webp",
+   "alt": "AR portals experience"
+  },
+  {
+   "type": "videos",
+   "cols": 3,
+   "items": [
+    {
+     "src": "https://www.youtube.com/embed/J8IoXO7pBGA?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/LhaRD6C2h9o?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/yn_iizKOgeQ?rel=0"
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/ri/video-wall.webp",
+     "alt": "Video wall installation"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Saks Fifth Avenue Partnership",
+   "body": "Rhode Island has inspired luxury travel since the Gilded Age, and high-income travelers remain a priority audience today. We partnered with Saks Fifth Avenue to reach that audience through an integrated campaign featuring iconic window displays in New York City. The effort extended to in-store displays in key direct-flight markets, supported by social and digital content showcasing curated Saks fashion for a Rhode Island getaway."
+  },
+  {
+   "type": "rail",
+   "noun": "images",
+   "alt": "Saks Fifth Avenue partnership",
+   "items": [
+    {
+     "src": "img/ri/saks-1.webp"
+    },
+    {
+     "src": "img/ri/saks-1aa.webp"
+    },
+    {
+     "src": "img/ri/saks-1bb.webp"
+    },
+    {
+     "src": "img/ri/saks-2.webp"
+    },
+    {
+     "src": "img/ri/saks-3.webp"
+    },
+    {
+     "src": "img/ri/saks-4.webp"
+    },
+    {
+     "src": "img/ri/saks-5.webp"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "The Giant Travelling Stuffie Installation",
+   "body": "To highlight Rhode Island as a culinary destination, we transformed its iconic “stuffie” into a giant, three-dimensional installation placed in high-traffic airports nationwide to promote direct flights. The idea gained traction quickly and expanded into a traveling Stuffie Truck, touring events across the country and turning a local delicacy into a highly shareable, awareness-driving moment."
+  },
+  {
+   "type": "images",
+   "layout": "pair",
+   "items": [
+    {
+     "src": "img/ri/stuffie.webp",
+     "alt": "Giant stuffie installation"
+    },
+    {
+     "src": "img/ri/tweets.webp",
+     "alt": "Social reaction"
+    }
+   ]
+  },
+  {
+   "type": "film",
+   "title": "The Stuffie Truck",
+   "src": "https://www.youtube.com/embed/KgzNsgx9JXg?rel=0",
+   "poster": "img/ri/stuffie.webp"
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/ri/stuffie-strip.webp",
+     "alt": "Stuffie truck on tour"
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "layout": "full",
+   "items": [
+    {
+     "src": "img/ri/stuffie-stuffie.webp",
+     "alt": "The Stuffie Stuffie"
+    }
+   ]
+  }
+ ],
+ "productionCredit": "Director: Dustin Devlin · Vagrants"
+}

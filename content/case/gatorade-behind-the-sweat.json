@@ -1,0 +1,111 @@
+{
+ "hero": {
+  "video": "video/bts-hero.mp4",
+  "poster": "img/bts/poster-hero.webp"
+ },
+ "lead": "From the time we start playing sports, we pretend to be our idols.",
+ "body": [
+  "To show teen athletes what it truly takes to become the best, we created a campaign that allowed teens to become their favorite pro athletes through a variety of immersive experiences.",
+  "We created first person POV videos featuring Usain Bolt and Serena Williams, a 360° Virtual Reality experience featuring JJ Watt, and partnered with Spotify to allow users to choose workout playlists that match the intensity and training style of the featured pros."
+ ],
+ "modules": [
+  {
+   "type": "film",
+   "title": "Case Study Video",
+   "src": "https://player.vimeo.com/video/180427412?title=0&byline=0&portrait=0",
+   "poster": "img/bts/case.webp"
+  },
+  {
+   "type": "section",
+   "title": "Usain & Serena POV Videos",
+   "body": ""
+  },
+  {
+   "type": "videos",
+   "cols": 2,
+   "items": [
+    {
+     "src": "https://player.vimeo.com/video/210661199?title=0&byline=0&portrait=0",
+     "title": "Usain Bolt",
+     "poster": "img/bts/usain.webp"
+    },
+    {
+     "src": "https://player.vimeo.com/video/210661139?title=0&byline=0&portrait=0",
+     "title": "Serena Williams",
+     "poster": "img/bts/serena.webp"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "JJ Watt VR / 360° Video",
+   "body": "We created an immersive VR experience allowing aspiring pros to become JJ Watt. Using a custom-built VR array and binaural audio, we delivered an unprecedented live-action point of view of the speed, strength and sweat of JJ Watt."
+  },
+  {
+   "type": "film",
+   "title": "JJ Watt 360°",
+   "src": "https://player.vimeo.com/video/243733655?title=0&byline=0&portrait=0",
+   "poster": "img/bts/jj-360.webp"
+  },
+  {
+   "type": "section",
+   "title": "VR Roadshow",
+   "body": "The VR experience toured at sports camps and events across the county. It was also featured as one of the first branded YouTube 360° videos."
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/bts/roadshow.webp",
+     "alt": "VR roadshow at sports camps"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Spotify Integration",
+   "body": "Partnering with Spotify, we were able to give athletes playlists that matched the musical tastes and training styles of our pros: Power, Agility & Speed."
+  },
+  {
+   "type": "loop",
+   "layout": "browser",
+   "src": "video/bts-spotify.mp4",
+   "poster": "",
+   "alt": "Spotify playlist integration"
+  },
+  {
+   "type": "section",
+   "title": "Social Support",
+   "body": ""
+  },
+  {
+   "type": "rail",
+   "alt": "Behind the Sweat social posts",
+   "items": [
+    {
+     "src": "img/bts/social-1.webp"
+    },
+    {
+     "src": "img/bts/social-2.webp"
+    },
+    {
+     "src": "img/bts/social-3.webp"
+    },
+    {
+     "src": "img/bts/social-4.webp"
+    },
+    {
+     "src": "img/bts/social-5.webp"
+    },
+    {
+     "src": "img/bts/social-6.webp"
+    },
+    {
+     "src": "img/bts/social-post.webp"
+    }
+   ]
+  }
+ ],
+ "productionCredit": "Director: Jake Oleson"
+}

@@ -1,0 +1,87 @@
+{
+ "hero": {
+  "video": "video/thrifty-hero.mp4",
+  "poster": "img/thrifty/poster-hero.webp"
+ },
+ "lead": "Thrifty Car Rental has always delivered the right balance of value and quality, but few people knew it.",
+ "body": [
+  "To drive awareness and consideration, we launched Thrifty’s first TV campaign in over a decade, reimagining a familiar story with a bit of humorswagg™. Starring Kenan Thompson as Goldilocks, the work proved that “just right” can still stand out."
+ ],
+ "modules": [
+  {
+   "type": "film",
+   "title": ":30 Spot",
+   "src": "https://www.youtube.com/embed/VkjxYRaT2VU?rel=0",
+   "poster": "img/thrifty/film.webp"
+  },
+  {
+   "type": "section",
+   "title": ":06 OLVs",
+   "body": "Kenan Thompson = :06 gold. These scripted and improvised videos were used in social and paid placements to keep Thrifty top of mind."
+  },
+  {
+   "type": "videos",
+   "cols": 3,
+   "items": [
+    {
+     "src": "https://www.youtube.com/embed/KVb98AWsHkU?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/XX79F16aAKY?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/HN16v-6yImU?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/px6QRi-XtLY?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/36kYGcrJOnk?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/GDVzQeArAXY?rel=0"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Social & Thrifty.com",
+   "body": ""
+  },
+  {
+   "type": "images",
+   "layout": "full",
+   "items": [
+    {
+     "src": "img/thrifty/cargo-desktopwebsite.webp",
+     "alt": "Thrifty.com homepage"
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "layout": "pair",
+   "items": [
+    {
+     "src": "img/thrifty/cargo-polls-nobg.webp",
+     "alt": "Social polls"
+    },
+    {
+     "src": "img/thrifty/cargo-socialreaction.webp",
+     "alt": "Social reactions"
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/thrifty/920pxwide-fbcarouselmockupv2.webp",
+     "alt": "Facebook carousel"
+    }
+   ]
+  }
+ ],
+ "productionCredit": "Directors: The Director Brothers · Bullitt"
+}

@@ -1,0 +1,37 @@
+{
+ "hero": {
+  "video": "video/mcd-hero.mp4",
+  "poster": "img/mcd/poster-hero.webp"
+ },
+ "lead": "What’s the value of real connection in a screen-obsessed world?",
+ "body": [
+  "We ran a simple experiment: share a meal, put the phone away, and see what happens. And the results spoke for themselves. Would you give up your phone for a few minutes if it meant free McDonald’s fries?"
+ ],
+ "modules": [
+  {
+   "type": "film",
+   "title": "No Tech",
+   "src": "https://www.youtube.com/embed/tfR3o3yuA1Y?rel=0",
+   "poster": "img/mcd/poster-hero.webp"
+  },
+  {
+   "type": "images",
+   "layout": "trio",
+   "items": [
+    {
+     "src": "img/mcd/still-60.webp",
+     "alt": "Guests at the counter"
+    },
+    {
+     "src": "img/mcd/still-85.webp",
+     "alt": "Guests sharing a meal"
+    },
+    {
+     "src": "img/mcd/still-170.webp",
+     "alt": "A family at the table"
+    }
+   ]
+  }
+ ],
+ "productionCredit": "Director: Tim Moore · Diamond View Studios"
+}

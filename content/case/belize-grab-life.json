@@ -1,0 +1,118 @@
+{
+ "hero": {
+  "video": "video/glc-hero.mp4",
+  "poster": "img/glc/poster-hero.webp"
+ },
+ "lead": "Grab Life was created to position Belize as an accessible destination for adventure seekers, but as traveler priorities shifted post-pandemic, the platform evolved.",
+ "body": [
+  "Adventure alone was no longer enough; travelers were seeking culture, meaning, and well-being alongside exploration.",
+  "We introduced the Grab Life Coaches of Mind, Body, and Soul, grounding the campaign in real Belizeans who embody the destination. Mind focused on wellness and restoration, Soul celebrated culture and heritage, and Body carried forward the spirit of adventure from reef to rainforest. The result was a campaign that let Belizeans lead the story, inviting travelers to experience Belize not just as a place to visit, but a place to feel."
+ ],
+ "modules": [
+  {
+   "type": "film",
+   "title": "Grab Life Coaches",
+   "src": "https://www.youtube.com/embed/Pvt3UnUjX4E?rel=0",
+   "poster": "img/glc/film.webp"
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/glc/header.webp",
+     "alt": "Mind, Body, Soul"
+    }
+   ]
+  },
+  {
+   "type": "videos",
+   "cols": 3,
+   "items": [
+    {
+     "src": "https://www.youtube.com/embed/FB7-VZ4SUcg?rel=0",
+     "poster": "img/glc/mind.webp"
+    },
+    {
+     "src": "https://www.youtube.com/embed/ngfoEqYAHyE?rel=0",
+     "poster": "img/glc/body.webp"
+    },
+    {
+     "src": "https://www.youtube.com/embed/CasqZ2X4EG4?rel=0",
+     "poster": "img/glc/soul.webp"
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "layout": "full",
+   "items": [
+    {
+     "src": "img/glc/airport-billboard.webp",
+     "alt": "Airport billboard"
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "layout": "pair",
+   "items": [
+    {
+     "src": "img/glc/magazine-1.webp",
+     "alt": "Print spread"
+    },
+    {
+     "src": "img/glc/magazine-2.webp",
+     "alt": "Print spread"
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/glc/paid-social.webp",
+     "alt": "Paid social"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Owned Channel Integration",
+   "body": "The Grab Life Coaches extended into social and Belize’s trip-planning app, guiding travelers with personalized itineraries, curated recommendations, and a chatbot that spoke in the voice of a coach, turning inspiration into action."
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/glc/ipad.webp",
+     "alt": "Trip-planning app integration"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Grab Life Activation",
+   "body": "We showed people how to grab life spiritually, physically, and culturally. Then we invited them to literally grab life as a human claw machine."
+  },
+  {
+   "type": "film",
+   "title": "Human Claw Machine",
+   "src": "https://www.youtube.com/embed/M-XcDAGlMLo?rel=0",
+   "poster": "img/glc/poster-hero.webp"
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/glc/activation.webp",
+     "alt": "Human claw machine activation"
+    }
+   ]
+  }
+ ],
+ "productionCredit": "Director: Ross Haines · Photographer: Pedro Oliveira · SEED"
+}

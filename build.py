@@ -111,24 +111,48 @@ def fig(item, pre, eager=False):
     cap = f'<figcaption>{E(item["caption"])}</figcaption>' if item.get("caption") else ""
     return f'<figure><img src="{pre}{item["src"]}" alt="{E(item.get("alt",""))}" loading="{"eager" if eager else "lazy"}">{cap}</figure>'
 
+def poster_for(m, pre, small=False):
+    if m.get("poster"): return pre + m["poster"]
+    if "youtube" in m["src"]:
+        vid = m["src"].split("/embed/")[1].split("?")[0]
+        return f"https://i.ytimg.com/vi/{vid}/{'hqdefault' if small else 'sddefault'}.jpg"
+    return ""
+
+def film_tile(m, pre, small=False):
+    title = m.get("title", "")
+    poster = poster_for(m, pre, small)
+    img = f'<img src="{poster}" alt="" loading="lazy">' if poster else ""
+    label = f'<span><b>{E(title)}</b><span>Play film</span></span>' if title else ""
+    return f'''<div class="film{' small' if small else ''}" data-src="{E(m["src"])}" data-title="{E(title or "Film")}"><button aria-label="Play {E(title or "film")}">
+  {img}<span class="play"><i></i>{label}</span></button></div>'''
+
 def module(m, pre):
     t = m["type"]
     if t == "section":
         credit = f'<p class="cs-credit-line">{E(m["credit"])}</p>' if m.get("credit") else ""
         body = f'<div><p>{E(m["body"])}</p>{credit}</div>' if m.get("body") else f"<div>{credit}</div>"
         return f'<div class="cs-section-head"><h2 class="display">{E(m["title"]).replace("-", "\u2011")}</h2>{body}</div>'
+    if t == "videos":
+        tiles = "".join(film_tile(i, pre, small=True) for i in m["items"])
+        return f'<div class="vgrid cols-{m.get("cols",3)}">{tiles}</div>'
+    if t == "loops":
+        vids = "".join(f'<figure><video src="{pre}{v}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>' for v in m["items"])
+        return f'<div class="media m-loops cols-{m.get("cols",4)}" style="--ar:{m.get("aspect","9/16")}">{vids}</div>'
     if t == "film":
-        return f'''<div class="film" data-src="{E(m["src"])}" data-title="{E(m["title"])}"><button aria-label="Play {E(m["title"])}">
-  <img src="{pre}{m["poster"]}" alt="" loading="lazy"><span class="play"><i></i><span><b>{E(m["title"])}</b><span>Play film</span></span></span></button></div>'''
+        return film_tile(m, pre)
     if t == "loop":
         poster = f' poster="{pre}{m["poster"]}"' if m.get("poster") else ""
         return f'<div class="media m-{m["layout"]}"><figure><video src="{pre}{m["src"]}"{poster} autoplay muted loop playsinline data-loop aria-label="{E(m.get("alt",""))}"></video></figure></div>'
     if t == "images":
         return f'<div class="media m-{m["layout"]}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
     if t == "rail":
-        figs = "".join(f'<figure><img src="{pre}{i["src"]}" alt="{E(m.get("alt",""))}" loading="lazy"></figure>' for i in m["items"])
-        return f'''<div class="rail-wrap"><div class="rail" tabindex="0" aria-label="{E(m.get("alt","Gallery"))}">{figs}</div>
-  <div class="rail-controls"><span>{len(m["items"])} posts. Swipe or use the arrows.</span><div><button data-dir="-1" aria-label="Previous">&#8592;</button><button data-dir="1" aria-label="Next">&#8594;</button></div></div></div>'''
+        def rf(i):
+            if i.get("video"): return f'<figure><video src="{pre}{i["video"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>'
+            return f'<figure><img src="{pre}{i["src"]}" alt="{E(m.get("alt",""))}" loading="lazy"></figure>'
+        figs = "".join(rf(i) for i in m["items"])
+        noun = m.get("noun", "posts")
+        return f'''<div class="rail-wrap"><div class="rail{' tall' if m.get('tall') else ''}" tabindex="0" aria-label="{E(m.get("alt","Gallery"))}">{figs}</div>
+  <div class="rail-controls"><span>{len(m["items"])} {noun}. Swipe or use the arrows.</span><div><button data-dir="-1" aria-label="Previous">&#8592;</button><button data-dir="1" aria-label="Next">&#8594;</button></div></div></div>'''
     raise ValueError(t)
 
 def build_case(p, nxt):
@@ -149,9 +173,11 @@ def build_case(p, nxt):
     nc = cards[nxt["slug"]]
     nhref = f'{nxt["slug"]}.html' if has_case(nxt["slug"]) else "../index.html#work"
     hero = cs["hero"]
+    hero_media = (f'<video src="{pre}{hero["video"]}" poster="{pre}{hero["poster"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
+                  if hero.get("video") else f'<img src="{pre}{hero["image"]}" alt="" fetchpriority="high">')
     page = head(f'{p["client"]}: {p["title"]}. Adam LaRocca', pre, cs["lead"]) + nav(pre, "work") + f'''
 <header class="cs-hero">
-  <video src="{pre}{hero["video"]}" poster="{pre}{hero["poster"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>
+  {hero_media}
   <div class="cs-hero-copy">
     <p class="kicker">{E(p["client"])}</p>
     <h1 class="display">{E(p["title"])}</h1>
@@ -159,7 +185,7 @@ def build_case(p, nxt):
   </div>
 </header>
 <main>
-<section class="cs-intro"><p class="lead">{E(cs["lead"])}</p><div class="body">{"".join(f"<p>{E(b)}</p>" for b in cs["body"])}</div></section>
+<section class="cs-intro"><p class="lead{' long' if len(cs['lead']) > 70 else ''}">{E(cs["lead"])}</p><div class="body">{"".join(f"<p>{E(b)}</p>" for b in cs["body"])}</div></section>
 {mods}
 <section class="cs-credits">
   <div><h2 class="display">Credits</h2><p class="prod">{E(cs.get("productionCredit",""))}</p><div class="cs-awards">{award_chips}</div></div>

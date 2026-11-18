@@ -1,0 +1,105 @@
+{
+ "hero": {
+  "image": "img/recover/hero.webp"
+ },
+ "lead": "Gatorade was entering the crowded protein category with its own shakes and bars, with a clear goal: make the packaging impossible to miss.",
+ "body": [
+  "We created dramatic, hand-crafted stop-motion videos with the four major sports leagues, putting the product front and center. The films showed teen athletes that Gatorade isn’t just trusted for in-game hydration, but also for post-game nutrition."
+ ],
+ "modules": [
+  {
+   "type": "section",
+   "title": "Athlete Building Animated Series",
+   "body": "",
+   "credit": "Director: Rob Shaw · BENT Image Lab"
+  },
+  {
+   "type": "film",
+   "title": "Athlete Building",
+   "src": "https://player.vimeo.com/video/221298741?title=0&byline=0&portrait=0",
+   "poster": "img/recover/hero.webp"
+  },
+  {
+   "type": "videos",
+   "cols": 3,
+   "items": [
+    {
+     "src": "https://player.vimeo.com/video/220087952?title=0&byline=0&portrait=0"
+    },
+    {
+     "src": "https://player.vimeo.com/video/243376183?title=0&byline=0&portrait=0"
+    },
+    {
+     "src": "https://player.vimeo.com/video/180429697?title=0&byline=0&portrait=0"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Instagram Recover Journey",
+   "body": "Using Instagram’s link tagging, teen athletes were invited into a “choose your own path” experience that helped them get more out of every workout with Gatorade Recover. Guided by Gatorade’s youngest roster athlete, Jabari Parker, the journey unfolded through striking imagery, GIFs, and video, pairing real training moments with protein usage and workout tips straight from the pros.",
+   "credit": "Photographer: Dennis Leupold"
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/recover/journey.webp",
+     "alt": "Instagram Recover Journey overview"
+    }
+   ]
+  },
+  {
+   "type": "rail",
+   "tall": true,
+   "noun": "frames",
+   "alt": "Instagram journey frames",
+   "items": [
+    {
+     "video": "video/recover-ig-jabari_instagram_all.mp4"
+    },
+    {
+     "src": "img/recover/ig-jabarisitting.webp"
+    },
+    {
+     "video": "video/recover-ig-hurdles3.mp4"
+    },
+    {
+     "src": "img/recover/ig-manyjabarii.webp"
+    },
+    {
+     "src": "img/recover/ig-jabarisituptrainerquote.webp"
+    },
+    {
+     "src": "img/recover/ig-battleropehero.webp"
+    },
+    {
+     "video": "video/recover-ig-jumprope.mp4"
+    },
+    {
+     "src": "img/recover/ig-dyptich.webp"
+    },
+    {
+     "video": "video/recover-ig-quickfeet2.mp4"
+    },
+    {
+     "src": "img/recover/ig-ballfingerspin.webp"
+    },
+    {
+     "src": "img/recover/ig-resistanceband.webp"
+    },
+    {
+     "src": "img/recover/ig-boxjump.webp"
+    },
+    {
+     "src": "img/recover/ig-doubledribblebw.webp"
+    },
+    {
+     "src": "img/recover/ig-jabarileaving.webp"
+    }
+   ]
+  }
+ ],
+ "productionCredit": ""
+}

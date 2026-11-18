@@ -1,0 +1,36 @@
+{
+ "hero": {
+  "video": "video/tmo-hero.mp4",
+  "poster": "img/tmo/poster-hero.webp"
+ },
+ "lead": "T-Mobile is the definitive challenger brand, fearlessly taking on giants like AT&T and Verizon.",
+ "body": [
+  "That ambition led to unconventional partnerships, including the NBA, and bold, category-breaking offers for families."
+ ],
+ "modules": [
+  {
+   "type": "section",
+   "title": "Android Saturday",
+   "body": "",
+   "credit": "Director: Kenny Herzog · O Positive"
+  },
+  {
+   "type": "film",
+   "title": "Android Saturday",
+   "src": "https://player.vimeo.com/video/21944499?title=0&byline=0&portrait=0",
+   "poster": "img/tmo/android.webp"
+  },
+  {
+   "type": "section",
+   "title": "NBA Partnership",
+   "body": "",
+   "credit": "Director: Errol Morris · Moxie Pictures"
+  },
+  {
+   "type": "film",
+   "title": "NBA Partnership",
+   "src": "https://player.vimeo.com/video/21991504?title=0&byline=0&portrait=0"
+  }
+ ],
+ "productionCredit": ""
+}

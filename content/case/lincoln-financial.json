@@ -1,0 +1,81 @@
+{
+ "hero": {
+  "image": "img/lfg/hero.webp"
+ },
+ "lead": "Financial planning is often overwhelming and number-driven.",
+ "body": [
+  "So we created an intuitive planning tool that helped people visualize their financial futures without a single number, using simple drag-and-drop life events to make complex decisions feel approachable and human. The site helped net an Effie for LFG's Futureself Campaign."
+ ],
+ "modules": [
+  {
+   "type": "section",
+   "title": "Futureself Timeline Experience",
+   "body": "",
+   "credit": "Digital Development Partner: Firstborn"
+  },
+  {
+   "type": "film",
+   "title": "Futureself Timeline",
+   "src": "https://player.vimeo.com/video/222258365?title=0&byline=0&portrait=0",
+   "poster": "img/lfg/hero.webp"
+  },
+  {
+   "type": "images",
+   "layout": "natural",
+   "items": [
+    {
+     "src": "img/lfg/homepage.webp",
+     "alt": "LFG homepage placement"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Banner Support",
+   "body": ""
+  },
+  {
+   "type": "loop",
+   "layout": "natural",
+   "src": "video/lfg-banners.mp4",
+   "poster": "",
+   "alt": "Banner support"
+  },
+  {
+   "type": "film",
+   "title": "Campaign Case Study Video",
+   "src": "https://player.vimeo.com/video/220088951?title=0&byline=0&portrait=0",
+   "poster": "img/lfg/homepage.webp"
+  },
+  {
+   "type": "section",
+   "title": "Things Change Campaign",
+   "body": "In the wake of a major market downturn, investor confidence was shaken. Our challenge was to reassure people that while their plans may have changed, Lincoln Financial Group would remain a steady guide, helping them navigate uncertainty, rebuild confidence, and stay on track toward their long-term goals."
+  },
+  {
+   "type": "images",
+   "layout": "full",
+   "items": [
+    {
+     "src": "img/lfg/retireearly.webp",
+     "alt": "Retire Early print ad"
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "layout": "pair",
+   "items": [
+    {
+     "src": "img/lfg/nestegg.webp",
+     "alt": "Nest Egg print ad"
+    },
+    {
+     "src": "img/lfg/homeequity.webp",
+     "alt": "Home Equity print ad"
+    }
+   ]
+  }
+ ],
+ "productionCredit": ""
+}
