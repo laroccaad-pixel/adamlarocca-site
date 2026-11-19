@@ -1,79 +1,81 @@
 {
- "hero": {
-  "video": "video/hertz-hero.mp4",
-  "poster": "img/hertz/poster-hero.webp"
- },
- "lead": "Hertz unseated Enterprise as #1 in the J.D. Power customer satisfaction ranking in car rental for the first time ever.",
- "body": [
-  "They wanted to highlight their achievement with a brand campaign letting their customers know that they were the inspiration behind it all."
- ],
- "modules": [
-  {
-   "type": "section",
-   "title": "Extra Miler Campaign",
-   "body": ""
+  "hero": {
+    "video": "video/hertz-hero.mp4",
+    "poster": "img/hertz/poster-hero.webp"
   },
-  {
-   "type": "film",
-   "title": "Extra Miler",
-   "src": "https://www.youtube.com/embed/4PSPTU9cjAs?rel=0",
-   "poster": "img/hertz/film.webp"
-  },
-  {
-   "type": "videos",
-   "cols": 3,
-   "items": [
+  "lead": "Hertz unseated Enterprise as #1 in the J.D. Power customer satisfaction ranking in car rental for the first time ever.",
+  "body": [
+    "They wanted to highlight their achievement with a brand campaign letting their customers know that they were the inspiration behind it all."
+  ],
+  "modules": [
     {
-     "src": "https://www.youtube.com/embed/z52oaw1A9t0?rel=0",
-     "poster": "img/hertz/movers.webp"
+      "type": "section",
+      "title": "Extra Miler Campaign",
+      "body": ""
     },
     {
-     "src": "https://www.youtube.com/embed/RM0BoB1gVpc?rel=0"
+      "type": "film",
+      "title": "Extra Miler",
+      "src": "https://www.youtube.com/embed/4PSPTU9cjAs?rel=0",
+      "poster": "img/hertz/film.webp"
     },
     {
-     "src": "https://www.youtube.com/embed/HFQPolbM35I?rel=0"
+      "type": "videos",
+      "cols": 3,
+      "items": [
+        {
+          "src": "https://www.youtube.com/embed/z52oaw1A9t0?rel=0",
+          "poster": "img/hertz/movers.webp"
+        },
+        {
+          "src": "https://www.youtube.com/embed/RM0BoB1gVpc?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/HFQPolbM35I?rel=0"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Times Square Takeover",
+      "body": "Hertz’s return to the NASDAQ was a defining brand moment. To announce its re-IPO and the acquisition of the world’s largest EV fleet, I designed a ten-screen Times Square system engineered to work as a single, cohesive experience across different formats and sightlines. The takeover cut through the visual noise of Times Square while reinforcing Hertz’s bold, modern brand presence at a critical point in its comeback."
+    },
+    {
+      "type": "film",
+      "title": "Times Square Takeover",
+      "src": "https://www.youtube.com/embed/R7uHXDQe4h4?rel=0",
+      "poster": "img/hertz/ts-hero.webp"
+    },
+    {
+      "type": "rail",
+      "noun": "images",
+      "alt": "Times Square takeover",
+      "items": [
+        {
+          "src": "img/hertz/ts-1.webp"
+        },
+        {
+          "src": "img/hertz/ts-2.webp"
+        },
+        {
+          "src": "img/hertz/ts-3.webp"
+        },
+        {
+          "src": "img/hertz/ts-4.webp"
+        },
+        {
+          "src": "img/hertz/ts-5.webp"
+        },
+        {
+          "src": "img/hertz/ts-6.webp"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "type": "section",
-   "title": "Times Square Takeover",
-   "body": "Hertz’s return to the NASDAQ was a defining brand moment. To announce its re-IPO and the acquisition of the world’s largest EV fleet, I designed a ten-screen Times Square system engineered to work as a single, cohesive experience across different formats and sightlines. The takeover cut through the visual noise of Times Square while reinforcing Hertz’s bold, modern brand presence at a critical point in its comeback."
-  },
-  {
-   "type": "film",
-   "title": "Times Square Takeover",
-   "src": "https://www.youtube.com/embed/R7uHXDQe4h4?rel=0",
-   "poster": "img/hertz/ts-hero.webp"
-  },
-  {
-   "type": "rail",
-   "noun": "images",
-   "alt": "Times Square takeover",
-   "items": [
-    {
-     "src": "img/hertz/ts-1.webp"
-    },
-    {
-     "src": "img/hertz/ts-2.webp"
-    },
-    {
-     "src": "img/hertz/ts-3.webp"
-    },
-    {
-     "src": "img/hertz/ts-4.webp"
-    },
-    {
-     "src": "img/hertz/ts-5.webp"
-    },
-    {
-     "src": "img/hertz/ts-6.webp"
-    }
-   ]
-  }
- ],
- "productionCredit": [
-  "Director: Ash Bolland · Bullitt",
-  "Production Partner: Edisen"
- ]
+  ],
+  "productionCredit": [
+    "Director: Ash Bolland",
+    "Production Company: Bullitt",
+    "",
+    "Production Partner (Times Square Takeover): Edisen"
+  ]
 }

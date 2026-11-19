@@ -1,470 +1,475 @@
 [
- {
-  "slug": "belize-no-barriers-reef",
-  "cargo": "Belize-No-Barriers-Reef",
-  "visible": true,
-  "order": 1,
-  "client": "Belize Tourism Board",
-  "title": "No Barriers Reef",
-  "category": "Tourism",
-  "agency": "Bright Red (OMC)",
-  "role": "Creative Director",
-  "intro": "Crystal-clear waters and a thriving marine ecosystem have made the Belize Barrier Reef one of the world’s most celebrated dive destinations. Each year, travelers experience its beauty firsthand. But for many Belizeans living closest to it, physical barriers have kept the reef out of reach.\n\nThis film captured the moment those barriers fell. By bringing the reef to Belizeans with physical disabilities through immersive VR, it transformed access into emotion, creating moments of connection, gratitude, and inclusion. The film became a catalyst for conversation around accessibility and conservation.",
-  "sections": [
-   {
-    "title": "Social Teasers & Influencers",
-    "body": "As World Oceans Day approached, we teased the emotional impact of the immersive experience. We then partnered with Belizean and accessibility-focused influencers to drive awareness around the launch."
-   },
-   {
-    "title": "Explore the Reef with VR / 360° Video",
-    "body": "We brought the 360° underwater journey to audiences online and through live events, allowing anyone to explore the beauty of the world’s largest living reef."
-   }
-  ],
-  "productionCredit": "Director: Max Salomon · Black Dot Films",
-  "awards": [],
-  "credits": [
-   "Chief Creative Officer: Liz Paradise",
-   "Creative Director: Adam LaRocca",
-   "Creative Director: Jason Piroth",
-   "Senior Art Director: TJ Stacy",
-   "Designer: Paige Painter"
-  ],
-  "assetsFolder": "_Portfolio 2026 (Bright Red + TZA)/Belize/No Barriers Reef"
- },
- {
-  "slug": "gatorade-be-like-mike",
-  "cargo": "GATORADE-Be-Like-Mike",
-  "visible": true,
-  "order": 2,
-  "client": "Gatorade",
-  "title": "Be Like Mike",
-  "category": "Sports / CPG",
-  "agency": "VML",
-  "role": "Associate Creative Director",
-  "intro": "Everyone wanted to Be Like Mike. So as the 23-year anniversary of Gatorade’s most iconic campaign approached, we saw an opportunity not to recreate it, but to reintroduce it to a new generation. Today’s teen athletes don’t just say who inspires them, they show it. Using #BeLikeMike, they turned a legendary idea into something personal, social, and alive again. The result helped make this the most viewed campaign in Gatorade’s history.",
-  "sections": [
-   {
-    "title": "NBA All-Star Event",
-    "body": "We launched #BeLikeMike with a live event during NBA All-Star game weekend, transporting teens back in time and allowing them to recreate Michael Jordan’s most iconic moments."
-   },
-   {
-    "title": "Social",
-    "body": "The love for #23 poured in, as amateur and professional athletes took to social, showing us, in their own way, how they #BeLikeMike."
-   },
-   {
-    "title": "Capstone Video",
-    "body": "In the end, we curated their best submissions into a capstone piece set to the original commercial’s song, proving we all still want to Be Like Mike."
-   },
-   {
-    "title": "ESPN HPTO",
-    "body": "We worked with ESPN to build a custom homepage takeover, launching their new site redesign while celebrating one of MJ's most iconic moments."
-   }
-  ],
-  "productionCredit": "Directors: Chris Riehl & Christopher Leone · Motion Theory",
-  "awards": [
-   "Cannes Lions Shortlist",
-   "Clio Shortlist"
-  ],
-  "credits": [
-   "Executive Creative Director: Tony Snethen",
-   "Group Creative Director: Josh Kell",
-   "Group Creative Director: Matt Bowne",
-   "Creative Director: Nick Allegri",
-   "Associate Creative Director: Adam LaRocca",
-   "Associate Creative Director: Maggie Harn",
-   "Senior Copywriter: Ryan Simpson",
-   "Art Director: Amanda Laffoon",
-   "Art Director: Zac Greason",
-   "Art Director: Jaclyn Co",
-   "Art Director: Caleb Newberg",
-   "Copywriter: Robert Abasolo"
-  ],
-  "assetsFolder": "Portfolio 4_10_ 2025/G Be Like Mike"
- },
- {
-  "slug": "thrifty-just-right",
-  "cargo": "Thrifty-Just-Right-Campaign",
-  "visible": true,
-  "order": 3,
-  "client": "Thrifty Car Rental",
-  "title": "Just Right",
-  "category": "Auto / Travel",
-  "agency": "FKQ + Blue Memo",
-  "role": "Creative Director",
-  "intro": "Thrifty Car Rental has always delivered the right balance of value and quality, but few people knew it. To drive awareness and consideration, we launched Thrifty’s first TV campaign in over a decade, reimagining a familiar story with a bit of humorswagg™. Starring Kenan Thompson as Goldilocks, the work proved that “just right” can still stand out.",
-  "sections": [
-   {
-    "title": ":30 Spot",
-    "body": ""
-   },
-   {
-    "title": ":06 OLVs",
-    "body": "Kenan Thompson = :06 gold. These scripted and improvised videos were used in social and paid placements to keep Thrifty top of mind."
-   },
-   {
-    "title": "Social & Thrifty.com",
-    "body": ""
-   }
-  ],
-  "productionCredit": "Directors: The Director Brothers · Bullitt",
-  "awards": [],
-  "credits": [
-   "Executive Creative Director: Cliff Francis",
-   "Creative Director: Adam LaRocca",
-   "Associate Creative Director: Cedric Guerin",
-   "Senior Copywriter: Nick Davis",
-   "Senior Art Director: Jonathan Hyatt",
-   "Art Director: Mauro Hernandez"
-  ],
-  "assetsFolder": "Portfolio 4_10_ 2025/Thrifty"
- },
- {
-  "slug": "g-recover",
-  "cargo": "G-RECOVER-Athlete-Building",
-  "visible": true,
-  "order": 4,
-  "client": "Gatorade",
-  "title": "G Recover",
-  "category": "Sports / CPG",
-  "agency": "VML",
-  "role": "Associate Creative Director",
-  "intro": "Gatorade was entering the crowded protein category with its own shakes and bars, with a clear goal: make the packaging impossible to miss. We created dramatic, hand-crafted stop-motion videos with the four major sports leagues, putting the product front and center. The films showed teen athletes that Gatorade isn’t just trusted for in-game hydration, but also for post-game nutrition.",
-  "sections": [
-   {
-    "title": "Athlete Building Animated Series",
-    "body": "",
-    "productionCredit": "Director: Rob Shaw · BENT Image Lab"
-   },
-   {
-    "title": "Instagram Recover Journey",
-    "body": "Using Instagram’s link tagging, teen athletes were invited into a “choose your own path” experience that helped them get more out of every workout with Gatorade Recover. Guided by Gatorade’s youngest roster athlete, Jabari Parker, the journey unfolded through striking imagery, GIFs, and video, pairing real training moments with protein usage and workout tips straight from the pros.",
-    "productionCredit": "Photographer: Dennis Leupold"
-   }
-  ],
-  "productionCredit": "",
-  "awards": [],
-  "credits": [
-   "Executive Creative Director: Tony Snethen",
-   "Group Creative Director: Matt Bowne",
-   "Creative Director: Derek Anderson",
-   "Associate Creative Director: Adam LaRocca",
-   "Associate Creative Director: Maggie Harn",
-   "Art Director: Amanda Laffoon",
-   "Copywriter: Robert Abasolo"
-  ],
-  "assetsFolder": "Portfolio 4_10_ 2025/G Recover StopMotion + G Recover Jabari"
- },
- {
-  "slug": "belize-grab-life",
-  "cargo": "Belize-Grab-Life",
-  "visible": true,
-  "order": 5,
-  "client": "Belize Tourism Board",
-  "title": "Grab Life",
-  "category": "Tourism",
-  "agency": "Bright Red (OMC)",
-  "role": "Creative Director",
-  "intro": "Grab Life was created to position Belize as an accessible destination for adventure seekers, but as traveler priorities shifted post-pandemic, the platform evolved. Adventure alone was no longer enough; travelers were seeking culture, meaning, and well-being alongside exploration.\n\nWe introduced the Grab Life Coaches of Mind, Body, and Soul, grounding the campaign in real Belizeans who embody the destination. Mind focused on wellness and restoration, Soul celebrated culture and heritage, and Body carried forward the spirit of adventure from reef to rainforest. The result was a campaign that let Belizeans lead the story, inviting travelers to experience Belize not just as a place to visit, but a place to feel.",
-  "sections": [
-   {
-    "title": "Owned Channel Integration",
-    "body": "The Grab Life Coaches extended into social and Belize’s trip-planning app, guiding travelers with personalized itineraries, curated recommendations, and a chatbot that spoke in the voice of a coach, turning inspiration into action."
-   },
-   {
-    "title": "Grab Life Activation",
-    "body": "We showed people how to grab life spiritually, physically, and culturally. Then we invited them to literally grab life as a human claw machine."
-   }
-  ],
-  "productionCredit": "Director: Ross Haines · Photographer: Pedro Oliveira · SEED",
-  "awards": [],
-  "credits": [
-   "Chief Creative Officer: Jennifer Bell",
-   "Creative Director: Adam LaRocca",
-   "Creative Director: Jason Piroth",
-   "Senior Art Director: TJ Stacy",
-   "Senior Copywriter: Matt Johnson",
-   "Art Director: Emily Bernstein"
-  ],
-  "assetsFolder": "_Portfolio 2026 (Bright Red + TZA)/Belize/Grab Life Coach"
- },
- {
-  "slug": "piggly-wiggly-tv",
-  "cargo": "adjockey/Piggly-Wiggly-Food-For-Less-TV",
-  "visible": true,
-  "order": 6,
-  "client": "Piggly Wiggly Food For Less",
-  "title": "Live the Pig.",
-  "category": "Grocery / Retail",
-  "agency": "The Mitchells Agency",
-  "role": "Creative Director",
-  "intro": "There are two kinds of people in this world. Those who love The Pig, and those who have never experienced The Pig. We let pig evangelists introduce the brand to those who may not know about all the amazing reasons to love The Pig.",
-  "sections": [
-   {
-    "title": "Live Action TV",
-    "body": "",
-    "productionCredit": "Director: Erich Stefanovich · Orange Video"
-   },
-   {
-    "title": "Animated TV",
-    "body": "We brought our fun brand voice and identity to life in animated spots highlighting different departments."
-   }
-  ],
-  "productionCredit": "Director: Erich Stefanovich. Orange Video.",
-  "awards": [],
-  "credits": [
-   "Chief Creative Officer: Erich Stefanovich",
-   "Creative Director: Adam LaRocca",
-   "Motion GFX: Ryndrick Gaines"
-  ],
-  "assetsFolder": "The Mitchells Agency/Piggly Wiggly Food For Less"
- },
- {
-  "slug": "gatorade-behind-the-sweat",
-  "cargo": "GATORADE-Behind-the-Sweat",
-  "visible": true,
-  "order": 7,
-  "client": "Gatorade",
-  "title": "Behind the Sweat",
-  "category": "Sports / CPG",
-  "agency": "VML",
-  "role": "Associate Creative Director",
-  "intro": "From the time we start playing sports, we pretend to be our idols. To show teen athletes what it truly takes to become the best, we created a campaign that allowed teens to become their favorite pro athletes through a variety of immersive experiences.\n\nWe created first person POV videos featuring Usain Bolt and Serena Williams, a 360° Virtual Reality experience featuring JJ Watt, and partnered with Spotify to allow users to choose workout playlists that match the intensity and training style of the featured pros.",
-  "sections": [
-   {
-    "title": "Usain & Serena POV Videos",
-    "body": ""
-   },
-   {
-    "title": "JJ Watt VR / 360° Video",
-    "body": "We created an immersive VR experience allowing aspiring pros to become JJ Watt. Using a custom-built VR array and binaural audio, we delivered an unprecedented live-action point of view of the speed, strength and sweat of JJ Watt."
-   },
-   {
-    "title": "VR Roadshow",
-    "body": "The VR experience toured at sports camps and events across the county. It was also featured as one of the first branded YouTube 360° videos."
-   },
-   {
-    "title": "Spotify Integration",
-    "body": "Partnering with Spotify, we were able to give athletes playlists that matched the musical tastes and training styles of our pros: Power, Agility & Speed."
-   },
-   {
-    "title": "Social Support",
-    "body": ""
-   }
-  ],
-  "productionCredit": "Director: Jake Oleson",
-  "awards": [
-   "Webby Award",
-   "National ADDY"
-  ],
-  "credits": [
-   "Executive Creative Director: Tony Snethen",
-   "Group Creative Director: Matt Bowne",
-   "Creative Director: Mark Philip",
-   "Associate Creative Director: Adam LaRocca",
-   "Senior Art Director: Erik Stark",
-   "Senior Copywriter: Bryan Mohr",
-   "Copywriter: Robert Abasolo"
-  ],
-  "assetsFolder": "Portfolio 4_10_ 2025/G Behind the Sweat + G VR:360°"
- },
- {
-  "slug": "t-mobile",
-  "cargo": "T-Mobile-TV",
-  "visible": true,
-  "order": 8,
-  "client": "T-Mobile",
-  "title": "Family Network",
-  "category": "Telecom",
-  "agency": "Publicis Seattle",
-  "role": "Art Director",
-  "intro": "T-Mobile is the definitive challenger brand, fearlessly taking on giants like AT&T and Verizon. That ambition led to unconventional partnerships, including the NBA, and bold, category-breaking offers for families.",
-  "sections": [
-   {
-    "title": "Android Saturday",
-    "body": "",
-    "productionCredit": "Director: Kenny Herzog · O Positive"
-   },
-   {
-    "title": "NBA Partnership",
-    "body": "",
-    "productionCredit": "Director: Errol Morris · Moxie Pictures"
-   }
-  ],
-  "productionCredit": "",
-  "awards": [],
-  "credits": [
-   "Chief Creative Officer: Andrew Christou",
-   "Creative Director: Michael Buss",
-   "Creative Director: Dan Weeks",
-   "Copywriter: Robert Schneider",
-   "Art Director: Adam LaRocca",
-   "Art Director: Leslie Buker"
-  ],
-  "assetsFolder": "Portfolio 4_10_ 2025/T-Mobile"
- },
- {
-  "slug": "hertz-extra-miler",
-  "cargo": "Hertz-Extra-Miler-Campaign",
-  "visible": true,
-  "order": 9,
-  "client": "Hertz",
-  "title": "Extra Miler",
-  "category": "Auto / Travel",
-  "agency": "FKQ + Blue Memo",
-  "role": "Creative Director",
-  "intro": "Hertz unseated Enterprise as #1 in the J.D. Power customer satisfaction ranking in car rental for the first time ever. They wanted to highlight their achievement with a brand campaign letting their customers know that they were the inspiration behind it all.",
-  "sections": [
-   {
-    "title": "Extra Miler Campaign",
-    "body": "",
-    "productionCredit": "Director: Ash Bolland · Bullitt"
-   },
-   {
-    "title": "Times Square Takeover",
-    "body": "Hertz’s return to the NASDAQ was a defining brand moment. To announce its re-IPO and the acquisition of the world’s largest EV fleet, I designed a ten-screen Times Square system engineered to work as a single, cohesive experience across different formats and sightlines. The takeover cut through the visual noise of Times Square while reinforcing Hertz’s bold, modern brand presence at a critical point in its comeback.",
-    "productionCredit": "Production Partner: Edisen"
-   }
-  ],
-  "productionCredit": "Director: Ash Bolland · Bullitt",
-  "awards": [],
-  "credits": [
-   "Executive Creative Director: Cliff Francis",
-   "Creative Director: Adam LaRocca",
-   "Senior Copywriter: Nick Davis",
-   "Senior Art Director: Jonathan Hyatt",
-   "Senior Art Director: Dana Farnsworth",
-   "Art Director: Mauro Hernandez"
-  ],
-  "assetsFolder": "Portfolio 4_10_ 2025/Hertz + FKQ/Hertz"
- },
- {
-  "slug": "rhode-island-all-that",
-  "cargo": "Rhode-Island-ALL-THAT",
-  "visible": true,
-  "order": 10,
-  "client": "Rhode Island Commerce",
-  "title": "ALL THAT",
-  "category": "Tourism",
-  "agency": "Bright Red (OMC)",
-  "role": "Creative Director",
-  "intro": "We reframed Rhode Island’s small size as a strength, positioning the state as a year-round destination packed with culture, cuisine, and experiences in close proximity. The campaign challenged the idea that “small” means limited, instead embracing an intentionally overwhelming mix of activities, sights, and flavors to express the feeling of ALL THAT.\n\nNew technologies and bold, unexpected activations helped bring the idea to life beyond traditional media. The result was a destination brand expression that feels unapologetically full, confident, and anything but small.",
-  "sections": [
-   {
-    "title": "Print & Out of Home",
-    "body": ""
-   },
-   {
-    "title": "Augmented Reality Portals Experience",
-    "body": "We created an immersive augmented reality experience that allowed users to explore six iconic Rhode Island landmarks through interactive AR portals. Accessible on mobile devices, the experience transformed any physical space into a window onto the Ocean State. Designed to spark curiosity and inspire travel, it delivered high-impact brand storytelling in a simple, intuitive way.\n\nWe custom-designed a large-scale video wall installation for high-traffic locations to promote the AR experience and drive QR code scans.",
-    "productionCredit": "Digital Development Partner: DPT."
-   },
-   {
-    "title": "Saks Fifth Avenue Partnership",
-    "body": "Rhode Island has inspired luxury travel since the Gilded Age, and high-income travelers remain a priority audience today. We partnered with Saks Fifth Avenue to reach that audience through an integrated campaign featuring iconic window displays in New York City. The effort extended to in-store displays in key direct-flight markets, supported by social and digital content showcasing curated Saks fashion for a Rhode Island getaway."
-   },
-   {
-    "title": "The Giant Travelling Stuffie Installation",
-    "body": "To highlight Rhode Island as a culinary destination, we transformed its iconic “stuffie” into a giant, three-dimensional installation placed in high-traffic airports nationwide to promote direct flights. The idea gained traction quickly and expanded into a traveling Stuffie Truck, touring events across the country and turning a local delicacy into a highly shareable, awareness-driving moment."
-   }
-  ],
-  "productionCredit": "Director: Dustin Devlin · Vagrants",
-  "awards": [],
-  "credits": [
-   "Chief Creative Officer: Liz Paradise",
-   "Creative Director: Adam LaRocca",
-   "Senior Copywriter: Matt Johnson",
-   "Senior Art Director: John Towler",
-   "Senior Designer: Marie Roberts"
-  ],
-  "assetsFolder": "_Portfolio 2026 (Bright Red + TZA)/Rhode Island"
- },
- {
-  "slug": "mcdonalds-noa",
-  "cargo": "McDonald-s-National-Owners-Association",
-  "visible": true,
-  "order": 11,
-  "client": "McDonald's National Owners Association",
-  "title": "Pay With A Connection",
-  "category": "QSR",
-  "agency": "FKQ",
-  "role": "Creative Director",
-  "intro": "What’s the value of real connection in a screen-obsessed world? We ran a simple experiment: share a meal, put the phone away, and see what happens. And the results spoke for themselves. Would you give up your phone for a few minutes if it meant free McDonald’s fries?",
-  "sections": [],
-  "productionCredit": "Director: Tim Moore · Diamond View Studios",
-  "awards": [],
-  "credits": [
-   "Creative Director: Adam LaRocca",
-   "Senior Copywriter: Nick Davis",
-   "Senior Art Director: Jonathan Hyatt"
-  ],
-  "assetsFolder": "Portfolio 4_10_ 2025/McDonald's NOA + FKQ/NOA_McDonald's"
- },
- {
-  "slug": "lincoln-financial",
-  "cargo": "Lincoln-Financial-Group-Site-Experience",
-  "visible": true,
-  "order": 12,
-  "client": "Lincoln Financial Group",
-  "title": "Futureself Timeline",
-  "category": "Financial Services",
-  "agency": "22squared",
-  "role": "Art Director",
-  "intro": "Financial planning is often overwhelming and number-driven. So we created an intuitive planning tool that helped people visualize their financial futures without a single number, using simple drag-and-drop life events to make complex decisions feel approachable and human. The site helped net an Effie for LFG's Futureself Campaign.",
-  "sections": [
-   {
-    "title": "Futureself Timeline Experience",
-    "body": "",
-    "productionCredit": "Digital Development Partner: Firstborn"
-   },
-   {
-    "title": "Banner Support",
-    "body": ""
-   },
-   {
-    "title": "Things Change Campaign",
-    "body": "In the wake of a major market downturn, investor confidence was shaken. Our challenge was to reassure people that while their plans may have changed, Lincoln Financial Group would remain a steady guide, helping them navigate uncertainty, rebuild confidence, and stay on track toward their long-term goals."
-   }
-  ],
-  "productionCredit": "",
-  "awards": [
-   "Effie Award (Futureself)",
-   "Graphis Advertising Annual (Things Change)"
-  ],
-  "credits": [
-   "Executive Creative Director: John Stapleton",
-   "Creative Director: James Rosene",
-   "Associate Creative Director: Kevin Botfeld",
-   "Associate Creative Director: Bill Allen",
-   "Art Director: Adam LaRocca",
-   "Copywriter: Chris Miller",
-   "Copywriter: Jeff Pospichal"
-  ],
-  "assetsFolder": "Portfolio 4_10_ 2025/LFG Futureself Timeline + LFG Market Campaign"
- },
- {
-  "slug": "pods-store-it",
-  "cargo": "PODS-Store-It",
-  "visible": true,
-  "order": 13,
-  "client": "PODS",
-  "title": "Store It",
-  "category": "Print",
-  "agency": "22squared",
-  "role": "Art Director",
-  "intro": "Pack rats love PODS. They also love perusing the classifieds section looking for more junk to accumulate. We exploited this truth by creating visually arresting print concepts in local newspapers.",
-  "sections": [],
-  "productionCredit": "",
-  "awards": [
-   "One Show Merit",
-   "Graphis Gold"
-  ],
-  "credits": [
-   "Executive Creative Director: John Stapleton",
-   "Creative Director: James Rosene",
-   "Art Director: Adam LaRocca",
-   "Art Director: Justin Lesinski",
-   "Copywriter: Chris Miller"
-  ],
-  "assetsFolder": "Portfolio 4_10_ 2025/PODS"
- }
+  {
+    "slug": "belize-no-barriers-reef",
+    "cargo": "Belize-No-Barriers-Reef",
+    "visible": true,
+    "order": 1,
+    "client": "Belize Tourism Board",
+    "title": "No Barriers Reef",
+    "category": "Tourism",
+    "agency": "Bright Red (OMC)",
+    "role": "Creative Director",
+    "intro": "Crystal-clear waters and a thriving marine ecosystem have made the Belize Barrier Reef one of the world’s most celebrated dive destinations. Each year, travelers experience its beauty firsthand. But for many Belizeans living closest to it, physical barriers have kept the reef out of reach.\n\nThis film captured the moment those barriers fell. By bringing the reef to Belizeans with physical disabilities through immersive VR, it transformed access into emotion, creating moments of connection, gratitude, and inclusion. The film became a catalyst for conversation around accessibility and conservation.",
+    "sections": [
+      {
+        "title": "Social Teasers & Influencers",
+        "body": "As World Oceans Day approached, we teased the emotional impact of the immersive experience. We then partnered with Belizean and accessibility-focused influencers to drive awareness around the launch."
+      },
+      {
+        "title": "Explore the Reef with VR / 360° Video",
+        "body": "We brought the 360° underwater journey to audiences online and through live events, allowing anyone to explore the beauty of the world’s largest living reef."
+      }
+    ],
+    "productionCredit": "Director: Max Salomon · Black Dot Films",
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Liz Paradise",
+      "Creative Director: Adam LaRocca",
+      "Creative Director: Jason Piroth",
+      "Senior Art Director: TJ Stacy",
+      "Designer: Paige Painter"
+    ],
+    "assetsFolder": "_Portfolio 2026 (Bright Red + TZA)/Belize/No Barriers Reef"
+  },
+  {
+    "slug": "gatorade-be-like-mike",
+    "cargo": "GATORADE-Be-Like-Mike",
+    "visible": true,
+    "order": 2,
+    "client": "Gatorade",
+    "title": "Be Like Mike",
+    "category": "Sports / CPG",
+    "agency": "VML",
+    "role": "Associate Creative Director",
+    "intro": "Everyone wanted to Be Like Mike. So as the 23-year anniversary of Gatorade’s most iconic campaign approached, we saw an opportunity not to recreate it, but to reintroduce it to a new generation. Today’s teen athletes don’t just say who inspires them, they show it. Using #BeLikeMike, they turned a legendary idea into something personal, social, and alive again. The result helped make this the most viewed campaign in Gatorade’s history.",
+    "sections": [
+      {
+        "title": "NBA All-Star Event",
+        "body": "We launched #BeLikeMike with a live event during NBA All-Star game weekend, transporting teens back in time and allowing them to recreate Michael Jordan’s most iconic moments."
+      },
+      {
+        "title": "Social",
+        "body": "The love for #23 poured in, as amateur and professional athletes took to social, showing us, in their own way, how they #BeLikeMike."
+      },
+      {
+        "title": "Capstone Video",
+        "body": "In the end, we curated their best submissions into a capstone piece set to the original commercial’s song, proving we all still want to Be Like Mike."
+      },
+      {
+        "title": "ESPN HPTO",
+        "body": "We worked with ESPN to build a custom homepage takeover, launching their new site redesign while celebrating one of MJ's most iconic moments."
+      }
+    ],
+    "productionCredit": "Directors: Chris Riehl & Christopher Leone · Motion Theory",
+    "awards": [
+      "Cannes Lions Shortlist",
+      "Clio Shortlist"
+    ],
+    "credits": [
+      "Executive Creative Director: Tony Snethen",
+      "Group Creative Director: Josh Kell",
+      "Group Creative Director: Matt Bowne",
+      "Creative Director: Nick Allegri",
+      "Associate Creative Director: Adam LaRocca",
+      "Associate Creative Director: Maggie Harn",
+      "Senior Copywriter: Ryan Simpson",
+      "Art Director: Amanda Laffoon",
+      "Art Director: Zac Greason",
+      "Art Director: Jaclyn Co",
+      "Art Director: Caleb Newberg",
+      "Copywriter: Robert Abasolo"
+    ],
+    "assetsFolder": "Portfolio 4_10_ 2025/G Be Like Mike"
+  },
+  {
+    "slug": "thrifty-just-right",
+    "cargo": "Thrifty-Just-Right-Campaign",
+    "visible": true,
+    "order": 3,
+    "client": "Thrifty Car Rental",
+    "title": "Just Right",
+    "category": "Auto / Travel",
+    "agency": "FKQ + Blue Memo",
+    "role": "Creative Director",
+    "intro": "Thrifty Car Rental has always delivered the right balance of value and quality, but few people knew it. To drive awareness and consideration, we launched Thrifty’s first TV campaign in over a decade, reimagining a familiar story with a bit of humorswagg™. Starring Kenan Thompson as Goldilocks, the work proved that “just right” can still stand out.",
+    "sections": [
+      {
+        "title": ":30 Spot",
+        "body": ""
+      },
+      {
+        "title": ":06 OLVs",
+        "body": "Kenan Thompson = :06 gold. These scripted and improvised videos were used in social and paid placements to keep Thrifty top of mind."
+      },
+      {
+        "title": "Social & Thrifty.com",
+        "body": ""
+      }
+    ],
+    "productionCredit": "Directors: The Director Brothers · Bullitt",
+    "awards": [],
+    "credits": [
+      "Executive Creative Director: Cliff Francis",
+      "Creative Director: Adam LaRocca",
+      "Associate Creative Director: Cedric Guerin",
+      "Senior Copywriter: Nick Davis",
+      "Senior Art Director: Jonathan Hyatt",
+      "Art Director: Mauro Hernandez"
+    ],
+    "assetsFolder": "Portfolio 4_10_ 2025/Thrifty"
+  },
+  {
+    "slug": "g-recover",
+    "cargo": "G-RECOVER-Athlete-Building",
+    "visible": true,
+    "order": 4,
+    "client": "Gatorade",
+    "title": "G Recover",
+    "category": "Sports / CPG",
+    "agency": "VML",
+    "role": "Associate Creative Director",
+    "intro": "Gatorade was entering the crowded protein category with its own shakes and bars, with a clear goal: make the packaging impossible to miss. We created dramatic, hand-crafted stop-motion videos with the four major sports leagues, putting the product front and center. The films showed teen athletes that Gatorade isn’t just trusted for in-game hydration, but also for post-game nutrition.",
+    "sections": [
+      {
+        "title": "Athlete Building Animated Series",
+        "body": "",
+        "productionCredit": "Director: Rob Shaw · BENT Image Lab"
+      },
+      {
+        "title": "Instagram Recover Journey",
+        "body": "Using Instagram’s link tagging, teen athletes were invited into a “choose your own path” experience that helped them get more out of every workout with Gatorade Recover. Guided by Gatorade’s youngest roster athlete, Jabari Parker, the journey unfolded through striking imagery, GIFs, and video, pairing real training moments with protein usage and workout tips straight from the pros.",
+        "productionCredit": "Photographer: Dennis Leupold"
+      }
+    ],
+    "productionCredit": "",
+    "awards": [],
+    "credits": [
+      "Executive Creative Director: Tony Snethen",
+      "Group Creative Director: Matt Bowne",
+      "Creative Director: Derek Anderson",
+      "Associate Creative Director: Adam LaRocca",
+      "Associate Creative Director: Maggie Harn",
+      "Art Director: Amanda Laffoon",
+      "Copywriter: Robert Abasolo"
+    ],
+    "assetsFolder": "Portfolio 4_10_ 2025/G Recover StopMotion + G Recover Jabari"
+  },
+  {
+    "slug": "belize-grab-life",
+    "cargo": "Belize-Grab-Life",
+    "visible": true,
+    "order": 5,
+    "client": "Belize Tourism Board",
+    "title": "Grab Life",
+    "category": "Tourism",
+    "agency": "Bright Red (OMC)",
+    "role": "Creative Director",
+    "intro": "Grab Life was created to position Belize as an accessible destination for adventure seekers, but as traveler priorities shifted post-pandemic, the platform evolved. Adventure alone was no longer enough; travelers were seeking culture, meaning, and well-being alongside exploration.\n\nWe introduced the Grab Life Coaches of Mind, Body, and Soul, grounding the campaign in real Belizeans who embody the destination. Mind focused on wellness and restoration, Soul celebrated culture and heritage, and Body carried forward the spirit of adventure from reef to rainforest. The result was a campaign that let Belizeans lead the story, inviting travelers to experience Belize not just as a place to visit, but a place to feel.",
+    "sections": [
+      {
+        "title": "Owned Channel Integration",
+        "body": "The Grab Life Coaches extended into social and Belize’s trip-planning app, guiding travelers with personalized itineraries, curated recommendations, and a chatbot that spoke in the voice of a coach, turning inspiration into action."
+      },
+      {
+        "title": "Grab Life Activation",
+        "body": "We showed people how to grab life spiritually, physically, and culturally. Then we invited them to literally grab life as a human claw machine."
+      }
+    ],
+    "productionCredit": "Director: Ross Haines · Photographer: Pedro Oliveira · SEED",
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Jennifer Bell",
+      "Creative Director: Adam LaRocca",
+      "Creative Director: Jason Piroth",
+      "Senior Art Director: TJ Stacy",
+      "Senior Copywriter: Matt Johnson",
+      "Art Director: Emily Bernstein"
+    ],
+    "assetsFolder": "_Portfolio 2026 (Bright Red + TZA)/Belize/Grab Life Coach"
+  },
+  {
+    "slug": "piggly-wiggly-tv",
+    "cargo": "adjockey/Piggly-Wiggly-Food-For-Less-TV",
+    "visible": true,
+    "order": 6,
+    "client": "Piggly Wiggly Food For Less",
+    "title": "Live the Pig.",
+    "category": "Grocery / Retail",
+    "agency": "The Mitchells Agency",
+    "role": "Creative Director",
+    "intro": "There are two kinds of people in this world. Those who love The Pig, and those who have never experienced The Pig. We let pig evangelists introduce the brand to those who may not know about all the amazing reasons to love The Pig.",
+    "sections": [
+      {
+        "title": "Live Action TV",
+        "body": "",
+        "productionCredit": "Director: Erich Stefanovich · Orange Video"
+      },
+      {
+        "title": "Animated TV",
+        "body": "We brought our fun brand voice and identity to life in animated spots highlighting different departments."
+      }
+    ],
+    "productionCredit": "Director: Erich Stefanovich. Orange Video.",
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Erich Stefanovich",
+      "Creative Director: Adam LaRocca",
+      "Motion GFX: Ryndrick Gaines"
+    ],
+    "assetsFolder": "The Mitchells Agency/Piggly Wiggly Food For Less"
+  },
+  {
+    "slug": "gatorade-behind-the-sweat",
+    "cargo": "GATORADE-Behind-the-Sweat",
+    "visible": true,
+    "order": 7,
+    "client": "Gatorade",
+    "title": "Behind the Sweat",
+    "category": "Sports / CPG",
+    "agency": "VML",
+    "role": "Associate Creative Director",
+    "intro": "From the time we start playing sports, we pretend to be our idols. To show teen athletes what it truly takes to become the best, we created a campaign that allowed teens to become their favorite pro athletes through a variety of immersive experiences.\n\nWe created first person POV videos featuring Usain Bolt and Serena Williams, a 360° Virtual Reality experience featuring JJ Watt, and partnered with Spotify to allow users to choose workout playlists that match the intensity and training style of the featured pros.",
+    "sections": [
+      {
+        "title": "Usain & Serena POV Videos",
+        "body": ""
+      },
+      {
+        "title": "JJ Watt VR / 360° Video",
+        "body": "We created an immersive VR experience allowing aspiring pros to become JJ Watt. Using a custom-built VR array and binaural audio, we delivered an unprecedented live-action point of view of the speed, strength and sweat of JJ Watt."
+      },
+      {
+        "title": "VR Roadshow",
+        "body": "The VR experience toured at sports camps and events across the county. It was also featured as one of the first branded YouTube 360° videos."
+      },
+      {
+        "title": "Spotify Integration",
+        "body": "Partnering with Spotify, we were able to give athletes playlists that matched the musical tastes and training styles of our pros: Power, Agility & Speed."
+      },
+      {
+        "title": "Social Support",
+        "body": ""
+      }
+    ],
+    "productionCredit": "Director: Jake Oleson",
+    "awards": [
+      "Webby Award",
+      "National ADDY"
+    ],
+    "credits": [
+      "Executive Creative Director: Tony Snethen",
+      "Group Creative Director: Matt Bowne",
+      "Creative Director: Mark Philip",
+      "Associate Creative Director: Adam LaRocca",
+      "Senior Art Director: Erik Stark",
+      "Senior Copywriter: Bryan Mohr",
+      "Copywriter: Robert Abasolo"
+    ],
+    "assetsFolder": "Portfolio 4_10_ 2025/G Behind the Sweat + G VR:360°"
+  },
+  {
+    "slug": "t-mobile",
+    "cargo": "T-Mobile-TV",
+    "visible": true,
+    "order": 8,
+    "client": "T-Mobile",
+    "title": "Family Network",
+    "category": "Telecom",
+    "agency": "Publicis Seattle",
+    "role": "Art Director",
+    "intro": "T-Mobile is the definitive challenger brand, fearlessly taking on giants like AT&T and Verizon. That ambition led to unconventional partnerships, including the NBA, and bold, category-breaking offers for families.",
+    "sections": [
+      {
+        "title": "Android Saturday",
+        "body": "",
+        "productionCredit": "Director: Kenny Herzog · O Positive"
+      },
+      {
+        "title": "NBA Partnership",
+        "body": "",
+        "productionCredit": "Director: Errol Morris · Moxie Pictures"
+      }
+    ],
+    "productionCredit": "",
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Andrew Christou",
+      "Creative Director: Michael Buss",
+      "Creative Director: Dan Weeks",
+      "Copywriter: Robert Schneider",
+      "Art Director: Adam LaRocca",
+      "Art Director: Leslie Buker"
+    ],
+    "assetsFolder": "Portfolio 4_10_ 2025/T-Mobile"
+  },
+  {
+    "slug": "hertz-extra-miler",
+    "cargo": "Hertz-Extra-Miler-Campaign",
+    "visible": true,
+    "order": 9,
+    "client": "Hertz",
+    "title": "Extra Miler",
+    "category": "Auto / Travel",
+    "agency": "FKQ + Blue Memo",
+    "role": "Creative Director",
+    "intro": "Hertz unseated Enterprise as #1 in the J.D. Power customer satisfaction ranking in car rental for the first time ever. They wanted to highlight their achievement with a brand campaign letting their customers know that they were the inspiration behind it all.",
+    "sections": [
+      {
+        "title": "Extra Miler Campaign",
+        "body": "",
+        "productionCredit": "Director: Ash Bolland · Bullitt"
+      },
+      {
+        "title": "Times Square Takeover",
+        "body": "Hertz’s return to the NASDAQ was a defining brand moment. To announce its re-IPO and the acquisition of the world’s largest EV fleet, I designed a ten-screen Times Square system engineered to work as a single, cohesive experience across different formats and sightlines. The takeover cut through the visual noise of Times Square while reinforcing Hertz’s bold, modern brand presence at a critical point in its comeback.",
+        "productionCredit": "Production Partner: Edisen"
+      }
+    ],
+    "productionCredit": [
+      "Director: Ash Bolland",
+      "Production Company: Bullitt",
+      "",
+      "Production Partner (Times Square Takeover): Edisen"
+    ],
+    "awards": [],
+    "credits": [
+      "Executive Creative Director: Cliff Francis",
+      "Creative Director: Adam LaRocca",
+      "Senior Copywriter: Nick Davis",
+      "Senior Art Director: Jonathan Hyatt",
+      "Senior Art Director: Dana Farnsworth",
+      "Art Director: Mauro Hernandez"
+    ],
+    "assetsFolder": "Portfolio 4_10_ 2025/Hertz + FKQ/Hertz"
+  },
+  {
+    "slug": "rhode-island-all-that",
+    "cargo": "Rhode-Island-ALL-THAT",
+    "visible": true,
+    "order": 10,
+    "client": "Rhode Island Commerce",
+    "title": "ALL THAT",
+    "category": "Tourism",
+    "agency": "Bright Red (OMC)",
+    "role": "Creative Director",
+    "intro": "We reframed Rhode Island’s small size as a strength, positioning the state as a year-round destination packed with culture, cuisine, and experiences in close proximity. The campaign challenged the idea that “small” means limited, instead embracing an intentionally overwhelming mix of activities, sights, and flavors to express the feeling of ALL THAT.\n\nNew technologies and bold, unexpected activations helped bring the idea to life beyond traditional media. The result was a destination brand expression that feels unapologetically full, confident, and anything but small.",
+    "sections": [
+      {
+        "title": "Print & Out of Home",
+        "body": ""
+      },
+      {
+        "title": "Augmented Reality Portals Experience",
+        "body": "We created an immersive augmented reality experience that allowed users to explore six iconic Rhode Island landmarks through interactive AR portals. Accessible on mobile devices, the experience transformed any physical space into a window onto the Ocean State. Designed to spark curiosity and inspire travel, it delivered high-impact brand storytelling in a simple, intuitive way.\n\nWe custom-designed a large-scale video wall installation for high-traffic locations to promote the AR experience and drive QR code scans.",
+        "productionCredit": "Digital Development Partner: DPT."
+      },
+      {
+        "title": "Saks Fifth Avenue Partnership",
+        "body": "Rhode Island has inspired luxury travel since the Gilded Age, and high-income travelers remain a priority audience today. We partnered with Saks Fifth Avenue to reach that audience through an integrated campaign featuring iconic window displays in New York City. The effort extended to in-store displays in key direct-flight markets, supported by social and digital content showcasing curated Saks fashion for a Rhode Island getaway."
+      },
+      {
+        "title": "The Giant Travelling Stuffie Installation",
+        "body": "To highlight Rhode Island as a culinary destination, we transformed its iconic “stuffie” into a giant, three-dimensional installation placed in high-traffic airports nationwide to promote direct flights. The idea gained traction quickly and expanded into a traveling Stuffie Truck, touring events across the country and turning a local delicacy into a highly shareable, awareness-driving moment."
+      }
+    ],
+    "productionCredit": "Director: Dustin Devlin · Vagrants",
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Liz Paradise",
+      "Creative Director: Adam LaRocca",
+      "Senior Copywriter: Matt Johnson",
+      "Senior Art Director: John Towler",
+      "Senior Designer: Marie Roberts"
+    ],
+    "assetsFolder": "_Portfolio 2026 (Bright Red + TZA)/Rhode Island"
+  },
+  {
+    "slug": "mcdonalds-noa",
+    "cargo": "McDonald-s-National-Owners-Association",
+    "visible": true,
+    "order": 11,
+    "client": "McDonald's National Owners Association",
+    "title": "Pay With A Connection",
+    "category": "QSR",
+    "agency": "FKQ",
+    "role": "Creative Director",
+    "intro": "What’s the value of real connection in a screen-obsessed world? We ran a simple experiment: share a meal, put the phone away, and see what happens. And the results spoke for themselves. Would you give up your phone for a few minutes if it meant free McDonald’s fries?",
+    "sections": [],
+    "productionCredit": "Director: Tim Moore · Diamond View Studios",
+    "awards": [],
+    "credits": [
+      "Creative Director: Adam LaRocca",
+      "Senior Copywriter: Nick Davis",
+      "Senior Art Director: Jonathan Hyatt"
+    ],
+    "assetsFolder": "Portfolio 4_10_ 2025/McDonald's NOA + FKQ/NOA_McDonald's"
+  },
+  {
+    "slug": "lincoln-financial",
+    "cargo": "Lincoln-Financial-Group-Site-Experience",
+    "visible": true,
+    "order": 12,
+    "client": "Lincoln Financial Group",
+    "title": "Futureself Timeline",
+    "category": "Financial Services",
+    "agency": "22squared",
+    "role": "Art Director",
+    "intro": "Financial planning is often overwhelming and number-driven. So we created an intuitive planning tool that helped people visualize their financial futures without a single number, using simple drag-and-drop life events to make complex decisions feel approachable and human. The site helped net an Effie for LFG's Futureself Campaign.",
+    "sections": [
+      {
+        "title": "Futureself Timeline Experience",
+        "body": "",
+        "productionCredit": "Digital Development Partner: Firstborn"
+      },
+      {
+        "title": "Banner Support",
+        "body": ""
+      },
+      {
+        "title": "Things Change Campaign",
+        "body": "In the wake of a major market downturn, investor confidence was shaken. Our challenge was to reassure people that while their plans may have changed, Lincoln Financial Group would remain a steady guide, helping them navigate uncertainty, rebuild confidence, and stay on track toward their long-term goals."
+      }
+    ],
+    "productionCredit": "",
+    "awards": [
+      "Effie Award (Futureself)",
+      "Graphis Advertising Annual (Things Change)"
+    ],
+    "credits": [
+      "Executive Creative Director: John Stapleton",
+      "Creative Director: James Rosene",
+      "Associate Creative Director: Kevin Botfeld",
+      "Associate Creative Director: Bill Allen",
+      "Art Director: Adam LaRocca",
+      "Copywriter: Chris Miller",
+      "Copywriter: Jeff Pospichal"
+    ],
+    "assetsFolder": "Portfolio 4_10_ 2025/LFG Futureself Timeline + LFG Market Campaign"
+  },
+  {
+    "slug": "pods-store-it",
+    "cargo": "PODS-Store-It",
+    "visible": true,
+    "order": 13,
+    "client": "PODS",
+    "title": "Store It",
+    "category": "Print",
+    "agency": "22squared",
+    "role": "Art Director",
+    "intro": "Pack rats love PODS. They also love perusing the classifieds section looking for more junk to accumulate. We exploited this truth by creating visually arresting print concepts in local newspapers.",
+    "sections": [],
+    "productionCredit": "",
+    "awards": [
+      "One Show Merit",
+      "Graphis Gold"
+    ],
+    "credits": [
+      "Executive Creative Director: John Stapleton",
+      "Creative Director: James Rosene",
+      "Art Director: Adam LaRocca",
+      "Art Director: Justin Lesinski",
+      "Copywriter: Chris Miller"
+    ],
+    "assetsFolder": "Portfolio 4_10_ 2025/PODS"
+  }
 ]

@@ -1,89 +1,91 @@
 {
- "hero": {
-  "video": "video/nbr-hero.mp4",
-  "poster": "img/nbr/poster-hero.webp"
- },
- "lead": "Crystal-clear waters and a thriving marine ecosystem have made the Belize Barrier Reef one of the world’s most celebrated dive destinations.",
- "body": [
-  "Each year, travelers experience its beauty firsthand. But for many Belizeans living closest to it, physical barriers have kept the reef out of reach.",
-  "This film captured the moment those barriers fell. By bringing the reef to Belizeans with physical disabilities through immersive VR, it transformed access into emotion, creating moments of connection, gratitude, and inclusion. The film became a catalyst for conversation around accessibility and conservation."
- ],
- "modules": [
-  {
-   "type": "film",
-   "title": "No Barriers Reef",
-   "src": "https://www.youtube.com/embed/EDYRDIuunBs?rel=0",
-   "poster": "img/nbr/film.webp"
+  "hero": {
+    "video": "video/nbr-hero.mp4",
+    "poster": "img/nbr/poster-hero.webp"
   },
-  {
-   "type": "section",
-   "title": "Social Teasers & Influencers",
-   "body": "As World Oceans Day approached, we teased the emotional impact of the immersive experience. We then partnered with Belizean and accessibility-focused influencers to drive awareness around the launch."
-  },
-  {
-   "type": "videos",
-   "cols": 3,
-   "items": [
+  "lead": "Crystal-clear waters and a thriving marine ecosystem have made the Belize Barrier Reef one of the world’s most celebrated dive destinations.",
+  "body": [
+    "Each year, travelers experience its beauty firsthand. But for many Belizeans living closest to it, physical barriers have kept the reef out of reach.",
+    "This film captured the moment those barriers fell. By bringing the reef to Belizeans with physical disabilities through immersive VR, it transformed access into emotion, creating moments of connection, gratitude, and inclusion. The film became a catalyst for conversation around accessibility and conservation."
+  ],
+  "modules": [
     {
-     "src": "https://www.youtube.com/embed/rX030kd28HQ?rel=0",
-     "poster": "img/nbr/teaser-1.webp"
+      "type": "film",
+      "title": "No Barriers Reef",
+      "src": "https://www.youtube.com/embed/EDYRDIuunBs?rel=0",
+      "poster": "img/nbr/film.webp"
     },
     {
-     "src": "https://www.youtube.com/embed/qbGJn3Uep5I?rel=0",
-     "poster": "img/nbr/teaser-2.webp"
+      "type": "section",
+      "title": "Social Teasers & Influencers",
+      "body": "As World Oceans Day approached, we teased the emotional impact of the immersive experience. We then partnered with Belizean and accessibility-focused influencers to drive awareness around the launch."
     },
     {
-     "src": "https://www.youtube.com/embed/CysYw5LeLnU?rel=0",
-     "poster": "img/nbr/teaser-3.webp"
-    }
-   ]
-  },
-  {
-   "type": "images",
-   "layout": "pair",
-   "items": [
-    {
-     "src": "img/nbr/influencer-joyjah.webp",
-     "alt": "Influencer post by @joyjah"
+      "type": "videos",
+      "cols": 3,
+      "items": [
+        {
+          "src": "https://www.youtube.com/embed/rX030kd28HQ?rel=0",
+          "poster": "img/nbr/teaser-1.webp"
+        },
+        {
+          "src": "https://www.youtube.com/embed/qbGJn3Uep5I?rel=0",
+          "poster": "img/nbr/teaser-2.webp"
+        },
+        {
+          "src": "https://www.youtube.com/embed/CysYw5LeLnU?rel=0",
+          "poster": "img/nbr/teaser-3.webp"
+        }
+      ],
+      "phone": true
     },
     {
-     "src": "img/nbr/influencer-marsha.webp",
-     "alt": "Influencer post by @MarshaElleMusic"
-    }
-   ]
-  },
-  {
-   "type": "videos",
-   "cols": 2,
-   "items": [
-    {
-     "src": "https://www.youtube.com/embed/eS8117UXMKo?rel=0"
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/nbr/influencer-joyjah.webp",
+          "alt": "Influencer post by @joyjah"
+        },
+        {
+          "src": "img/nbr/influencer-marsha.webp",
+          "alt": "Influencer post by @MarshaElleMusic"
+        }
+      ]
     },
     {
-     "src": "https://www.youtube.com/embed/iUFGafABvM8?rel=0"
-    }
-   ]
-  },
-  {
-   "type": "section",
-   "title": "Explore the Reef with VR / 360° Video",
-   "body": "We brought the 360° underwater journey to audiences online and through live events, allowing anyone to explore the beauty of the world’s largest living reef."
-  },
-  {
-   "type": "film",
-   "title": "360° Reef Experience",
-   "src": "https://www.youtube.com/embed/v3PeeSHRThY?rel=0",
-   "poster": "img/nbr/reef-360.webp"
-  },
-  {
-   "type": "videos",
-   "cols": 2,
-   "items": [
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "https://www.youtube.com/embed/eS8117UXMKo?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/iUFGafABvM8?rel=0"
+        }
+      ],
+      "phone": true
+    },
     {
-     "src": "https://www.youtube.com/embed/UF3S_o0GcpU?rel=0"
+      "type": "section",
+      "title": "Explore the Reef with VR / 360° Video",
+      "body": "We brought the 360° underwater journey to audiences online and through live events, allowing anyone to explore the beauty of the world’s largest living reef."
+    },
+    {
+      "type": "film",
+      "title": "360° Reef Experience",
+      "src": "https://www.youtube.com/embed/v3PeeSHRThY?rel=0",
+      "poster": "img/nbr/reef-360.webp"
+    },
+    {
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "https://www.youtube.com/embed/UF3S_o0GcpU?rel=0"
+        }
+      ]
     }
-   ]
-  }
- ],
- "productionCredit": "Director: Max Salomon · Black Dot Films"
+  ],
+  "productionCredit": "Director: Max Salomon · Black Dot Films"
 }

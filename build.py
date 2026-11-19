@@ -132,18 +132,31 @@ def film_tile(m, pre, small=False):
     return f'''<div class="film{' small' if small else ''}" data-src="{E(src)}" data-title="{E(title or "Film")}"><button aria-label="Play {E(title or "film")}">
   {img}<span class="play"><i></i>{label}</span></button></div>'''
 
+def phones(items, pre):
+    """9:16 films shown full-screen inside iPhone frames."""
+    out = []
+    for i in items:
+        tile = film_tile({**i, "title": ""}, pre)
+        cap = f'<figcaption>{E(i["title"])}</figcaption>' if i.get("title") else ""
+        out.append(f'<figure class="phone-wrap"><div class="phone">{tile}</div>{cap}</figure>')
+    return f'<div class="phones n-{len(items)}">' + "".join(out) + "</div>"
+
 def module(m, pre):
     t = m["type"]
     if t == "section":
         credit = f'<p class="cs-credit-line">{E(m["credit"])}</p>' if m.get("credit") else ""
         body = f'<div><p>{E(m["body"])}</p>{credit}</div>' if m.get("body") else f"<div>{credit}</div>"
         return f'<div class="cs-section-head"><h2 class="display">{E(m["title"]).replace("-", "\u2011")}</h2>{body}</div>'
+    if t == "videos" and m.get("phone"):
+        return phones(m["items"], pre)
     if t == "videos":
         tiles = "".join(film_tile(i, pre, small=True) for i in m["items"])
         return f'<div class="vgrid cols-{m.get("cols",3)}">{tiles}</div>'
     if t == "loops":
         vids = "".join(f'<figure><video src="{pre}{v}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>' for v in m["items"])
         return f'<div class="media m-loops cols-{m.get("cols",4)}" style="--ar:{m.get("aspect","9/16")}">{vids}</div>'
+    if t == "film" and m.get("phone"):
+        return phones([m], pre)
     if t == "film":
         return film_tile(m, pre)
     if t == "loop":
@@ -180,7 +193,7 @@ def build_case(p, nxt):
     nhref = f'{nxt["slug"]}.html' if has_case(nxt["slug"]) else "../index.html#work"
     hero = cs["hero"]
     pc = cs.get("productionCredit", "")
-    prod_html = "".join(f'<p class="prod">{E(x)}</p>' for x in (pc if isinstance(pc, list) else [pc]) if x)
+    prod_html = "".join((f'<p class="prod">{E(x)}</p>' if x else '<p class="prod sp" aria-hidden="true"></p>') for x in (pc if isinstance(pc, list) else [pc]))
     hero_media = (f'<video src="{pre}{hero["video"]}" poster="{pre}{hero["poster"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
                   if hero.get("video") else f'<img src="{pre}{hero["image"]}" alt="" fetchpriority="high">')
     page = head(f'{p["client"]}: {p["title"]}. Adam LaRocca', pre, cs["lead"]) + nav(pre, "work") + f'''
