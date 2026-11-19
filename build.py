@@ -163,7 +163,8 @@ def module(m, pre):
         poster = f' poster="{pre}{m["poster"]}"' if m.get("poster") else ""
         return f'<div class="media m-{m["layout"]}"><figure><video src="{pre}{m["src"]}"{poster} autoplay muted loop playsinline data-loop aria-label="{E(m.get("alt",""))}"></video></figure></div>'
     if t == "images":
-        return f'<div class="media m-{m["layout"]}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
+        anchor = f' anchor-{m["anchor"]}' if m.get("anchor") else ""
+        return f'<div class="media m-{m["layout"]}{anchor}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
     if t == "rail":
         def rf(i):
             if i.get("video"): return f'<figure><video src="{pre}{i["video"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>'

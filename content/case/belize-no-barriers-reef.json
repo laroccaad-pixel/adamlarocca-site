@@ -40,20 +40,6 @@
       "phone": true
     },
     {
-      "type": "images",
-      "layout": "pair",
-      "items": [
-        {
-          "src": "img/nbr/influencer-joyjah.webp",
-          "alt": "Influencer post by @joyjah"
-        },
-        {
-          "src": "img/nbr/influencer-marsha.webp",
-          "alt": "Influencer post by @MarshaElleMusic"
-        }
-      ]
-    },
-    {
       "type": "videos",
       "cols": 2,
       "items": [
@@ -67,8 +53,23 @@
       "phone": true
     },
     {
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/nbr/influencer-joyjah.webp",
+          "alt": "Influencer post by @joyjah"
+        },
+        {
+          "src": "img/nbr/influencer-marsha.webp",
+          "alt": "Influencer post by @MarshaElleMusic"
+        }
+      ],
+      "anchor": "top"
+    },
+    {
       "type": "section",
-      "title": "Explore the Reef with VR / 360° Video",
+      "title": "Explore the Reef in VR / 360°",
       "body": "We brought the 360° underwater journey to audiences online and through live events, allowing anyone to explore the beauty of the world’s largest living reef."
     },
     {
@@ -76,16 +77,10 @@
       "title": "360° Reef Experience",
       "src": "https://www.youtube.com/embed/v3PeeSHRThY?rel=0",
       "poster": "img/nbr/reef-360.webp"
-    },
-    {
-      "type": "videos",
-      "cols": 2,
-      "items": [
-        {
-          "src": "https://www.youtube.com/embed/UF3S_o0GcpU?rel=0"
-        }
-      ]
     }
   ],
-  "productionCredit": "Director: Max Salomon · Black Dot Films"
+  "productionCredit": [
+    "Director: Max Salomon",
+    "Production Partner: Black Dot Films"
+  ]
 }
