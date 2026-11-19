@@ -33,12 +33,12 @@ def nav(pre, current=""):
     home = pre + "index.html"
     cur = lambda k: ' aria-current="page"' if k == current else ""
     return f'''<nav class="nav" aria-label="Main">
-  <a class="mark" href="{home}">LaRocca</a>
+  <a class="mark" href="{home}" aria-label="Adam LaRocca, home">AL</a>
   <ul><li><a href="{home}#work"{cur("work")}>Work</a></li><li><a href="{home}#about">About</a></li><li><a href="#contact">Contact</a></li></ul>
   <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
 </nav>
 <div class="menu" id="menu" aria-hidden="true">
-  <div class="menu-top"><a class="mark" href="{home}">LaRocca</a><button data-close>Close</button></div>
+  <div class="menu-top"><a class="mark" href="{home}" aria-label="Adam LaRocca, home">AL</a><button data-close>Close</button></div>
   <ul><li><a href="{home}#work">Work</a></li><li><a href="{home}#about">About</a></li><li><a href="#contact">Contact</a></li></ul>
   <p>Creative Director. Tallahassee, FL.</p>
 </div>'''
@@ -85,7 +85,7 @@ def build_home():
     <h1 class="display">Adam<br>LaRocca</h1>
     <div class="hero-side">
       <p>Make it simple yet significant.</p>
-      <p>Creative Director. 18 years building brands people want to visit, play for, and come back to.</p>
+      <p>Ideas teams rally around and audiences remember.</p>
     </div>
   </div>
 </header>

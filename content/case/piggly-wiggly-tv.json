@@ -1,0 +1,61 @@
+{
+ "hero": {
+  "video": "video/pwffl-hero.mp4",
+  "poster": "img/pwffl/poster-hero.webp"
+ },
+ "lead": "There are two kinds of people in this world.",
+ "body": [
+  "Those who love The Pig, and those who have never experienced The Pig. We let pig evangelists introduce the brand to those who may not know about all the amazing reasons to love The Pig."
+ ],
+ "modules": [
+  {
+   "type": "section",
+   "title": "Live Action TV",
+   "body": "",
+   "credit": "Director: Erich Stefanovich · Orange Video"
+  },
+  {
+   "type": "videos",
+   "cols": 2,
+   "items": [
+    {
+     "src": "https://www.youtube.com/embed/gCLmmKduN2Q?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/k_XEBIyiR3s?rel=0"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Animated TV",
+   "body": "We brought our fun brand voice and identity to life in animated spots highlighting different departments."
+  },
+  {
+   "type": "loops",
+   "cols": 3,
+   "aspect": "9/16",
+   "items": [
+    "video/pwffl-anim-deli.mp4",
+    "video/pwffl-anim-meatdept.mp4",
+    "video/pwffl-anim-produce.mp4"
+   ]
+  },
+  {
+   "type": "videos",
+   "cols": 3,
+   "items": [
+    {
+     "src": "https://www.youtube.com/embed/kEt_re9L3hI?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/6-sarmT2rvI?rel=0"
+    },
+    {
+     "src": "https://www.youtube.com/embed/OyKxFhg5HJo?rel=0"
+    }
+   ]
+  }
+ ],
+ "productionCredit": "Director: Erich Stefanovich. Orange Video."
+}

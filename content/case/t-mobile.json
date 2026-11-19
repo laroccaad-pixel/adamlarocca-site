@@ -29,7 +29,8 @@
   {
    "type": "film",
    "title": "NBA Partnership",
-   "src": "https://player.vimeo.com/video/21991504?title=0&byline=0&portrait=0"
+   "src": "https://player.vimeo.com/video/21991504?title=0&byline=0&portrait=0",
+   "poster": "img/tmo/nba.webp"
   }
  ],
  "productionCredit": ""
