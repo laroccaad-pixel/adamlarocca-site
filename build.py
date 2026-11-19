@@ -60,7 +60,7 @@ def frame(p, i, pre=""):
     c = cards[p["slug"]]
     href = f'{pre}work/{p["slug"]}.html' if has_case(p["slug"]) else "#"
     return f'''<a class="frame" href="{href}">
-  <img src="{pre}img/{c["img"]}.webp" alt="{E(p["client"])}, {E(p["title"])}" loading="{"eager" if i < 3 else "lazy"}">
+  <img src="{c.get("imgUrl") or pre + "img/" + c["img"] + ".webp"}" alt="{E(p["client"])}, {E(p["title"])}" loading="{"eager" if i < 3 else "lazy"}">
   <span class="watch">View project</span>
   <div class="frame-copy"><p class="kicker">{E(c.get("client", p["client"]))}</p><h3 class="display">{E(p["title"])}</h3></div>
   <p class="frame-meta">{E(c["role"])}<br>{E(c["agency"])}</p></a>'''
@@ -197,7 +197,7 @@ def build_case(p, nxt):
   <div><h2 class="display">Credits</h2><p class="prod">{E(cs.get("productionCredit",""))}</p><div class="cs-awards">{award_chips}</div></div>
   <ul>{credits}<li><b>Agency</b>{E(p["agency"])}</li></ul>
 </section>
-<a class="next" href="{nhref}"><img src="{pre}img/{nc["img"]}.webp" alt="" loading="lazy"><div><p class="kicker">Next project</p><h2 class="display">{E(nxt["title"])}</h2><p class="kicker">{E(nxt["client"])}</p></div></a>
+<a class="next" href="{nhref}"><img src="{nc.get("imgUrl") or pre + "img/" + nc["img"] + ".webp"}" alt="" loading="lazy"><div><p class="kicker">Next project</p><h2 class="display">{E(nxt["title"])}</h2><p class="kicker">{E(nxt["client"])}</p></div></a>
 </main>
 ''' + footer(pre)
     open(os.path.join(SITE, "work", p["slug"] + ".html"), "w").write(page)

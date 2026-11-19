@@ -10,7 +10,7 @@
   "agency": "VML"
  },
  "thrifty-just-right": {
-  "img": "thrifty",
+  "img": "thrifty-card",
   "role": "Creative Director",
   "agency": "FKQ"
  },
@@ -22,7 +22,8 @@
  "belize-grab-life": {
   "img": "belize-grab-life",
   "role": "Creative Director",
-  "agency": "Bright Red"
+  "agency": "Bright Red",
+  "imgUrl": "https://i.ytimg.com/vi/Pvt3UnUjX4E/maxresdefault.jpg"
  },
  "lincoln-financial": {
   "img": "lfg",
@@ -37,12 +38,14 @@
  "t-mobile": {
   "img": "t-mobile",
   "role": "Art Director",
-  "agency": "Publicis Seattle"
+  "agency": "Publicis Seattle",
+  "imgUrl": "https://i.vimeocdn.com/video/616756222-55434c61d4a8fde069874e550fa23fb22d015c630894c09fdd00522571ce801e-d_960?region=us"
  },
  "hertz-extra-miler": {
   "img": "hertz",
   "role": "Creative Director",
-  "agency": "FKQ"
+  "agency": "FKQ",
+  "imgUrl": "https://i.ytimg.com/vi/4PSPTU9cjAs/maxresdefault.jpg"
  },
  "rhode-island-all-that": {
   "img": "rhode-island",
