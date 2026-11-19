@@ -24,13 +24,15 @@
    "type": "section",
    "title": "NBA Partnership",
    "body": "",
-   "credit": "Director: Errol Morris · Moxie Pictures"
+   "credit": "Director: Errol Morris · Moxie Pictures",
+   "lock": true
   },
   {
    "type": "film",
    "title": "NBA Partnership",
    "src": "https://player.vimeo.com/video/21991504?title=0&byline=0&portrait=0",
-   "poster": "img/tmo/nba.webp"
+   "poster": "img/tmo/nba.webp",
+   "lock": true
   }
  ],
  "productionCredit": ""

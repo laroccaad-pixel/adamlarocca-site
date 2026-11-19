@@ -112,19 +112,24 @@ def fig(item, pre, eager=False):
     cap = f'<figcaption>{E(item["caption"])}</figcaption>' if item.get("caption") else ""
     return f'<figure><img src="{pre}{item["src"]}" alt="{E(item.get("alt",""))}" loading="{"eager" if eager else "lazy"}">{cap}</figure>'
 
-def poster_for(m, pre, small=False):
-    if m.get("poster"): return pre + m["poster"]
-    if "youtube" in m["src"]:
-        vid = m["src"].split("/embed/")[1].split("?")[0]
-        return f"https://i.ytimg.com/vi/{vid}/{'hqdefault' if small else 'sddefault'}.jpg"
-    return ""
-
 def film_tile(m, pre, small=False):
+    """Default cover = the platform's own thumbnail. A local poster is used only when "lock": true."""
     title = m.get("title", "")
-    poster = poster_for(m, pre, small)
-    img = f'<img src="{poster}" alt="" loading="lazy">' if poster else ""
+    src = m["src"]
+    local = (pre + m["poster"]) if m.get("poster") else ""
+    if m.get("lock") and local:
+        img = f'<img src="{local}" alt="" loading="lazy">'
+    elif "youtube" in src:
+        vid = src.split("/embed/")[1].split("?")[0]
+        img = (f'<img src="https://i.ytimg.com/vi/{vid}/maxresdefault.jpg" alt="" loading="lazy" '
+               f'onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/{vid}/hqdefault.jpg\'">')
+    elif "vimeo" in src:
+        vid = src.split("/video/")[1].split("?")[0]
+        img = f'<img data-vimeo="{vid}" data-fallback="{local}" alt="" loading="lazy">'
+    else:
+        img = f'<img src="{local}" alt="" loading="lazy">' if local else ""
     label = f'<span><b>{E(title)}</b><span>Play film</span></span>' if title else ""
-    return f'''<div class="film{' small' if small else ''}" data-src="{E(m["src"])}" data-title="{E(title or "Film")}"><button aria-label="Play {E(title or "film")}">
+    return f'''<div class="film{' small' if small else ''}" data-src="{E(src)}" data-title="{E(title or "Film")}"><button aria-label="Play {E(title or "film")}">
   {img}<span class="play"><i></i>{label}</span></button></div>'''
 
 def module(m, pre):

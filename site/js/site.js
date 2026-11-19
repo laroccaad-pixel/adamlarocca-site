@@ -32,3 +32,15 @@ document.querySelectorAll(".rail-wrap").forEach(w => {
   const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting ? e.target.play().catch(() => {}) : e.target.pause()), { threshold: .15 });
   vids.forEach(v => io.observe(v));
 })();
+
+// Vimeo covers: pull the default thumbnail from Vimeo's public oEmbed API
+document.querySelectorAll("img[data-vimeo]").forEach(async img => {
+  const fb = () => { if (img.dataset.fallback) img.src = img.dataset.fallback; else img.remove(); };
+  try {
+    const r = await fetch(`https://vimeo.com/api/oembed.json?url=https://vimeo.com/${img.dataset.vimeo}&width=1280`);
+    if (!r.ok) return fb();
+    const d = await r.json();
+    img.src = d.thumbnail_url ? d.thumbnail_url.replace(/_\d+x\d+/, "_1280x720") : "";
+    img.onerror = () => { img.onerror = null; d.thumbnail_url ? img.src = d.thumbnail_url : fb(); };
+  } catch (e) { fb(); }
+});
