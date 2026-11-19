@@ -85,7 +85,7 @@ def build_home():
     <h1 class="display">Adam<br>LaRocca</h1>
     <div class="hero-side">
       <p>Make it simple yet significant.</p>
-      <p>Ideas teams rally around and audiences remember.</p>
+      <p>Ideas teams rally around and<br class="br-desk"> audiences remember.</p>
     </div>
   </div>
 </header>
