@@ -179,6 +179,8 @@ def build_case(p, nxt):
     nc = cards[nxt["slug"]]
     nhref = f'{nxt["slug"]}.html' if has_case(nxt["slug"]) else "../index.html#work"
     hero = cs["hero"]
+    pc = cs.get("productionCredit", "")
+    prod_html = "".join(f'<p class="prod">{E(x)}</p>' for x in (pc if isinstance(pc, list) else [pc]) if x)
     hero_media = (f'<video src="{pre}{hero["video"]}" poster="{pre}{hero["poster"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
                   if hero.get("video") else f'<img src="{pre}{hero["image"]}" alt="" fetchpriority="high">')
     page = head(f'{p["client"]}: {p["title"]}. Adam LaRocca', pre, cs["lead"]) + nav(pre, "work") + f'''
@@ -194,7 +196,7 @@ def build_case(p, nxt):
 <section class="cs-intro"><p class="lead{' long' if len(cs['lead']) > 70 else ''}">{E(cs["lead"])}</p><div class="body">{"".join(f"<p>{E(b)}</p>" for b in cs["body"])}</div></section>
 {mods}
 <section class="cs-credits">
-  <div><h2 class="display">Credits</h2><p class="prod">{E(cs.get("productionCredit",""))}</p><div class="cs-awards">{award_chips}</div></div>
+  <div><h2 class="display">Credits</h2>{prod_html}<div class="cs-awards">{award_chips}</div></div>
   <ul>{credits}<li><b>Agency</b>{E(p["agency"])}</li></ul>
 </section>
 <a class="next" href="{nhref}"><img src="{nc.get("imgUrl") or pre + "img/" + nc["img"] + ".webp"}" alt="" loading="lazy"><div><p class="kicker">Next project</p><h2 class="display">{E(nxt["title"])}</h2><p class="kicker">{E(nxt["client"])}</p></div></a>
