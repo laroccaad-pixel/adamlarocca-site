@@ -122,8 +122,10 @@ def film_tile(m, pre, small=False):
         img = f'<img src="{local}" alt="" loading="lazy">'
     elif "youtube" in src:
         vid = src.split("/embed/")[1].split("?")[0]
+        step = "this.src=this.src.replace(/maxresdefault|sddefault/,m=>m==='maxresdefault'?'sddefault':'hqdefault')"
         img = (f'<img src="https://i.ytimg.com/vi/{vid}/maxresdefault.jpg" alt="" loading="lazy" '
-               f'onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/{vid}/hqdefault.jpg\'">')
+               f'onload="if(this.naturalWidth<=120&&!/hqdefault/.test(this.src)){step}" '
+               f'onerror="if(!/hqdefault/.test(this.src)){step}">')
     elif "vimeo" in src:
         vid = src.split("/video/")[1].split("?")[0]
         img = f'<img data-vimeo="{vid}" data-fallback="{local}" alt="" loading="lazy">'
