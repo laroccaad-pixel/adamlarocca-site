@@ -1,87 +1,82 @@
 {
- "hero": {
-  "video": "video/thrifty-hero.mp4",
-  "poster": "img/thrifty/poster-hero.webp"
- },
- "lead": "Thrifty Car Rental has always delivered the right balance of value and quality, but few people knew it.",
- "body": [
-  "To drive awareness and consideration, we launched Thrifty’s first TV campaign in over a decade, reimagining a familiar story with a bit of humorswagg™. Starring Kenan Thompson as Goldilocks, the work proved that “just right” can still stand out."
- ],
- "modules": [
-  {
-   "type": "film",
-   "title": ":30 Spot",
-   "src": "https://www.youtube.com/embed/VkjxYRaT2VU?rel=0",
-   "poster": "img/thrifty/film.webp"
+  "hero": {
+    "video": "video/thrifty-hero.mp4",
+    "poster": "img/thrifty/poster-hero.webp"
   },
-  {
-   "type": "section",
-   "title": ":06 OLVs",
-   "body": "Kenan Thompson = :06 gold. These scripted and improvised videos were used in social and paid placements to keep Thrifty top of mind."
-  },
-  {
-   "type": "videos",
-   "cols": 3,
-   "items": [
+  "lead": "Thrifty Car Rental has always delivered the right balance of value and quality, but few people knew it.",
+  "body": [
+    "To drive awareness and consideration, we launched Thrifty’s first TV campaign in over a decade, reimagining a familiar story with a bit of humorswagg™. Starring Kenan Thompson as Goldilocks, the work proved that “just right” can still stand out."
+  ],
+  "modules": [
     {
-     "src": "https://www.youtube.com/embed/KVb98AWsHkU?rel=0"
+      "type": "film",
+      "title": ":30 Spot",
+      "src": "https://www.youtube.com/embed/VkjxYRaT2VU?rel=0",
+      "poster": "img/thrifty/film.webp"
     },
     {
-     "src": "https://www.youtube.com/embed/XX79F16aAKY?rel=0"
+      "type": "section",
+      "title": ":06 OLVs",
+      "body": "Kenan Thompson = :06 gold. These scripted and improvised videos were used in social and paid placements to keep Thrifty top of mind."
     },
     {
-     "src": "https://www.youtube.com/embed/HN16v-6yImU?rel=0"
+      "type": "videos",
+      "cols": 3,
+      "items": [
+        {
+          "src": "https://www.youtube.com/embed/KVb98AWsHkU?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/XX79F16aAKY?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/HN16v-6yImU?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/px6QRi-XtLY?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/36kYGcrJOnk?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/GDVzQeArAXY?rel=0"
+        }
+      ]
     },
     {
-     "src": "https://www.youtube.com/embed/px6QRi-XtLY?rel=0"
+      "type": "section",
+      "title": "Social & Thrifty.com",
+      "body": ""
     },
     {
-     "src": "https://www.youtube.com/embed/36kYGcrJOnk?rel=0"
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/thrifty/fb-carousel.webp",
+          "alt": "Facebook carousel ad"
+        }
+      ]
     },
     {
-     "src": "https://www.youtube.com/embed/GDVzQeArAXY?rel=0"
+      "type": "rail",
+      "alt": "Thrifty social and Thrifty.com",
+      "center": true,
+      "start": 1,
+      "size": 745,
+      "noun": "images",
+      "items": [
+        {
+          "src": "img/thrifty/cargo-desktopwebsite.webp"
+        },
+        {
+          "src": "img/thrifty/cargo-polls-nobg.webp"
+        },
+        {
+          "src": "img/thrifty/cargo-socialreaction.webp"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "type": "section",
-   "title": "Social & Thrifty.com",
-   "body": ""
-  },
-  {
-   "type": "images",
-   "layout": "full",
-   "items": [
-    {
-     "src": "img/thrifty/cargo-desktopwebsite.webp",
-     "alt": "Thrifty.com homepage"
-    }
-   ]
-  },
-  {
-   "type": "images",
-   "layout": "pair",
-   "items": [
-    {
-     "src": "img/thrifty/cargo-polls-nobg.webp",
-     "alt": "Social polls"
-    },
-    {
-     "src": "img/thrifty/cargo-socialreaction.webp",
-     "alt": "Social reactions"
-    }
-   ]
-  },
-  {
-   "type": "images",
-   "layout": "natural",
-   "items": [
-    {
-     "src": "img/thrifty/920pxwide-fbcarouselmockupv2.webp",
-     "alt": "Facebook carousel"
-    }
-   ]
-  }
- ],
- "productionCredit": "Directors: The Director Brothers · Bullitt"
+  ],
+  "productionCredit": "Directors: The Director Brothers · Bullitt"
 }
