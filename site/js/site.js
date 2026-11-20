@@ -22,17 +22,17 @@ document.querySelectorAll(".film button").forEach(b => b.addEventListener("click
 document.querySelectorAll(".rail-wrap").forEach(w => {
   const r = w.querySelector(".rail");
   w.querySelectorAll("[data-dir]").forEach(b => b.addEventListener("click", () =>
-    r.scrollBy({ left: (r.classList.contains("phone-rail") ? r.querySelector("figure").offsetWidth + parseFloat(getComputedStyle(r).columnGap || 0) : r.clientWidth * 0.8) * +b.dataset.dir, behavior: "smooth" })));
+    r.scrollBy({ left: (r.classList.contains("center-rail") ? r.querySelector("figure").offsetWidth + parseFloat(getComputedStyle(r).columnGap || 0) : r.clientWidth * 0.8) * +b.dataset.dir, behavior: "smooth" })));
 });
 
-// Phone carousel: start on the 3rd frame, round whatever sits inside the phone
-document.querySelectorAll(".phone-rail").forEach(r => {
+// Centered carousels: open on data-start; phone rails round whatever sits inside the phone
+document.querySelectorAll(".center-rail").forEach(r => {
   const frame = r.parentElement.querySelector(".rail-phone"), figs = [...r.querySelectorAll("figure")];
-  const mark = () => { const f = frame.getBoundingClientRect();
+  const mark = () => { if (!frame) return; const f = frame.getBoundingClientRect();
     figs.forEach(g => { const b = g.getBoundingClientRect(); g.classList.toggle("in-phone", b.right > f.left + 1 && b.left < f.right - 1); }); };
-  const start = figs[Math.min(2, figs.length - 1)];
-  const center = () => { const f = frame.getBoundingClientRect(), b = start.getBoundingClientRect();
-    r.style.scrollSnapType = "none"; r.scrollLeft += (b.left + b.width / 2) - (f.left + f.width / 2); r.style.scrollSnapType = ""; mark(); };
+  const start = figs[Math.min(+r.dataset.start || 0, figs.length - 1)];
+  const center = () => { const rb = r.getBoundingClientRect(), b = start.getBoundingClientRect();
+    r.style.scrollSnapType = "none"; r.scrollLeft += (b.left + b.width / 2) - (rb.left + rb.width / 2); r.style.scrollSnapType = ""; mark(); };
   center(); addEventListener("load", center, { once: true });
   let raf; r.addEventListener("scroll", () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(mark); }, { passive: true });
   addEventListener("resize", mark);

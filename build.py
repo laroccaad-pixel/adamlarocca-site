@@ -166,6 +166,13 @@ def module(m, pre):
     if t == "images":
         anchor = f' anchor-{m["anchor"]}' if m.get("anchor") else ""
         return f'<div class="media m-{m["layout"]}{anchor}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
+    if t == "collage":
+        W, H = m["w"], m["h"]
+        def tile(i):
+            x, y, w, h = i["box"]
+            return (f'<figure style="left:{x/W*100:.3f}%;top:{y/H*100:.3f}%;width:{w/W*100:.3f}%;height:{h/H*100:.3f}%">'
+                    f'<img src="{pre}{i["src"]}" alt="{E(m.get("alt",""))}" loading="lazy"></figure>')
+        return f'<div class="media m-collage" style="aspect-ratio:{W}/{H}">' + "".join(tile(i) for i in m["items"]) + "</div>"
     if t == "rail":
         def rf(i):
             if i.get("video"): return f'<figure><video src="{pre}{i["video"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>'
@@ -173,9 +180,12 @@ def module(m, pre):
         figs = "".join(rf(i) for i in m["items"])
         noun = m.get("noun", "posts")
         cls = ' tall' if m.get('tall') else ''
-        if m.get("phone"): cls += ' phone-rail'
+        if m.get("phone"): cls += ' phone-rail center-rail'
+        elif m.get("center"): cls += ' center-rail'
+        attrs = f' data-start="{m.get("start", 2 if m.get("phone") else 0)}"'
+        if m.get("size"): attrs += f' style="--pw:min({m["size"]}px,86vw)"'
         frame = '<div class="rail-phone" aria-hidden="true"></div>' if m.get("phone") else ''
-        return f'''<div class="rail-wrap{' has-phone' if m.get('phone') else ''}"><div class="rail-stage">{frame}<div class="rail{cls}" tabindex="0" aria-label="{E(m.get("alt","Gallery"))}">{figs}</div></div>
+        return f'''<div class="rail-wrap{' has-phone' if m.get('phone') else ''}"><div class="rail-stage">{frame}<div class="rail{cls}"{attrs} tabindex="0" aria-label="{E(m.get("alt","Gallery"))}">{figs}</div></div>
   <div class="rail-controls"><span>{len(m["items"])} {noun}. Swipe or use the arrows.</span><div><button data-dir="-1" aria-label="Previous">&#8592;</button><button data-dir="1" aria-label="Next">&#8594;</button></div></div></div>'''
     raise ValueError(t)
 
