@@ -25,6 +25,19 @@ document.querySelectorAll(".rail-wrap").forEach(w => {
     r.scrollBy({ left: (r.classList.contains("phone-rail") ? r.querySelector("figure").offsetWidth + parseFloat(getComputedStyle(r).columnGap || 0) : r.clientWidth * 0.8) * +b.dataset.dir, behavior: "smooth" })));
 });
 
+// Phone carousel: start on the 3rd frame, round whatever sits inside the phone
+document.querySelectorAll(".phone-rail").forEach(r => {
+  const frame = r.parentElement.querySelector(".rail-phone"), figs = [...r.querySelectorAll("figure")];
+  const mark = () => { const f = frame.getBoundingClientRect();
+    figs.forEach(g => { const b = g.getBoundingClientRect(); g.classList.toggle("in-phone", b.right > f.left + 1 && b.left < f.right - 1); }); };
+  const start = figs[Math.min(2, figs.length - 1)];
+  const center = () => { const f = frame.getBoundingClientRect(), b = start.getBoundingClientRect();
+    r.style.scrollSnapType = "none"; r.scrollLeft += (b.left + b.width / 2) - (f.left + f.width / 2); r.style.scrollSnapType = ""; mark(); };
+  center(); addEventListener("load", center, { once: true });
+  let raf; r.addEventListener("scroll", () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(mark); }, { passive: true });
+  addEventListener("resize", mark);
+});
+
 // Pause background loops that are off screen; respect reduced motion
 (() => {
   const vids = document.querySelectorAll("video[data-loop]");

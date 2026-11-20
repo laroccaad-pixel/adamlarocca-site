@@ -182,8 +182,9 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 .rail.phone-rail{--pw:min(300px,62vw);display:flex;grid-auto-flow:unset;column-gap:var(--gap);scroll-snap-type:x mandatory;scrollbar-width:none}
 .rail.phone-rail::-webkit-scrollbar{display:none}
 .rail.phone-rail::before,.rail.phone-rail::after{content:"";flex:0 0 calc(50% - var(--pw) / 2 - var(--gap))}
-.rail.phone-rail figure{flex:0 0 var(--pw);scroll-snap-align:center}
-.rail-phone{--pw:min(300px,62vw);position:absolute;z-index:2;top:0;left:50%;width:var(--pw);aspect-ratio:9/16;transform:translateX(-50%);pointer-events:none;border-radius:37px;box-shadow:0 0 0 9px var(--deep-2),0 0 0 10px rgba(243,245,248,.15),0 30px 60px -20px rgba(0,0,0,.6)}
+.rail.phone-rail figure{flex:0 0 var(--pw);scroll-snap-align:center;transition:border-radius .15s}
+.rail.phone-rail figure.in-phone{border-radius:37px}
+.rail-phone{--pw:min(300px,62vw);position:absolute;z-index:2;top:0;left:50%;width:var(--pw);aspect-ratio:9/16;transform:translateX(-50%);pointer-events:none;border-radius:37px;box-shadow:inset 0 0 0 1.5px var(--deep-2),0 0 0 9px var(--deep-2),0 0 0 10px rgba(243,245,248,.15),0 30px 60px -20px rgba(0,0,0,.6)}
 .rail-phone::before{content:"";position:absolute;top:12px;left:50%;transform:translateX(-50%);width:31%;height:22px;border-radius:12px;background:#000}
 .rail-phone::after{content:"";position:absolute;right:-13px;top:24%;width:3px;height:13%;border-radius:0 2px 2px 0;background:rgba(243,245,248,.18)}
 .rail-phone + .rail{padding-block:10px 14px}
