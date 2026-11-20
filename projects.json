@@ -131,20 +131,23 @@
     "category": "Sports / CPG",
     "agency": "VML",
     "role": "Associate Creative Director",
-    "intro": "Gatorade was entering the crowded protein category with its own shakes and bars, with a clear goal: make the packaging impossible to miss. We created dramatic, hand-crafted stop-motion videos with the four major sports leagues, putting the product front and center. The films showed teen athletes that Gatorade isn’t just trusted for in-game hydration, but also for post-game nutrition.",
+    "intro": "Gatorade entered the crowded protein category with its own shakes and bars, and with a clear goal: make the packaging impossible to miss. We created dramatic, hand-crafted stop-motion videos with the four major sports leagues, putting the product front and center. The films showed teen athletes that Gatorade isn’t just trusted for in-game hydration, but also for post-game nutrition.",
     "sections": [
       {
         "title": "Athlete Building Animated Series",
-        "body": "",
-        "productionCredit": "Director: Rob Shaw · BENT Image Lab"
+        "body": ""
       },
       {
         "title": "Instagram Recover Journey",
-        "body": "Using Instagram’s link tagging, teen athletes were invited into a “choose your own path” experience that helped them get more out of every workout with Gatorade Recover. Guided by Gatorade’s youngest roster athlete, Jabari Parker, the journey unfolded through striking imagery, GIFs, and video, pairing real training moments with protein usage and workout tips straight from the pros.",
-        "productionCredit": "Photographer: Dennis Leupold"
+        "body": "Using Instagram’s link tagging, teen athletes were invited into a “choose your own path” experience that helped them get more out of every workout with Gatorade Recover. Guided by Gatorade’s youngest roster athlete, Jabari Parker, the journey unfolded through striking imagery, GIFs, and video, pairing real training moments with protein usage and workout tips straight from the pros."
       }
     ],
-    "productionCredit": "",
+    "productionCredit": [
+      "Athlete Building Director: Rob Shaw",
+      "Production Partner: BENT Image Lab",
+      "",
+      "Instagram Recover Journey Photographer: Dennis Leupold"
+    ],
     "awards": [],
     "credits": [
       "Executive Creative Director: Tony Snethen",

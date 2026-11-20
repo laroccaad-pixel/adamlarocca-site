@@ -22,7 +22,7 @@ document.querySelectorAll(".film button").forEach(b => b.addEventListener("click
 document.querySelectorAll(".rail-wrap").forEach(w => {
   const r = w.querySelector(".rail");
   w.querySelectorAll("[data-dir]").forEach(b => b.addEventListener("click", () =>
-    r.scrollBy({ left: r.clientWidth * 0.8 * +b.dataset.dir, behavior: "smooth" })));
+    r.scrollBy({ left: (r.classList.contains("phone-rail") ? r.querySelector("figure").offsetWidth + parseFloat(getComputedStyle(r).columnGap || 0) : r.clientWidth * 0.8) * +b.dataset.dir, behavior: "smooth" })));
 });
 
 // Pause background loops that are off screen; respect reduced motion

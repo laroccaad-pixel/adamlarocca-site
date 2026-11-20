@@ -172,7 +172,10 @@ def module(m, pre):
             return f'<figure><img src="{pre}{i["src"]}" alt="{E(m.get("alt",""))}" loading="lazy"></figure>'
         figs = "".join(rf(i) for i in m["items"])
         noun = m.get("noun", "posts")
-        return f'''<div class="rail-wrap"><div class="rail{' tall' if m.get('tall') else ''}" tabindex="0" aria-label="{E(m.get("alt","Gallery"))}">{figs}</div>
+        cls = ' tall' if m.get('tall') else ''
+        if m.get("phone"): cls += ' phone-rail'
+        frame = '<div class="rail-phone" aria-hidden="true"></div>' if m.get("phone") else ''
+        return f'''<div class="rail-wrap{' has-phone' if m.get('phone') else ''}"><div class="rail-stage">{frame}<div class="rail{cls}" tabindex="0" aria-label="{E(m.get("alt","Gallery"))}">{figs}</div></div>
   <div class="rail-controls"><span>{len(m["items"])} {noun}. Swipe or use the arrows.</span><div><button data-dir="-1" aria-label="Previous">&#8592;</button><button data-dir="1" aria-label="Next">&#8594;</button></div></div></div>'''
     raise ValueError(t)
 
