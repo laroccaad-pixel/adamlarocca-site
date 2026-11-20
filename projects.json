@@ -293,7 +293,13 @@
         "productionCredit": "Director: Errol Morris · Moxie Pictures"
       }
     ],
-    "productionCredit": "",
+    "productionCredit": [
+      "Android Saturday Director: Kenny Herzog",
+      "Production Partner: O Positive",
+      "",
+      "Kids Are Free Director: Errol Morris",
+      "Production Partner: Moxie Pictures"
+    ],
     "awards": [],
     "credits": [
       "Chief Creative Officer: Andrew Christou",
