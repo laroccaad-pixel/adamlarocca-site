@@ -5,7 +5,7 @@
   },
   "lead": "T-Mobile is the definitive challenger brand, fearlessly taking on giants like AT&T and Verizon.",
   "body": [
-    "That ambition led to unconventional partnerships, including the NBA, and bold, category-breaking offers for families."
+    "That ambition led to bold, category-breaking offers for families and unconventional partnerships, including the NBA."
   ],
   "modules": [
     {
@@ -21,13 +21,13 @@
     },
     {
       "type": "section",
-      "title": "NBA Partnership",
+      "title": "Kids Are Free",
       "body": "",
       "lock": true
     },
     {
       "type": "film",
-      "title": "NBA Partnership",
+      "title": "Kids Are Free",
       "src": "https://player.vimeo.com/video/21991504?title=0&byline=0&portrait=0",
       "poster": "img/tmo/nba.webp",
       "lock": true
