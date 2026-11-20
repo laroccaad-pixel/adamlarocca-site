@@ -95,12 +95,13 @@ def build_home():
   {"".join(out)}
 </section>
 <section class="about" id="about">
-  <img src="img/headshot.webp" alt="Adam LaRocca" loading="lazy">
+  <figure class="portrait"><img src="img/headshot.webp" alt="Adam LaRocca" loading="lazy"></figure>
   <div>
     <h2 class="display">Simple ideas. Just need the feels.</h2>
     {"".join(f"<p>{E(p)}</p>" for p in about[1:])}
     <p><a href="LaRoccaResume.pdf" target="_blank" rel="noopener" style="color:var(--sun);border-bottom:1px solid var(--sun)">Download Resumé (PDF)</a></p>
-    <div class="chips"><span>Cannes Lions</span><span>The One Show</span><span>Effie</span><span>Clio</span><span>Webby</span></div>
+    <div class="chips"><span>Cannes Lions</span><span>The One Show</span><span>Effies</span><span>Clios</span><span>Webbys</span><span>Graphis</span><span>B2B ACE Awards</span></div>
+    <div class="chips chips-sub"><em>Tourism specific</em><span>Adrian Awards</span><span>Magellan Awards</span><span>Flagler Awards</span></div>
   </div>
 </section>
 </main>
