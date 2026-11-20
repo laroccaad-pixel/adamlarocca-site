@@ -1,41 +1,150 @@
 {
-  "hero": {"video": "video/blm-hero.mp4", "poster": "img/blm/poster-hero.webp"},
+  "hero": {
+    "video": "video/blm-hero.mp4",
+    "poster": "img/blm/poster-hero.webp"
+  },
   "lead": "Everyone wanted to Be Like Mike.",
   "body": [
     "So as the 23-year anniversary of Gatorade’s most iconic campaign approached, we saw an opportunity not to recreate it, but to reintroduce it to a new generation.",
     "Today’s teen athletes don’t just say who inspires them, they show it. Using #BeLikeMike, they turned a legendary idea into something personal, social, and alive again. The result helped make this the most viewed campaign in Gatorade’s history."
   ],
   "modules": [
-    {"type": "film", "title": "Case Study Video", "src": "https://player.vimeo.com/video/179585815?title=0&byline=0&portrait=0", "poster": "img/blm/poster-case.webp"},
-
-    {"type": "section", "title": "NBA All-Star Event", "body": "We launched #BeLikeMike with a live event during NBA All-Star game weekend, transporting teens back in time and allowing them to recreate Michael Jordan’s most iconic moments."},
-    {"type": "loop", "layout": "wide", "src": "video/blm-bullet-rig.mp4", "poster": "img/blm/bullet-rig.webp", "alt": "Bullet-time capture of a teen dunking at the event"},
-    {"type": "images", "layout": "mosaic", "items": [
-      {"src": "img/blm/kid-celebration.webp", "alt": "Teen celebrating after his dunk"},
-      {"src": "img/blm/tunnel.webp", "alt": "Teens walking through the tunnel into the event"},
-      {"src": "img/blm/shot-girl.webp", "alt": "Teen recreating The Shot"}
-    ]},
-    {"type": "images", "layout": "trio", "items": [
-      {"src": "img/blm/bullet-rig.webp", "alt": "The bullet-time camera rig"},
-      {"src": "img/blm/stage.webp", "alt": "Hosts on the event stage"},
-      {"src": "img/blm/kid-filming.webp", "alt": "A teen filming a dunk on his phone"}
-    ]},
-    {"type": "film", "title": "Event Film", "src": "https://player.vimeo.com/video/204281633?title=0&byline=0&portrait=0", "poster": "img/blm/poster-event.webp"},
-
-    {"type": "section", "title": "Social", "body": "The love for #23 poured in, as amateur and professional athletes took to social, showing us, in their own way, how they #BeLikeMike."},
-    {"type": "rail", "items": [
-      {"src": "img/blm/social-1.webp"}, {"src": "img/blm/social-2.webp"}, {"src": "img/blm/social-3.webp"},
-      {"src": "img/blm/social-4.webp"}, {"src": "img/blm/social-5.webp"}, {"src": "img/blm/social-6.webp"},
-      {"src": "img/blm/athlete-tweets.webp"}, {"src": "img/blm/social-7.webp"}, {"src": "img/blm/social-8.webp"},
-      {"src": "img/blm/social-9.webp"}, {"src": "img/blm/social-10.webp"}, {"src": "img/blm/social-11.webp"},
-      {"src": "img/blm/social-12.webp"}
-    ], "alt": "#BeLikeMike social posts"},
-
-    {"type": "section", "title": "Capstone Video", "body": "In the end, we curated their best submissions into a capstone piece set to the original commercial’s song, proving we all still want to Be Like Mike."},
-    {"type": "film", "title": "Capstone Video", "src": "https://player.vimeo.com/video/221661133?title=0&byline=0&portrait=0", "poster": "img/blm/jordan-laughing.webp"},
-
-    {"type": "section", "title": "ESPN HPTO", "body": "We worked with ESPN to build a custom homepage takeover, launching their new site redesign while celebrating one of MJ's most iconic moments."},
-    {"type": "loop", "layout": "browser", "src": "video/blm-espn.mp4", "poster": "", "alt": "ESPN.com homepage takeover"}
+    {
+      "type": "film",
+      "title": "Case Study Video",
+      "src": "https://player.vimeo.com/video/179585815?title=0&byline=0&portrait=0",
+      "poster": "img/blm/poster-case.webp"
+    },
+    {
+      "type": "section",
+      "title": "NBA All-Star Event",
+      "body": "We launched #BeLikeMike with a live event during NBA All-Star game weekend, transporting teens back in time and allowing them to recreate Michael Jordan’s most iconic moments."
+    },
+    {
+      "type": "loop",
+      "layout": "wide",
+      "src": "video/blm-bullet-rig.mp4",
+      "poster": "img/blm/bullet-rig.webp",
+      "alt": "Bullet-time capture of a teen dunking at the event"
+    },
+    {
+      "type": "images",
+      "layout": "mosaic",
+      "items": [
+        {
+          "src": "img/blm/kid-celebration.webp",
+          "alt": "Teen celebrating after his dunk"
+        },
+        {
+          "src": "img/blm/tunnel.webp",
+          "alt": "Teens walking through the tunnel into the event"
+        },
+        {
+          "src": "img/blm/shot-girl.webp",
+          "alt": "Teen recreating The Shot"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "trio",
+      "items": [
+        {
+          "src": "img/blm/bullet-rig.webp",
+          "alt": "The bullet-time camera rig"
+        },
+        {
+          "src": "img/blm/stage.webp",
+          "alt": "Hosts on the event stage"
+        },
+        {
+          "src": "img/blm/kid-filming.webp",
+          "alt": "A teen filming a dunk on his phone"
+        }
+      ]
+    },
+    {
+      "type": "film",
+      "title": "Event Film",
+      "src": "https://player.vimeo.com/video/204281633?title=0&byline=0&portrait=0",
+      "poster": "img/blm/poster-event.webp"
+    },
+    {
+      "type": "section",
+      "title": "Social",
+      "body": "The love for #23 poured in, as amateur and professional athletes took to social, showing us, in their own way, how they #BeLikeMike."
+    },
+    {
+      "type": "rail",
+      "items": [
+        {
+          "src": "img/blm/social-1.webp"
+        },
+        {
+          "src": "img/blm/social-2.webp"
+        },
+        {
+          "src": "img/blm/social-3.webp"
+        },
+        {
+          "src": "img/blm/social-4.webp"
+        },
+        {
+          "src": "img/blm/social-5.webp"
+        },
+        {
+          "src": "img/blm/social-6.webp"
+        },
+        {
+          "src": "img/blm/athlete-tweets.webp"
+        },
+        {
+          "src": "img/blm/social-7.webp"
+        },
+        {
+          "src": "img/blm/social-8.webp"
+        },
+        {
+          "src": "img/blm/social-9.webp"
+        },
+        {
+          "src": "img/blm/social-10.webp"
+        },
+        {
+          "src": "img/blm/social-11.webp"
+        },
+        {
+          "src": "img/blm/social-12.webp"
+        }
+      ],
+      "alt": "#BeLikeMike social posts",
+      "center": true,
+      "start": 1,
+      "size": 745
+    },
+    {
+      "type": "section",
+      "title": "Capstone Video",
+      "body": "In the end, we curated their best submissions into a capstone piece set to the original commercial’s song, proving we all still want to Be Like Mike."
+    },
+    {
+      "type": "film",
+      "title": "Capstone Video",
+      "src": "https://player.vimeo.com/video/221661133?title=0&byline=0&portrait=0",
+      "poster": "img/blm/jordan-laughing.webp"
+    },
+    {
+      "type": "section",
+      "title": "ESPN HPTO",
+      "body": "We worked with ESPN to build a custom homepage takeover, launching their new site redesign while celebrating one of MJ's most iconic moments."
+    },
+    {
+      "type": "loop",
+      "layout": "browser",
+      "src": "video/blm-espn.mp4",
+      "poster": "",
+      "alt": "ESPN.com homepage takeover"
+    }
   ],
   "productionCredit": "Directors: Chris Riehl & Christopher Leone. Motion Theory."
 }
