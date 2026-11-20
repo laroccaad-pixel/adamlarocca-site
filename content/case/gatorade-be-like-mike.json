@@ -78,10 +78,10 @@
       "type": "rail",
       "items": [
         {
-          "src": "img/blm/social-1.webp"
+          "src": "img/blm/social-2.webp"
         },
         {
-          "src": "img/blm/social-2.webp"
+          "src": "img/blm/social-1.webp"
         },
         {
           "src": "img/blm/social-3.webp"
@@ -90,16 +90,16 @@
           "src": "img/blm/social-4.webp"
         },
         {
-          "src": "img/blm/social-5.webp"
+          "src": "img/blm/social-6.webp"
         },
         {
-          "src": "img/blm/social-6.webp"
+          "src": "img/blm/social-7.webp"
         },
         {
           "src": "img/blm/athlete-tweets.webp"
         },
         {
-          "src": "img/blm/social-7.webp"
+          "src": "img/blm/social-5.webp"
         },
         {
           "src": "img/blm/social-8.webp"
@@ -115,6 +115,18 @@
         },
         {
           "src": "img/blm/social-12.webp"
+        },
+        {
+          "src": "img/blm/ugc-13.webp"
+        },
+        {
+          "src": "img/blm/ugc-15.webp"
+        },
+        {
+          "src": "img/blm/ugc-16.webp"
+        },
+        {
+          "src": "img/blm/ugc-17.webp"
         }
       ],
       "alt": "#BeLikeMike social posts",

@@ -1,72 +1,72 @@
 {
- "belize-no-barriers-reef": {
-  "img": "belize-nbr-reef",
-  "role": "Creative Director",
-  "agency": "Bright Red"
- },
- "gatorade-be-like-mike": {
-  "img": "gatorade-blm",
-  "role": "Associate CD",
-  "agency": "VML"
- },
- "thrifty-just-right": {
-  "img": "thrifty-card",
-  "role": "Creative Director",
-  "agency": "FKQ"
- },
- "g-recover": {
-  "img": "g-recover",
-  "role": "Associate CD",
-  "agency": "VML"
- },
- "belize-grab-life": {
-  "img": "belize-grab-life",
-  "role": "Creative Director",
-  "agency": "Bright Red",
-  "imgUrl": "https://i.ytimg.com/vi/Pvt3UnUjX4E/maxresdefault.jpg"
- },
- "lincoln-financial": {
-  "img": "lfg",
-  "role": "Art Director",
-  "agency": "22squared"
- },
- "gatorade-behind-the-sweat": {
-  "img": "gatorade-bts",
-  "role": "Associate CD",
-  "agency": "VML"
- },
- "t-mobile": {
-  "img": "t-mobile",
-  "role": "Art Director",
-  "agency": "Publicis Seattle",
-  "imgUrl": "https://i.vimeocdn.com/video/616756222-55434c61d4a8fde069874e550fa23fb22d015c630894c09fdd00522571ce801e-d_960?region=us"
- },
- "hertz-extra-miler": {
-  "img": "hertz",
-  "role": "Creative Director",
-  "agency": "FKQ",
-  "imgUrl": "https://i.ytimg.com/vi/4PSPTU9cjAs/maxresdefault.jpg"
- },
- "rhode-island-all-that": {
-  "img": "rhode-island",
-  "role": "Creative Director",
-  "agency": "Bright Red"
- },
- "mcdonalds-noa": {
-  "img": "mcdonalds",
-  "role": "Creative Director",
-  "agency": "FKQ",
-  "client": "McDonald's Owners"
- },
- "pods-store-it": {
-  "img": "pods",
-  "role": "Art Director",
-  "agency": "22squared"
- },
- "piggly-wiggly-tv": {
-  "img": "pwffl-card",
-  "role": "Creative Director",
-  "agency": "The Mitchells Agency",
-  "client": "Piggly Wiggly"
- }
+  "belize-no-barriers-reef": {
+    "img": "belize-nbr-reef",
+    "role": "Creative Director",
+    "agency": "Bright Red"
+  },
+  "gatorade-be-like-mike": {
+    "img": "blm-mj-card",
+    "role": "Associate CD",
+    "agency": "VML"
+  },
+  "thrifty-just-right": {
+    "img": "thrifty-card",
+    "role": "Creative Director",
+    "agency": "FKQ"
+  },
+  "g-recover": {
+    "img": "g-recover",
+    "role": "Associate CD",
+    "agency": "VML"
+  },
+  "belize-grab-life": {
+    "img": "belize-grab-life",
+    "role": "Creative Director",
+    "agency": "Bright Red",
+    "imgUrl": "https://i.ytimg.com/vi/Pvt3UnUjX4E/maxresdefault.jpg"
+  },
+  "lincoln-financial": {
+    "img": "lfg",
+    "role": "Art Director",
+    "agency": "22squared"
+  },
+  "gatorade-behind-the-sweat": {
+    "img": "gatorade-bts",
+    "role": "Associate CD",
+    "agency": "VML"
+  },
+  "t-mobile": {
+    "img": "t-mobile",
+    "role": "Art Director",
+    "agency": "Publicis Seattle",
+    "imgUrl": "https://i.vimeocdn.com/video/616756222-55434c61d4a8fde069874e550fa23fb22d015c630894c09fdd00522571ce801e-d_960?region=us"
+  },
+  "hertz-extra-miler": {
+    "img": "hertz",
+    "role": "Creative Director",
+    "agency": "FKQ",
+    "imgUrl": "https://i.ytimg.com/vi/4PSPTU9cjAs/maxresdefault.jpg"
+  },
+  "rhode-island-all-that": {
+    "img": "rhode-island",
+    "role": "Creative Director",
+    "agency": "Bright Red"
+  },
+  "mcdonalds-noa": {
+    "img": "mcdonalds",
+    "role": "Creative Director",
+    "agency": "FKQ",
+    "client": "McDonald's Owners"
+  },
+  "pods-store-it": {
+    "img": "pods",
+    "role": "Art Director",
+    "agency": "22squared"
+  },
+  "piggly-wiggly-tv": {
+    "img": "pwffl-card",
+    "role": "Creative Director",
+    "agency": "The Mitchells Agency",
+    "client": "Piggly Wiggly"
+  }
 }
