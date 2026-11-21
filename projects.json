@@ -109,7 +109,10 @@
         "body": ""
       }
     ],
-    "productionCredit": "Directors: The Director Brothers · Bullitt",
+    "productionCredit": [
+      "Directors: The Director Brothers",
+      "Production Partner: Bullitt"
+    ],
     "awards": [],
     "credits": [
       "Executive Creative Director: Cliff Francis",

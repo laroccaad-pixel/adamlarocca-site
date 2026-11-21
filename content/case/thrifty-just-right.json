@@ -53,7 +53,7 @@
       "layout": "natural",
       "items": [
         {
-          "src": "img/thrifty/fb-carousel.webp",
+          "src": "img/thrifty/fb-carousel-2.webp",
           "alt": "Facebook carousel ad"
         }
       ]
@@ -67,16 +67,22 @@
       "noun": "images",
       "items": [
         {
-          "src": "img/thrifty/cargo-desktopwebsite.webp"
+          "src": "img/thrifty/website-promo-browser.webp",
+          "alt": "Thrifty.com Black Friday promo"
         },
         {
-          "src": "img/thrifty/cargo-polls-nobg.webp"
+          "src": "img/thrifty/polls-new.webp",
+          "alt": "Facebook poll ads"
         },
         {
-          "src": "img/thrifty/cargo-socialreaction.webp"
+          "src": "img/thrifty/social-feedback-new.webp",
+          "alt": "Social reactions"
         }
       ]
     }
   ],
-  "productionCredit": "Directors: The Director Brothers · Bullitt"
+  "productionCredit": [
+    "Directors: The Director Brothers",
+    "Production Partner: Bullitt"
+  ]
 }
