@@ -38,7 +38,8 @@
           "src": "img/hertz/device-mockup.webp",
           "alt": "Extra Miler campaign across devices"
         }
-      ]
+      ],
+      "inset": true
     },
     {
       "type": "loops",

@@ -170,6 +170,7 @@ def module(m, pre):
         return f'<div class="media m-{m["layout"]}"><figure><video src="{pre}{m["src"]}"{poster} autoplay muted loop playsinline data-loop aria-label="{E(m.get("alt",""))}"></video></figure></div>'
     if t == "images":
         anchor = f' anchor-{m["anchor"]}' if m.get("anchor") else ""
+        if m.get("inset"): anchor += " inset"
         return f'<div class="media m-{m["layout"]}{anchor}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
     if t == "collage":
         W, H = m["w"], m["h"]
