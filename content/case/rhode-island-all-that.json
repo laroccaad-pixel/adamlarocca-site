@@ -68,7 +68,7 @@
     },
     {
       "type": "section",
-      "title": "Print & Out of Home",
+      "title": "Print & OOH",
       "body": ""
     },
     {
@@ -76,6 +76,9 @@
       "noun": "pieces",
       "alt": "Print and out of home",
       "items": [
+        {
+          "src": "img/ri/ooh2.webp"
+        },
         {
           "src": "img/ri/print2.webp"
         },
@@ -90,9 +93,6 @@
         },
         {
           "src": "img/ri/print3.webp"
-        },
-        {
-          "src": "img/ri/ooh2.webp"
         }
       ],
       "center": true,
@@ -102,8 +102,7 @@
     {
       "type": "section",
       "title": "Augmented Reality Portals Experience",
-      "body": "We created an immersive augmented reality experience that allowed users to explore six iconic Rhode Island landmarks through interactive AR portals. Accessible on mobile devices, the experience transformed any physical space into a window onto the Ocean State. Designed to spark curiosity and inspire travel, it delivered high-impact brand storytelling in a simple, intuitive way.\n\nWe custom-designed a large-scale video wall installation for high-traffic locations to promote the AR experience and drive QR code scans.",
-      "credit": "Digital Development Partner: DPT."
+      "body": "We created an immersive augmented reality experience that allowed users to explore six iconic Rhode Island landmarks through interactive AR portals. Accessible on mobile devices, the experience transformed any physical space into a window onto the Ocean State. Designed to spark curiosity and inspire travel, it delivered high-impact brand storytelling in a simple, intuitive way.\n\nWe custom-designed a large-scale video wall installation for high-traffic locations to promote the AR experience and drive QR code scans."
     },
     {
       "type": "loop",
@@ -220,5 +219,10 @@
       ]
     }
   ],
-  "productionCredit": "Director: Dustin Devlin · Vagrants"
+  "productionCredit": [
+    "Director: Dustin Devlin",
+    "Production Partner: Vagrants",
+    "",
+    "Digital Development Partner (AR Portals Experience): DPT"
+  ]
 }
