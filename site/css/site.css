@@ -108,6 +108,10 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 .cs-intro .body p{color:var(--soft);margin-bottom:18px;max-width:58ch;font-size:18px}
 
 .cs-section{max-width:var(--max);margin:0 auto;padding:clamp(56px,10vh,120px) var(--gutter) 0}
+/* tighten the gap between the write-up and the first piece of work */
+.cs-intro{padding-bottom:clamp(28px,5vh,56px)}
+.cs-intro + .cs-section{padding-top:0}
+.cs-intro + .cs-section:has(> .cs-section-head:first-child){padding-top:clamp(16px,3vh,32px)}
 .cs-section-head{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,96px);margin-bottom:clamp(24px,4vh,44px);align-items:start}
 .cs-section-head h2{font-size:clamp(48px,6vw,96px)}
 .cs-section-head p{color:var(--soft);max-width:58ch;font-size:18px;padding-top:.4em}
