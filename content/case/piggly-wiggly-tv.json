@@ -10,24 +10,22 @@
   "modules": [
     {
       "type": "section",
-      "title": "Live Action TV",
+      "title": "Brand TV",
       "body": ""
     },
     {
-      "type": "videos",
-      "cols": 2,
-      "items": [
-        {
-          "src": "https://www.youtube.com/embed/gCLmmKduN2Q?rel=0"
-        },
-        {
-          "src": "https://www.youtube.com/embed/k_XEBIyiR3s?rel=0"
-        }
-      ]
+      "type": "film",
+      "title": "",
+      "src": "https://www.youtube.com/embed/gCLmmKduN2Q?rel=0"
+    },
+    {
+      "type": "film",
+      "title": "",
+      "src": "https://www.youtube.com/embed/k_XEBIyiR3s?rel=0"
     },
     {
       "type": "section",
-      "title": "Animated TV",
+      "title": "Departments TV",
       "body": "We brought our fun brand voice and identity to life in animated spots highlighting different departments."
     },
     {
