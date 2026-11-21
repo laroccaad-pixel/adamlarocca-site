@@ -31,6 +31,16 @@
       ]
     },
     {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/hertz/device-mockup.webp",
+          "alt": "Extra Miler campaign across devices"
+        }
+      ]
+    },
+    {
       "type": "section",
       "title": "Times Square Takeover",
       "body": "Hertz’s return to the NASDAQ was a defining brand moment. To announce its re-IPO and the acquisition of the world’s largest EV fleet, I designed a ten-screen Times Square system engineered to work as a single, cohesive experience across different formats and sightlines. The takeover cut through the visual noise of Times Square while reinforcing Hertz’s bold, modern brand presence at a critical point in its comeback."
