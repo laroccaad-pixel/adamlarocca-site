@@ -110,5 +110,9 @@
       ]
     }
   ],
-  "productionCredit": "Director: Ross Haines · Photographer: Pedro Oliveira · SEED"
+  "productionCredit": [
+    "Director: Ross Haines",
+    "Photographer: Pedro Oliveira",
+    "Production Partner: SEED"
+  ]
 }

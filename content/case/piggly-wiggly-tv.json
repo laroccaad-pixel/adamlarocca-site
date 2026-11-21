@@ -44,5 +44,8 @@
       ]
     }
   ],
-  "productionCredit": "Director: Erich Stefanovich. Orange Video."
+  "productionCredit": [
+    "Director: Erich Stefanovich",
+    "Production Partner: Orange Video"
+  ]
 }

@@ -63,7 +63,10 @@
         "body": "We worked with ESPN to build a custom homepage takeover, launching their new site redesign while celebrating one of MJ's most iconic moments."
       }
     ],
-    "productionCredit": "Directors: Chris Riehl & Christopher Leone · Motion Theory",
+    "productionCredit": [
+      "Directors: Chris Riehl & Christopher Leone",
+      "Production Partner: Motion Theory"
+    ],
     "awards": [
       "Cannes Lions Shortlist",
       "Clio Shortlist"
@@ -184,7 +187,11 @@
         "body": "We showed people how to grab life spiritually, physically, and culturally. Then we invited them to literally grab life as a human claw machine."
       }
     ],
-    "productionCredit": "Director: Ross Haines · Photographer: Pedro Oliveira · SEED",
+    "productionCredit": [
+      "Director: Ross Haines",
+      "Photographer: Pedro Oliveira",
+      "Production Partner: SEED"
+    ],
     "awards": [],
     "credits": [
       "Chief Creative Officer: Jennifer Bell",
@@ -210,15 +217,17 @@
     "sections": [
       {
         "title": "Brand TV",
-        "body": "",
-        "productionCredit": "Director: Erich Stefanovich · Orange Video"
+        "body": ""
       },
       {
         "title": "Departments TV",
         "body": "We brought our fun brand voice and identity to life in animated spots highlighting different departments."
       }
     ],
-    "productionCredit": "Director: Erich Stefanovich. Orange Video.",
+    "productionCredit": [
+      "Director: Erich Stefanovich",
+      "Production Partner: Orange Video"
+    ],
     "awards": [],
     "credits": [
       "Chief Creative Officer: Erich Stefanovich",
@@ -260,7 +269,9 @@
         "body": ""
       }
     ],
-    "productionCredit": "Director: Jake Oleson",
+    "productionCredit": [
+      "Director: Jake Oleson"
+    ],
     "awards": [
       "Webby Award",
       "National ADDY"
@@ -290,13 +301,11 @@
     "sections": [
       {
         "title": "Android Saturday",
-        "body": "",
-        "productionCredit": "Director: Kenny Herzog · O Positive"
+        "body": ""
       },
       {
         "title": "Kids Are Free",
-        "body": "",
-        "productionCredit": "Director: Errol Morris · Moxie Pictures"
+        "body": ""
       }
     ],
     "productionCredit": [
@@ -331,13 +340,11 @@
     "sections": [
       {
         "title": "Extra Miler Campaign",
-        "body": "",
-        "productionCredit": "Director: Ash Bolland · Bullitt"
+        "body": ""
       },
       {
         "title": "Times Square Takeover",
-        "body": "Hertz’s return to the NASDAQ was a defining brand moment. To announce its re-IPO and the acquisition of the world’s largest EV fleet, I designed a ten-screen Times Square system engineered to work as a single, cohesive experience across different formats and sightlines. The takeover cut through the visual noise of Times Square while reinforcing Hertz’s bold, modern brand presence at a critical point in its comeback.",
-        "productionCredit": "Production Partner: Edisen"
+        "body": "Hertz’s return to the NASDAQ was a defining brand moment. To announce its re-IPO and the acquisition of the world’s largest EV fleet, I designed a ten-screen Times Square system engineered to work as a single, cohesive experience across different formats and sightlines. The takeover cut through the visual noise of Times Square while reinforcing Hertz’s bold, modern brand presence at a critical point in its comeback."
       }
     ],
     "productionCredit": [
@@ -414,7 +421,10 @@
     "role": "Creative Director",
     "intro": "What’s the value of real connection in a screen-obsessed world? We ran a simple experiment: share a meal, put the phone away, and see what happens. And the results spoke for themselves. Would you give up your phone for a few minutes if it meant free McDonald’s fries?",
     "sections": [],
-    "productionCredit": "Director: Tim Moore · Diamond View Studios",
+    "productionCredit": [
+      "Director: Tim Moore",
+      "Production Partner: Diamond View Studios"
+    ],
     "awards": [],
     "credits": [
       "Creative Director: Adam LaRocca",
@@ -437,8 +447,7 @@
     "sections": [
       {
         "title": "Futureself Timeline Experience",
-        "body": "",
-        "productionCredit": "Digital Development Partner: Firstborn"
+        "body": ""
       },
       {
         "title": "Banner Support",
@@ -449,7 +458,9 @@
         "body": "In the wake of a major market downturn, investor confidence was shaken. Our challenge was to reassure people that while their plans may have changed, Lincoln Financial Group would remain a steady guide, helping them navigate uncertainty, rebuild confidence, and stay on track toward their long-term goals."
       }
     ],
-    "productionCredit": "",
+    "productionCredit": [
+      "Digital Development Partner (Futureself Timeline Experience): Firstborn"
+    ],
     "awards": [
       "Effie Award (Futureself)",
       "Graphis Advertising Annual (Things Change)"

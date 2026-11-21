@@ -10,8 +10,7 @@
     {
       "type": "section",
       "title": "Futureself Timeline Experience",
-      "body": "",
-      "credit": "Digital Development Partner: Firstborn"
+      "body": ""
     },
     {
       "type": "film",
@@ -77,5 +76,7 @@
       ]
     }
   ],
-  "productionCredit": ""
+  "productionCredit": [
+    "Digital Development Partner (Futureself Timeline Experience): Firstborn"
+  ]
 }

@@ -158,5 +158,8 @@
       "alt": "ESPN.com homepage takeover"
     }
   ],
-  "productionCredit": "Directors: Chris Riehl & Christopher Leone. Motion Theory."
+  "productionCredit": [
+    "Directors: Chris Riehl & Christopher Leone",
+    "Production Partner: Motion Theory"
+  ]
 }

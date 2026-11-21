@@ -180,5 +180,7 @@
       "size": 745
     }
   ],
-  "productionCredit": "Director: Jake Oleson"
+  "productionCredit": [
+    "Director: Jake Oleson"
+  ]
 }
