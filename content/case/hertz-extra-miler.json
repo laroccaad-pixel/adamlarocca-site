@@ -53,19 +53,19 @@
           "browser": true
         },
         {
+          "src": "img/hertz/ts-6.webp"
+        },
+        {
           "src": "img/hertz/ts-2.webp"
         },
         {
           "src": "img/hertz/ts-3.webp"
         },
         {
-          "src": "img/hertz/ts-4.webp"
-        },
-        {
           "src": "img/hertz/ts-5.webp"
         },
         {
-          "src": "img/hertz/ts-6.webp"
+          "src": "img/hertz/ts-4.webp"
         }
       ],
       "center": true,
