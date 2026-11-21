@@ -31,6 +31,16 @@
       ]
     },
     {
+      "type": "loops",
+      "cols": 3,
+      "aspect": "16/9",
+      "items": [
+        "video/hertz-shoot-1.mp4",
+        "video/hertz-shoot-2.mp4",
+        "video/hertz-shoot-3.mp4"
+      ]
+    },
+    {
       "type": "images",
       "layout": "natural",
       "items": [
@@ -40,16 +50,6 @@
         }
       ],
       "inset": true
-    },
-    {
-      "type": "loops",
-      "cols": 3,
-      "aspect": "16/9",
-      "items": [
-        "video/hertz-shoot-1.mp4",
-        "video/hertz-shoot-2.mp4",
-        "video/hertz-shoot-3.mp4"
-      ]
     },
     {
       "type": "section",
