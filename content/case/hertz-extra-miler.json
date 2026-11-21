@@ -66,12 +66,15 @@
         {
           "src": "img/hertz/ts-6.webp"
         }
-      ]
+      ],
+      "center": true,
+      "start": 1,
+      "size": 745
     }
   ],
   "productionCredit": [
     "Director: Ash Bolland",
-    "Production Company: Bullitt",
+    "Production Partner: Bullitt",
     "",
     "Production Partner (Times Square Takeover): Edisen"
   ]

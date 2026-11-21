@@ -155,6 +155,9 @@ def module(m, pre):
     if t == "videos":
         tiles = "".join(film_tile(i, pre, small=True) for i in m["items"])
         return f'<div class="vgrid cols-{m.get("cols",3)}">{tiles}</div>'
+    if t == "loops" and m.get("phone"):
+        vids = "".join(f'<figure class="phone-top"><div class="screen"><video src="{pre}{v}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></div></figure>' for v in m["items"])
+        return f'<div class="phone-tops" style="--n:{len(m["items"])}">{vids}</div>'
     if t == "loops":
         vids = "".join(f'<figure><video src="{pre}{v}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>' for v in m["items"])
         return f'<div class="media m-loops cols-{m.get("cols",4)}" style="--ar:{m.get("aspect","9/16")}">{vids}</div>'

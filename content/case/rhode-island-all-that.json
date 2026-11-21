@@ -16,13 +16,12 @@
     },
     {
       "type": "loops",
-      "cols": 4,
-      "aspect": "498/522",
+      "phone": true,
       "items": [
-        "video/ri-phone-inclusivity.mp4",
-        "video/ri-phone-culinary.mp4",
-        "video/ri-phone-outdoors.mp4",
-        "video/ri-phone-history.mp4"
+        "video/ri-post-inclusivity.mp4",
+        "video/ri-post-culinary.mp4",
+        "video/ri-post-outdoors.mp4",
+        "video/ri-post-history.mp4"
       ]
     },
     {
@@ -95,7 +94,10 @@
         {
           "src": "img/ri/ooh2.webp"
         }
-      ]
+      ],
+      "center": true,
+      "start": 1,
+      "size": 745
     },
     {
       "type": "section",
@@ -166,7 +168,10 @@
         {
           "src": "img/ri/saks-5.webp"
         }
-      ]
+      ],
+      "center": true,
+      "start": 1,
+      "size": 745
     },
     {
       "type": "section",

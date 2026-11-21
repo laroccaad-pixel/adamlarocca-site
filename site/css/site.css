@@ -167,6 +167,12 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 .phone .film button img{width:100%;height:100%;object-fit:cover}
 .phone .film .play{left:50%;top:50%;bottom:auto;transform:translate(-50%,-50%)}
 .phone .film::after{background:linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,0) 40%)}
+/* cropped-top phones for square-ish social loops */
+.phone-tops{margin:0 0 var(--gap);display:grid;grid-template-columns:repeat(var(--n),1fr);gap:clamp(16px,2.4vw,36px)}
+.phone-top{position:relative;margin:0;padding:9px 9px 0;border-radius:44px 44px 0 0;background:var(--deep-2);border:1px solid rgba(243,245,248,.15);border-bottom:0;-webkit-mask-image:linear-gradient(#000 82%,transparent);mask-image:linear-gradient(#000 82%,transparent)}
+.phone-top::before{content:"";position:absolute;z-index:2;top:21px;left:50%;transform:translateX(-50%);width:31%;height:20px;border-radius:12px;background:#000;box-shadow:0 0 0 1px rgba(243,245,248,.06)}
+.phone-top .screen{background:#1a2330;border-radius:35px 35px 0 0;overflow:hidden;padding:44px 0 18%}
+.phone-top video{display:block;width:100%;height:auto}
 .cs-credits .prod.sp{height:18px;margin:0}
 .film.small .play i{width:52px}
 .film.small .play b{font-size:22px}
@@ -253,6 +259,7 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
   .phones.n-1{justify-content:center}
   .phone-wrap{width:68vw;scroll-snap-align:center}
   .phone{border-radius:40px;padding:8px}.phone .film{border-radius:32px}.phone::before{top:18px;height:19px}
+  .phone-tops{grid-template-columns:1fr 1fr}
   .vgrid.cols-2{grid-template-columns:1fr}.vgrid.cols-3{grid-template-columns:1fr 1fr}
   .film.small .play i{width:40px}
   .m-loops.cols-4,.m-loops.cols-5{--n:2}.m-loops.cols-3{--n:3}
