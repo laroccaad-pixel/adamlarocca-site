@@ -19,16 +19,16 @@
       "layout": "trio",
       "items": [
         {
-          "src": "img/mcd/still-60.webp",
-          "alt": "Guests at the counter"
+          "src": "img/mcd/still-couple.webp",
+          "alt": "A couple talking over their meal"
         },
         {
           "src": "img/mcd/still-cubby.webp",
           "alt": "Phone cubbies by the door"
         },
         {
-          "src": "img/mcd/still-couple.webp",
-          "alt": "A couple talking over their meal"
+          "src": "img/mcd/still-60.webp",
+          "alt": "Guests at the counter"
         }
       ]
     }
