@@ -20,16 +20,13 @@
     },
     {
       "type": "videos",
-      "cols": 3,
+      "cols": 2,
       "items": [
         {
           "src": "https://www.youtube.com/embed/z52oaw1A9t0?rel=0"
         },
         {
           "src": "https://www.youtube.com/embed/RM0BoB1gVpc?rel=0"
-        },
-        {
-          "src": "https://www.youtube.com/embed/HFQPolbM35I?rel=0"
         }
       ]
     },
@@ -50,6 +47,10 @@
       "items": [
         {
           "src": "img/hertz/ts-1.webp"
+        },
+        {
+          "video": "video/hertz-nasdaq-tower.mp4",
+          "browser": true
         },
         {
           "src": "img/hertz/ts-2.webp"

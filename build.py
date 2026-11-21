@@ -180,6 +180,7 @@ def module(m, pre):
         return f'<div class="media m-collage" style="aspect-ratio:{W}/{H}">' + "".join(tile(i) for i in m["items"]) + "</div>"
     if t == "rail":
         def rf(i):
+            if i.get("video") and i.get("browser"): return f'<figure class="rail-browser"><div class="bw"><video src="{pre}{i["video"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></div></figure>'
             if i.get("video"): return f'<figure><video src="{pre}{i["video"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>'
             return f'<figure><img src="{pre}{i["src"]}" alt="{E(m.get("alt",""))}" loading="lazy"></figure>'
         figs = "".join(rf(i) for i in m["items"])
