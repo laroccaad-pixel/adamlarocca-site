@@ -109,7 +109,7 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 
 .cs-section{max-width:var(--max);margin:0 auto;padding:clamp(56px,10vh,120px) var(--gutter) 0}
 /* tighten the gap between the write-up and the first piece of work */
-.cs-intro{padding-bottom:clamp(28px,5vh,56px)}
+.cs-intro{padding-bottom:clamp(64px,11vh,112px)}
 .cs-intro + .cs-section{padding-top:0}
 .cs-intro + .cs-section:has(> .cs-section-head:first-child){padding-top:clamp(16px,3vh,32px)}
 .cs-section-head{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,96px);margin-bottom:clamp(24px,4vh,44px);align-items:start}
