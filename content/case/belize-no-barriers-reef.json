@@ -12,8 +12,7 @@
     {
       "type": "film",
       "title": "No Barriers Reef",
-      "src": "https://www.youtube.com/embed/EDYRDIuunBs?rel=0",
-      "poster": "img/nbr/film.webp"
+      "src": "https://www.youtube.com/embed/EDYRDIuunBs?rel=0"
     },
     {
       "type": "section",
@@ -25,16 +24,13 @@
       "cols": 3,
       "items": [
         {
-          "src": "https://www.youtube.com/embed/rX030kd28HQ?rel=0",
-          "poster": "img/nbr/teaser-1.webp"
+          "src": "https://www.youtube.com/embed/rX030kd28HQ?rel=0"
         },
         {
-          "src": "https://www.youtube.com/embed/qbGJn3Uep5I?rel=0",
-          "poster": "img/nbr/teaser-2.webp"
+          "src": "https://www.youtube.com/embed/qbGJn3Uep5I?rel=0"
         },
         {
-          "src": "https://www.youtube.com/embed/CysYw5LeLnU?rel=0",
-          "poster": "img/nbr/teaser-3.webp"
+          "src": "https://www.youtube.com/embed/CysYw5LeLnU?rel=0"
         }
       ],
       "phone": true
@@ -75,8 +71,7 @@
     {
       "type": "film",
       "title": "360° Reef Experience",
-      "src": "https://www.youtube.com/embed/v3PeeSHRThY?rel=0",
-      "poster": "img/nbr/reef-360.webp"
+      "src": "https://www.youtube.com/embed/v3PeeSHRThY?rel=0"
     }
   ],
   "productionCredit": [

@@ -1,46 +1,46 @@
 {
- "hero": {
-  "image": "img/pods/void-2.webp"
- },
- "lead": "Pack rats love PODS. They also love perusing the classifieds section looking for more junk to accumulate.",
- "body": [
-  "We exploited this truth by creating visually arresting print concepts in local newspapers."
- ],
- "modules": [
-  {
-   "type": "images",
-   "layout": "full",
-   "items": [
-    {
-     "src": "img/pods/void-3.webp",
-     "alt": "PODS classifieds ad"
-    }
-   ]
+  "hero": {
+    "image": "img/pods/void-2.webp"
   },
-  {
-   "type": "images",
-   "layout": "pair",
-   "items": [
+  "lead": "Pack rats love PODS. They also love perusing the classifieds section looking for more junk to accumulate.",
+  "body": [
+    "We exploited this truth by creating visually arresting print concepts in local newspapers."
+  ],
+  "modules": [
     {
-     "src": "img/pods/void-1.webp",
-     "alt": "PODS classifieds ad"
+      "type": "images",
+      "layout": "full",
+      "items": [
+        {
+          "src": "img/pods/void-3.webp",
+          "alt": "PODS classifieds ad"
+        }
+      ]
     },
     {
-     "src": "img/pods/void-4.webp",
-     "alt": "PODS classifieds ad"
-    }
-   ]
-  },
-  {
-   "type": "images",
-   "layout": "full",
-   "items": [
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/pods/void-1.webp",
+          "alt": "PODS classifieds ad"
+        },
+        {
+          "src": "img/pods/void-4.webp",
+          "alt": "PODS classifieds ad"
+        }
+      ]
+    },
     {
-     "src": "img/pods/void-4-inset.webp",
-     "alt": "Classifieds detail"
+      "type": "images",
+      "layout": "full",
+      "items": [
+        {
+          "src": "img/pods/void-4-inset.webp",
+          "alt": "Classifieds detail"
+        }
+      ]
     }
-   ]
-  }
- ],
- "productionCredit": ""
+  ],
+  "productionCredit": ""
 }

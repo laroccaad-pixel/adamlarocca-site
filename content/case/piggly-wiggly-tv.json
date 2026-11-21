@@ -1,50 +1,50 @@
 {
- "hero": {
-  "video": "video/pwffl-hero.mp4",
-  "poster": "img/pwffl/poster-hero.webp"
- },
- "lead": "There are two kinds of people in this world.",
- "body": [
-  "Those who love The Pig, and those who have never experienced The Pig. We let pig evangelists introduce the brand to those who may not know about all the amazing reasons to love The Pig."
- ],
- "modules": [
-  {
-   "type": "section",
-   "title": "Live Action TV",
-   "body": ""
+  "hero": {
+    "video": "video/pwffl-hero.mp4",
+    "poster": "img/pwffl/poster-hero.webp"
   },
-  {
-   "type": "videos",
-   "cols": 2,
-   "items": [
+  "lead": "There are two kinds of people in this world.",
+  "body": [
+    "Those who love The Pig, and those who have never experienced The Pig. We let pig evangelists introduce the brand to those who may not know about all the amazing reasons to love The Pig."
+  ],
+  "modules": [
     {
-     "src": "https://www.youtube.com/embed/gCLmmKduN2Q?rel=0"
+      "type": "section",
+      "title": "Live Action TV",
+      "body": ""
     },
     {
-     "src": "https://www.youtube.com/embed/k_XEBIyiR3s?rel=0"
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "https://www.youtube.com/embed/gCLmmKduN2Q?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/k_XEBIyiR3s?rel=0"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Animated TV",
+      "body": "We brought our fun brand voice and identity to life in animated spots highlighting different departments."
+    },
+    {
+      "type": "videos",
+      "cols": 3,
+      "items": [
+        {
+          "src": "https://www.youtube.com/embed/kEt_re9L3hI?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/6-sarmT2rvI?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/OyKxFhg5HJo?rel=0"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "type": "section",
-   "title": "Animated TV",
-   "body": "We brought our fun brand voice and identity to life in animated spots highlighting different departments."
-  },
-  {
-   "type": "videos",
-   "cols": 3,
-   "items": [
-    {
-     "src": "https://www.youtube.com/embed/kEt_re9L3hI?rel=0"
-    },
-    {
-     "src": "https://www.youtube.com/embed/6-sarmT2rvI?rel=0"
-    },
-    {
-     "src": "https://www.youtube.com/embed/OyKxFhg5HJo?rel=0"
-    }
-   ]
-  }
- ],
- "productionCredit": "Director: Erich Stefanovich. Orange Video."
+  ],
+  "productionCredit": "Director: Erich Stefanovich. Orange Video."
 }

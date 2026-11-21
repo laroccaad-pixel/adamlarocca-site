@@ -16,16 +16,14 @@
     {
       "type": "film",
       "title": "Extra Miler",
-      "src": "https://www.youtube.com/embed/4PSPTU9cjAs?rel=0",
-      "poster": "img/hertz/film.webp"
+      "src": "https://www.youtube.com/embed/4PSPTU9cjAs?rel=0"
     },
     {
       "type": "videos",
       "cols": 3,
       "items": [
         {
-          "src": "https://www.youtube.com/embed/z52oaw1A9t0?rel=0",
-          "poster": "img/hertz/movers.webp"
+          "src": "https://www.youtube.com/embed/z52oaw1A9t0?rel=0"
         },
         {
           "src": "https://www.youtube.com/embed/RM0BoB1gVpc?rel=0"
@@ -43,8 +41,7 @@
     {
       "type": "film",
       "title": "Times Square Takeover",
-      "src": "https://www.youtube.com/embed/R7uHXDQe4h4?rel=0",
-      "poster": "img/hertz/ts-hero.webp"
+      "src": "https://www.youtube.com/embed/R7uHXDQe4h4?rel=0"
     },
     {
       "type": "rail",
