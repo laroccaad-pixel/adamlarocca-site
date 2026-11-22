@@ -60,10 +60,11 @@ def frame(p, i, pre=""):
     c = cards[p["slug"]]
     href = f'{pre}work/{p["slug"]}.html' if has_case(p["slug"]) else "#"
     tint = f' tint-{c["tint"]}' if c.get("tint") else ""
+    ttl = "<br>".join(E(x) for x in c["title"].split("\n")) if c.get("title") else E(p["title"])
     return f'''<a class="frame{tint}" href="{href}">
   <img src="{c.get("imgUrl") or pre + "img/" + c["img"] + ".webp"}" alt="{E(p["client"])}, {E(p["title"])}" loading="{"eager" if i < 3 else "lazy"}">
   <span class="watch">View project</span>
-  <div class="frame-copy"><p class="kicker">{E(c.get("client", p["client"]))}</p><h3 class="display">{E(p["title"])}</h3></div>
+  <div class="frame-copy"><p class="kicker">{E(c.get("client", p["client"]))}</p><h3 class="display">{ttl}</h3></div>
   <p class="frame-meta">{E(c["role"])}<br>{E(c["agency"])}</p></a>'''
 
 def build_home():

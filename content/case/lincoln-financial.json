@@ -1,7 +1,7 @@
 {
   "hero": {
     "image": "img/lfg/hero-couple.webp",
-    "tint": "lincoln"
+    "tint": "dim"
   },
   "lead": "Financial planning is often overwhelming and number-driven.",
   "body": [
