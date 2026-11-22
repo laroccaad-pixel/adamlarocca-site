@@ -120,7 +120,8 @@
       "items": [
         "video/ri-portal-promo-1.mp4",
         "video/ri-portal-promo-2.mp4"
-      ]
+      ],
+      "space": 2
     },
     {
       "type": "images",
@@ -131,7 +132,7 @@
           "alt": "Video wall installation"
         }
       ],
-      "space": 3
+      "space": 2
     },
     {
       "type": "section",
@@ -237,7 +238,8 @@
     {
       "type": "section",
       "title": "The Stuffie Stuffie",
-      "body": ""
+      "body": "",
+      "divider": true
     },
     {
       "type": "images",

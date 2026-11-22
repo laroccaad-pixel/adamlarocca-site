@@ -179,7 +179,7 @@ def module(m, pre):
         return f'<div class="phone-tops" style="--n:{len(m["items"])}">{vids}</div>'
     if t == "loops":
         vids = "".join(f'<figure><video src="{pre}{v}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>' for v in m["items"])
-        return f'<div class="media m-loops cols-{m.get("cols",4)}{' narrow' if m.get('narrow') else ''}{' skinny' if m.get('skinny') else ''}" style="--ar:{m.get("aspect","9/16")}">{vids}</div>'
+        return f'<div class="media m-loops cols-{m.get("cols",4)}{' narrow' if m.get('narrow') else ''}{' skinny' if m.get('skinny') else ''}" style="--ar:{m.get("aspect","9/16")}"{f' data-space="{m["space"]}"' if m.get("space") else ''}>{vids}</div>'
     if t == "film" and m.get("phone"):
         return phones([m], pre)
     if t == "film":
