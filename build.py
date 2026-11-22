@@ -181,6 +181,12 @@ def module(m, pre):
         return phones([m], pre)
     if t == "film":
         return film_tile(m, pre)
+    if t == "phone3":
+        a = E(m.get("alt", ""))
+        return (f'<div class="media phone3" style="--pt:{m.get("post_top",0.33)}">'
+                f'<img class="p3-side" src="{pre}{m["left"]}" alt="{a}" loading="lazy">'
+                f'<div class="p3-phone"><img src="{pre}{m["screen"]}" alt="{a}" loading="lazy"></div>'
+                f'<img class="p3-side" src="{pre}{m["right"]}" alt="{a}" loading="lazy"></div>')
     if t == "split":
         def cell(i):
             if i.get("video"):
@@ -198,7 +204,8 @@ def module(m, pre):
         elif m.get("pad"): anchor += " padded"
         if m.get("contain"): anchor += " contain"
         if m.get("tall"): anchor += " tall"
-        return f'<div class="media m-{m["layout"]}{anchor}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
+        ar = f' style="--ar:{m["ar"]}"' if m.get("ar") else ""
+        return f'<div class="media m-{m["layout"]}{anchor}"{ar}>' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
     if t == "adpage":
         v = lambda f, w, h: f'<video src="{pre}{f}" width="{w}" height="{h}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
         sk = lambda n, cls="": "".join(f'<i class="sk{cls}" style="width:{w}%"></i>' for w in n)

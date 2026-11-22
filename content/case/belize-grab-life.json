@@ -40,14 +40,12 @@
       ]
     },
     {
-      "type": "images",
-      "layout": "full",
-      "items": [
-        {
-          "src": "img/glc/airport-billboard.webp",
-          "alt": "Airport billboard"
-        }
-      ]
+      "type": "phone3",
+      "left": "img/glc/social-left.webp",
+      "screen": "img/glc/social-screen.webp",
+      "right": "img/glc/social-right.webp",
+      "post_top": 0.33,
+      "alt": "Paid social"
     },
     {
       "type": "images",
@@ -65,11 +63,11 @@
     },
     {
       "type": "images",
-      "layout": "natural",
+      "layout": "full",
       "items": [
         {
-          "src": "img/glc/paid-social.webp",
-          "alt": "Paid social"
+          "src": "img/glc/airport-billboard.webp",
+          "alt": "Airport billboard"
         }
       ]
     },
@@ -102,10 +100,15 @@
     },
     {
       "type": "images",
-      "layout": "natural",
+      "layout": "pair",
+      "ar": "860/484",
       "items": [
         {
-          "src": "img/glc/activation.webp",
+          "src": "img/glc/claw-9.webp",
+          "alt": "Human claw machine activation"
+        },
+        {
+          "src": "img/glc/claw-12.webp",
           "alt": "Human claw machine activation"
         }
       ]
