@@ -59,7 +59,8 @@ def footer(pre):
 def frame(p, i, pre=""):
     c = cards[p["slug"]]
     href = f'{pre}work/{p["slug"]}.html' if has_case(p["slug"]) else "#"
-    return f'''<a class="frame" href="{href}">
+    tint = f' tint-{c["tint"]}' if c.get("tint") else ""
+    return f'''<a class="frame{tint}" href="{href}">
   <img src="{c.get("imgUrl") or pre + "img/" + c["img"] + ".webp"}" alt="{E(p["client"])}, {E(p["title"])}" loading="{"eager" if i < 3 else "lazy"}">
   <span class="watch">View project</span>
   <div class="frame-copy"><p class="kicker">{E(c.get("client", p["client"]))}</p><h3 class="display">{E(p["title"])}</h3></div>
@@ -230,7 +231,7 @@ def build_case(p, nxt):
     hero_media = (f'<video src="{pre}{hero["video"]}" poster="{pre}{hero["poster"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
                   if hero.get("video") else f'<img src="{pre}{hero["image"]}" alt="" fetchpriority="high">')
     page = head(f'{p["client"]}: {p["title"]}. Adam LaRocca', pre, cs["lead"]) + nav(pre, "work") + f'''
-<header class="cs-hero">
+<header class="cs-hero{(' tint-' + cs['hero']['tint']) if cs.get('hero',{}).get('tint') else ''}">
   {hero_media}
   <div class="cs-hero-copy">
     <p class="kicker">{E(p["client"])}</p>

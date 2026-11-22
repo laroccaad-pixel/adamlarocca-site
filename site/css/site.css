@@ -301,3 +301,12 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important;scroll-behavior:auto!important}
 }
+
+/* Lincoln Financial: light red duotone so white titles read over the pencil sketch */
+.tint-lincoln{background:#F3F1F1}
+.tint-lincoln > img{filter:grayscale(1) contrast(1.15);mix-blend-mode:multiply}
+.cs-hero.tint-lincoln::before,.frame.tint-lincoln::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;mix-blend-mode:multiply;
+  background:radial-gradient(120% 90% at 80% 15%,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,transparent 60%),
+             linear-gradient(200deg,#FFFFFF 0%,#EFE3E5 28%,#C9475C 58%,#8E1B2E 82%,#3A1016 100%)}
+.cs-hero.tint-lincoln::after{background:linear-gradient(180deg,rgba(13,27,42,.15) 0%,rgba(13,27,42,0) 30%,rgba(60,10,20,.25) 70%,rgba(13,27,42,.9) 100%)}
+.frame.tint-lincoln .frame-copy,.frame.tint-lincoln .frame-meta,.frame.tint-lincoln .watch{z-index:2}
