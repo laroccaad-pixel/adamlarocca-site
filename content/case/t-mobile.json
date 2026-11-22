@@ -23,7 +23,8 @@
       "type": "section",
       "title": "Kids Are Free",
       "body": "",
-      "lock": true
+      "lock": true,
+      "divider": true
     },
     {
       "type": "film",

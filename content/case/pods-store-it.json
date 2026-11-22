@@ -22,14 +22,15 @@
       "layout": "pair",
       "items": [
         {
-          "src": "img/pods/void-1.webp",
+          "src": "img/pods/void-1-ad.webp",
           "alt": "PODS classifieds ad"
         },
         {
-          "src": "img/pods/void-4.webp",
+          "src": "img/pods/void-4-tall.webp",
           "alt": "PODS classifieds ad"
         }
-      ]
+      ],
+      "tall": true
     },
     {
       "type": "images",

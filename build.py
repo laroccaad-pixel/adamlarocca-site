@@ -177,6 +177,7 @@ def module(m, pre):
         if m.get("inset"): anchor += " inset"
         if m.get("pad"): anchor += " padded"
         if m.get("contain"): anchor += " contain"
+        if m.get("tall"): anchor += " tall"
         return f'<div class="media m-{m["layout"]}{anchor}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
     if t == "adpage":
         v = lambda f, w, h: f'<video src="{pre}{f}" width="{w}" height="{h}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
@@ -244,7 +245,7 @@ def build_case(p, nxt, hidden=False):
   </div>
 </header>
 <main>
-<section class="cs-intro"><p class="lead{' long' if len(cs['lead']) > 70 else ''}">{E(cs["lead"])}</p><div class="body">{"".join(f"<p>{E(b)}</p>" for b in cs["body"])}</div></section>
+<section class="cs-intro"><p class="lead{' long' if len(cs['lead']) > 70 else ''}">{E(cs["lead"]).replace(chr(10), "<br>")}</p><div class="body">{"".join(f"<p>{E(b)}</p>" for b in cs["body"])}</div></section>
 {mods}
 <section class="cs-credits">
   <div><h2 class="display">Credits</h2>{prod_html}<div class="cs-awards">{award_chips}</div></div>
