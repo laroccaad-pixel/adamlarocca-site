@@ -184,6 +184,19 @@ def module(m, pre):
         return phones([m], pre)
     if t == "film":
         return film_tile(m, pre)
+    if t == "row":
+        cells = []
+        for it in m["items"]:
+            st = f'style="flex:{it["flex"]:.4f} 1 0"'
+            if it["kind"] == "img":
+                cells.append(f'<figure {st}><img src="{pre}{it["src"]}" alt="{E(it.get("alt",""))}" loading="lazy"></figure>')
+            elif it["kind"] == "film":
+                ft = film_tile({"src": it["src"], "title": it.get("title",""), "poster": it.get("poster"), "lock": True}, pre, small=True)
+                cells.append(f'<div class="row-film" {st}>{ft}</div>')
+            elif it["kind"] == "tweet":
+                cells.append(f'<div class="row-tweet" {st}><blockquote class="twitter-tweet" data-theme="dark" data-dnt="true" align="center"><a href="https://twitter.com/i/status/{it["id"]}"></a></blockquote></div>')
+        js = '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>' if any(i["kind"] == "tweet" for i in m["items"]) else ""
+        return f'<div class="media m-row{" center" if m.get("center") else ""}">' + "".join(cells) + "</div>" + js
     if t == "phone3":
         a = E(m.get("alt", ""))
         ic = lambda d: f'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="{d}"/></svg>'

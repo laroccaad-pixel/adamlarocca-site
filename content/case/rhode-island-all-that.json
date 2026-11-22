@@ -126,7 +126,7 @@
       "layout": "natural",
       "items": [
         {
-          "src": "img/ri/video-wall-cut.webp",
+          "src": "img/ri/video-wall-cut2.webp",
           "alt": "Video wall installation"
         }
       ]
@@ -173,35 +173,68 @@
       "body": "To highlight Rhode Island as a culinary destination, we transformed its iconic “stuffie” into a giant, three-dimensional installation placed in high-traffic airports nationwide to promote direct flights. The idea gained traction quickly and expanded into a traveling Stuffie Truck, touring events across the country and turning a local delicacy into a highly shareable, awareness-driving moment."
     },
     {
-      "type": "images",
-      "layout": "pair",
+      "type": "row",
       "items": [
         {
+          "kind": "img",
           "src": "img/ri/stuffie.webp",
-          "alt": "Giant stuffie installation"
+          "alt": "Giant stuffie installation",
+          "flex": 1.1214642262895174
         },
         {
-          "src": "img/ri/tweets.webp",
-          "alt": "Social reaction"
+          "kind": "film",
+          "src": "https://www.youtube.com/embed/KgzNsgx9JXg?rel=0",
+          "title": "The Stuffie Truck",
+          "poster": "img/ri/stuffie-truck-poster.webp",
+          "flex": 0.5625
         }
       ]
     },
     {
-      "type": "film",
-      "title": "The Stuffie Truck",
-      "src": "https://www.youtube.com/embed/KgzNsgx9JXg?rel=0",
-      "poster": "img/ri/stuffie.webp",
-      "phone": true
-    },
-    {
-      "type": "images",
-      "layout": "natural",
+      "type": "row",
+      "center": true,
       "items": [
         {
-          "src": "img/ri/stuffie-strip.webp",
-          "alt": "Stuffie truck on tour"
+          "kind": "tweet",
+          "id": "1697606004618268739",
+          "flex": 0.8447937131630648
+        },
+        {
+          "kind": "img",
+          "src": "img/ri/tweets.webp",
+          "alt": "Social reaction",
+          "flex": 0.9906439185470556
         }
       ]
+    },
+    {
+      "type": "row",
+      "items": [
+        {
+          "kind": "img",
+          "src": "img/ri/stuffie-strip-1.webp",
+          "alt": "Stuffie truck on tour",
+          "flex": 1.7489539748953975
+        },
+        {
+          "kind": "img",
+          "src": "img/ri/stuffie-strip-2.webp",
+          "alt": "Stuffie truck on tour",
+          "flex": 1.7656903765690377
+        },
+        {
+          "kind": "img",
+          "src": "img/ri/stuffie-strip-3.webp",
+          "alt": "Stuffie truck on tour",
+          "flex": 1.4769874476987448
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "The Stuffie Stuffie",
+      "body": "",
+      "divider": true
     },
     {
       "type": "images",
