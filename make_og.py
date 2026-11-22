@@ -81,6 +81,7 @@ def main():
             title = cs.get("title") or pr["title"]
             shoot(pg, card_photo(img_uri(src), pr["client"], pr["title"], len(pr["title"]) > 16, hero.get("tint") == "dim"),
                   1200, 630, SITE / "img/og" / f"{pr['slug']}.jpg")
+        shoot(pg, card_a(), 1200, 630, SITE / "img/og/home.jpg")
         if preview:
             out = pathlib.Path("/tmp/og-preview"); out.mkdir(exist_ok=True)
             shoot(pg, card_a(), 1200, 630, out / "A.jpg")

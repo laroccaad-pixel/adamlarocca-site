@@ -91,7 +91,7 @@ def build_home():
             out.append('<div class="split">' + frame(live[i], i) + frame(live[i+1], i+1) + '</div>'); i += 2
     while i < len(live): out.append(frame(live[i], i)); i += 1
     about = open(os.path.join(ROOT, "about.txt")).read().strip().split("\n\n")
-    page = head("Adam LaRocca, Creative Director", "", "Creative Director. Simple ideas that spark emotion and forge connection.") + nav("", "") + f'''
+    page = head("Adam LaRocca, Creative Director", "", "Creative Director. Simple ideas that spark emotion and forge connection.", og_img="img/og/home.jpg") + nav("", "") + f'''
 <header class="hero" id="top">
   <video src="video/glc-hero-1080.mp4" poster="img/glc/poster-hero-1080.webp" autoplay muted loop playsinline data-loop aria-hidden="true"></video>
   <p class="playing"><i></i>Now playing: Belize, Grab Life</p>
