@@ -161,7 +161,7 @@ def module(m, pre):
         return f'<div class="phone-tops" style="--n:{len(m["items"])}">{vids}</div>'
     if t == "loops":
         vids = "".join(f'<figure><video src="{pre}{v}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>' for v in m["items"])
-        return f'<div class="media m-loops cols-{m.get("cols",4)}" style="--ar:{m.get("aspect","9/16")}">{vids}</div>'
+        return f'<div class="media m-loops cols-{m.get("cols",4)}{' narrow' if m.get('narrow') else ''}" style="--ar:{m.get("aspect","9/16")}">{vids}</div>'
     if t == "film" and m.get("phone"):
         return phones([m], pre)
     if t == "film":
@@ -172,6 +172,7 @@ def module(m, pre):
     if t == "images":
         anchor = f' anchor-{m["anchor"]}' if m.get("anchor") else ""
         if m.get("inset"): anchor += " inset"
+        if m.get("pad"): anchor += " padded"
         return f'<div class="media m-{m["layout"]}{anchor}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
     if t == "collage":
         W, H = m["w"], m["h"]

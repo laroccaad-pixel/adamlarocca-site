@@ -124,6 +124,8 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 .media figcaption{position:absolute;left:14px;bottom:12px;font-size:13px;font-weight:500;background:rgba(13,27,42,.7);padding:4px 10px;border-radius:999px}
 .m-full figure{aspect-ratio:16/9}
 .m-wide figure{aspect-ratio:2.39/1}
+.media.padded{margin-block:clamp(48px,8vw,112px)}
+.media.m-loops.narrow{width:72%;margin-inline:auto}
 .media.inset{width:82%;margin:clamp(40px,6vw,88px) auto}
 .anchor-top img{object-position:center top}
 .m-pair.anchor-top figure{aspect-ratio:1348/1202}
@@ -272,6 +274,8 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
   .phone{border-radius:40px;padding:8px}.phone .film{border-radius:32px}.phone::before{top:18px;height:19px}
   .phone-tops{grid-template-columns:1fr 1fr}
   .media.inset{width:92%;margin:32px auto}
+  .media.padded{margin-block:36px}
+  .media.m-loops.narrow{width:100%}
   .vgrid.cols-2{grid-template-columns:1fr}.vgrid.cols-3{grid-template-columns:1fr 1fr}
   .film.small .play i{width:40px}
   .m-loops.cols-4,.m-loops.cols-5{--n:2}.m-loops.cols-3{--n:3}
