@@ -102,7 +102,8 @@
     {
       "type": "section",
       "title": "Augmented Reality Portals Experience",
-      "body": "We created an immersive augmented reality experience that allowed users to explore six iconic Rhode Island landmarks through interactive AR portals. Accessible on mobile devices, the experience transformed any physical space into a window onto the Ocean State. Designed to spark curiosity and inspire travel, it delivered high-impact brand storytelling in a simple, intuitive way.\n\nWe custom-designed a large-scale video wall installation for high-traffic locations to promote the AR experience and drive QR code scans."
+      "body": "We created an immersive augmented reality experience that allowed users to explore six iconic Rhode Island landmarks through interactive AR portals. Accessible on mobile devices, the experience transformed any physical space into a window onto the Ocean State. Designed to spark curiosity and inspire travel, it delivered high-impact brand storytelling in a simple, intuitive way.\n\nWe custom-designed a large-scale video wall installation for high-traffic locations to promote the AR experience and drive QR code scans.",
+      "divider": true
     },
     {
       "type": "film",
@@ -129,12 +130,14 @@
           "src": "img/ri/video-wall-cut2.webp",
           "alt": "Video wall installation"
         }
-      ]
+      ],
+      "space": 3
     },
     {
       "type": "section",
       "title": "Saks Fifth Avenue Partnership",
-      "body": "Rhode Island has inspired luxury travel since the Gilded Age, and high-income travelers remain a priority audience today. We partnered with Saks Fifth Avenue to reach that audience through an integrated campaign featuring iconic window displays in New York City. The effort extended to in-store displays in key direct-flight markets, supported by social and digital content showcasing curated Saks fashion for a Rhode Island getaway."
+      "body": "Rhode Island has inspired luxury travel since the Gilded Age, and high-income travelers remain a priority audience today. We partnered with Saks Fifth Avenue to reach that audience through an integrated campaign featuring iconic window displays in New York City. The effort extended to in-store displays in key direct-flight markets, supported by social and digital content showcasing curated Saks fashion for a Rhode Island getaway.",
+      "divider": true
     },
     {
       "type": "rail",
@@ -170,7 +173,8 @@
     {
       "type": "section",
       "title": "The Giant Travelling Stuffie Installation",
-      "body": "To highlight Rhode Island as a culinary destination, we transformed its iconic “stuffie” into a giant, three-dimensional installation placed in high-traffic airports nationwide to promote direct flights. The idea gained traction quickly and expanded into a traveling Stuffie Truck, touring events across the country and turning a local delicacy into a highly shareable, awareness-driving moment."
+      "body": "To highlight Rhode Island as a culinary destination, we transformed its iconic “stuffie” into a giant, three-dimensional installation placed in high-traffic airports nationwide to promote direct flights. The idea gained traction quickly and expanded into a traveling Stuffie Truck, touring events across the country and turning a local delicacy into a highly shareable, awareness-driving moment.",
+      "divider": true
     },
     {
       "type": "row",
@@ -184,8 +188,8 @@
         {
           "kind": "film",
           "src": "https://www.youtube.com/embed/KgzNsgx9JXg?rel=0",
-          "title": "The Stuffie Truck",
-          "poster": "img/ri/stuffie-truck-poster.webp",
+          "title": "",
+          "poster": "img/ri/stuffie-truck-cover.webp",
           "flex": 0.5625
         }
       ]
@@ -233,8 +237,7 @@
     {
       "type": "section",
       "title": "The Stuffie Stuffie",
-      "body": "",
-      "divider": true
+      "body": ""
     },
     {
       "type": "images",
