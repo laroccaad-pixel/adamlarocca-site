@@ -82,7 +82,7 @@ def build_home():
     about = open(os.path.join(ROOT, "about.txt")).read().strip().split("\n\n")
     page = head("Adam LaRocca, Creative Director", "", "Creative Director. Simple ideas that spark emotion and forge connection.") + nav("", "") + f'''
 <header class="hero" id="top">
-  <video src="video/hero-home.mp4" poster="img/hero-home-poster.webp" autoplay muted loop playsinline data-loop aria-hidden="true"></video>
+  <video src="video/glc-hero-1080.mp4" poster="img/glc/poster-hero-1080.webp" autoplay muted loop playsinline data-loop aria-hidden="true"></video>
   <p class="playing"><i></i>Now playing: Belize, Grab Life</p>
   <div class="hero-copy">
     <h1 class="display">Adam<br>LaRocca</h1>
