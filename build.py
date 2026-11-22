@@ -120,7 +120,7 @@ def fig(item, pre, eager=False):
 def film_tile(m, pre, small=False):
     """Default cover = the platform's own thumbnail. A local poster is used only when "lock": true."""
     title = m.get("title", "")
-    src = m["src"]
+    src = m["src"] if m["src"].startswith("http") else pre + m["src"]
     local = (pre + m["poster"]) if m.get("poster") else ""
     if m.get("lock") and local:
         img = f'<img src="{local}" alt="" loading="lazy">'
@@ -169,13 +169,21 @@ def module(m, pre):
         return phones([m], pre)
     if t == "film":
         return film_tile(m, pre)
+    if t == "split":
+        def cell(i):
+            if i.get("video"):
+                pst = f' poster="{pre}{i["poster"]}"' if i.get("poster") else ""
+                return f'<figure><video src="{pre}{i["video"]}"{pst} autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>'
+            return f'<figure><img src="{pre}{i["src"]}" alt="{E(i.get("alt",""))}" loading="lazy"></figure>'
+        return f'<div class="media m-split">{cell(m["left"])}<div class="split-col">' + "".join(cell(i) for i in m["right"]) + "</div></div>"
     if t == "loop":
         poster = f' poster="{pre}{m["poster"]}"' if m.get("poster") else ""
         return f'<div class="media m-{m["layout"]}"><figure><video src="{pre}{m["src"]}"{poster} autoplay muted loop playsinline data-loop aria-label="{E(m.get("alt",""))}"></video></figure></div>'
     if t == "images":
         anchor = f' anchor-{m["anchor"]}' if m.get("anchor") else ""
         if m.get("inset"): anchor += " inset"
-        if m.get("pad"): anchor += " padded"
+        if m.get("pad") == "top": anchor += " padded-top"
+        elif m.get("pad"): anchor += " padded"
         if m.get("contain"): anchor += " contain"
         if m.get("tall"): anchor += " tall"
         return f'<div class="media m-{m["layout"]}{anchor}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"

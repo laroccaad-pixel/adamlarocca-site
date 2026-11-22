@@ -31,15 +31,19 @@
     {
       "type": "videos",
       "cols": 3,
+      "phone": true,
       "items": [
         {
-          "src": "https://www.youtube.com/embed/kEt_re9L3hI?rel=0"
+          "src": "video/pw-produce-916.mp4",
+          "poster": "img/pw/pw-produce-916.webp"
         },
         {
-          "src": "https://www.youtube.com/embed/6-sarmT2rvI?rel=0"
+          "src": "video/pw-meat-916.mp4",
+          "poster": "img/pw/pw-meat-916.webp"
         },
         {
-          "src": "https://www.youtube.com/embed/OyKxFhg5HJo?rel=0"
+          "src": "video/pw-deli-916.mp4",
+          "poster": "img/pw/pw-deli-916.webp"
         }
       ]
     }

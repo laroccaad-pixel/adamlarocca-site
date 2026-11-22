@@ -16,6 +16,13 @@
 function bindFilm(f) {
   const b = f.querySelector("button"); if (!b) return;
   b.addEventListener("click", () => {
+    if (/\.mp4($|\?)/.test(f.dataset.src)) {
+      const cover = f.innerHTML;
+      f.innerHTML = `<video src="${f.dataset.src}" controls autoplay playsinline></video>`;
+      f.classList.add("on");
+      f.querySelector("video").addEventListener("ended", () => { f.classList.remove("on"); f.innerHTML = cover; bindFilm(f); });
+      return;
+    }
     const cover = f.innerHTML, src = f.dataset.src, yt = src.includes("youtube"), sep = src.includes("?") ? "&" : "?";
     const extra = yt ? "autoplay=1&enablejsapi=1&rel=0&iv_load_policy=3&playsinline=1&origin=" + encodeURIComponent(location.origin)
                      : "autoplay=1&title=0&byline=0&portrait=0&badge=0&vimeo_logo=0&transparent=0&dnt=1";
