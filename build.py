@@ -135,7 +135,7 @@ def film_tile(m, pre, small=False):
     else:
         img = f'<img src="{local}" alt="" loading="lazy">' if local else ""
     label = f'<span><b>{E(title)}</b><span>Play film</span></span>' if title else ""
-    return f'''<div class="film{' small' if small else ''}" data-src="{E(src)}" data-title="{E(title or "Film")}"><button aria-label="Play {E(title or "film")}">
+    return f'''<div class="film{' small' if small else ''}{' dark-label' if m.get('darkLabel') else ''}" data-src="{E(src)}" data-title="{E(title or "Film")}"><button aria-label="Play {E(title or "film")}">
   {img}<span class="play"><i></i>{label}</span></button></div>'''
 
 def phones(items, pre):
