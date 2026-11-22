@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "image": "img/xbox/display.webp"
+  },
+  "lead": "Gatorade is constantly looking for new ways to allow teen athletes to experience what it’s like to fuel and train like the pros.",
+  "body": [
+    "We took Gatorade athletes Paul George, JJ Watt and their trainers into XBOX owners’ living rooms using Kinect and XBOX Fitness. Athletes could refine their technique, challenge their fitness levels and see how they measure up to real pros."
+  ],
+  "productionCredit": [],
+  "modules": [
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/xbox/display.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    },
+    {
+      "type": "loops",
+      "cols": 4,
+      "aspect": "466/318",
+      "items": [
+        "video/xbox-agility.mp4",
+        "video/xbox-strength.mp4",
+        "video/xbox-recovery.mp4",
+        "video/xbox-stamina.mp4"
+      ]
+    }
+  ]
+}

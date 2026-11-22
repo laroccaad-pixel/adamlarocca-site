@@ -232,7 +232,7 @@ def build_case(p, nxt):
     pc = cs.get("productionCredit", "")
     prod_html = "".join((f'<p class="prod">{E(x)}</p>' if x else '<p class="prod sp" aria-hidden="true"></p>') for x in (pc if isinstance(pc, list) else ([pc] if pc else [])))
     hero_media = (f'<video src="{pre}{hero["video"]}" poster="{pre}{hero["poster"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
-                  if hero.get("video") else f'<img src="{pre}{hero["image"]}" alt="" fetchpriority="high">')
+                  if hero.get("video") else f'<img src="{"" if hero["image"].startswith("http") else pre}{hero["image"]}" alt="" fetchpriority="high">')
     page = head(f'{p["client"]}: {p["title"]}. Adam LaRocca', pre, cs["lead"]) + nav(pre, "work") + f'''
 <header class="cs-hero{(' tint-' + cs['hero']['tint']) if cs.get('hero',{}).get('tint') else ''}">
   {hero_media}

@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "image": "https://i.vimeocdn.com/video/691239514-6cd24b7d7976731b18072147088cf61038656e68b5f04741531fbc338b9a8725-d_1920?region=us"
+  },
+  "lead": "Playing off the circular nature of the Seresto collar, we highlighted the reciprocal love people and pets have for one another.",
+  "body": [
+    "For K9 Advantix II, we created two characters, neighbors having a casual conversation about flea and tick protection. They just happen to be talking dogs. A unique combination of 3D and 2D animation enabled us to give these dogs their voice."
+  ],
+  "productionCredit": [
+    "K9 Advantix II Director: Dean Blumberg",
+    "Production Partner: Bouffant",
+    "Effects: MPC LA"
+  ],
+  "modules": [
+    {
+      "type": "section",
+      "title": "Seresto TV",
+      "body": ""
+    },
+    {
+      "type": "film",
+      "title": "Circle of Love",
+      "src": "https://player.vimeo.com/video/262059314?title=0&byline=0&portrait=0"
+    },
+    {
+      "type": "section",
+      "title": "K9 Advantix II TV",
+      "body": ""
+    },
+    {
+      "type": "film",
+      "title": "Neighbor Dogs",
+      "src": "https://player.vimeo.com/video/262065476?title=0&byline=0&portrait=0"
+    },
+    {
+      "type": "section",
+      "title": "K9 Advantix II Pre-roll",
+      "body": ""
+    },
+    {
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "https://player.vimeo.com/video/262068398?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/262071606?title=0&byline=0&portrait=0"
+        }
+      ]
+    }
+  ]
+}

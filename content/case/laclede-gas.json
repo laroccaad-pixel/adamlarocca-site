@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "image": "https://i.vimeocdn.com/video/626527481-356bb463f843a3b855da78b8cc48aa7591b10cc9fc112b67c303b71d1811b382-d_1920?region=us"
+  },
+  "lead": "As someone who grew up in Florida, I severely felt winter's pain points when moving to a colder climate.",
+  "body": [
+    "We used the negatives of inefficient appliances as our inspiration to promote seasonal rebates and show Laclede Gas customers that they can live more comfortably."
+  ],
+  "productionCredit": [
+    "Director: Reid Bangert",
+    "Production Partner: NorthPass"
+  ],
+  "modules": [
+    {
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "https://player.vimeo.com/video/210677186?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/210677128?title=0&byline=0&portrait=0"
+        }
+      ]
+    }
+  ]
+}

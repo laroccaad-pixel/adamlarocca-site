@@ -115,5 +115,33 @@
     "img": "bww/bww-pop-mix4cargo2",
     "role": "Art Director",
     "agency": "22squared"
+  },
+  "gatorade-xbox-kinect": {
+    "role": "Associate Creative Director",
+    "agency": "VML",
+    "img": "xbox/display"
+  },
+  "azdhs-tobacco-cessation": {
+    "role": "Art Director",
+    "agency": "R&R Partners",
+    "img": "azdhs/ashcan"
+  },
+  "laclede-gas": {
+    "role": "Associate Creative Director",
+    "agency": "VML",
+    "img": "",
+    "imgUrl": "https://i.vimeocdn.com/video/626527481-356bb463f843a3b855da78b8cc48aa7591b10cc9fc112b67c303b71d1811b382-d_1920?region=us"
+  },
+  "bayer-animal-health": {
+    "role": "Associate Creative Director",
+    "agency": "VML",
+    "img": "",
+    "imgUrl": "https://i.vimeocdn.com/video/691233213-75057fa2be8bfdd28787faecdd07b72cda1f9c972730ddffcd2b6325f5ad0d06-d_1920?region=us"
+  },
+  "publix-tv": {
+    "role": "Art Director",
+    "agency": "22squared",
+    "img": "",
+    "imgUrl": "https://i.vimeocdn.com/video/141756962-5880892366d5d080a4ac3b9e138ab7341ac0baf4ed215f98f8cf83da146ee63b-d_1920?region=us"
   }
 }

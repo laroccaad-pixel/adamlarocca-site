@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "image": "img/azdhs/memorial-top.webp"
+  },
+  "lead": "Utilizing alternative media, we targeted smokers where they were practicing the very behavior we wanted to influence.",
+  "body": [
+    "This was a more cost-effective approach versus traditional paid media, and gave us a chance to make a deeper emotional impact."
+  ],
+  "productionCredit": [],
+  "modules": [
+    {
+      "type": "section",
+      "title": "Ashcan Graves",
+      "body": "Graves were added to preexisting ashcans in high-rise commercial buildings with designated smoking areas."
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/azdhs/ashcan.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    },
+    {
+      "type": "section",
+      "title": "Smoker's Memorial",
+      "body": "Amping up the emotion through more specific targeting, “roadside-style” memorials were created for cancer victims who worked in high-rise buildings. These memorials gave insight into the death of someone who the audience may have recognized as a fellow smoker."
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/azdhs/memorial-top.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/azdhs/memorial-bottom.webp",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

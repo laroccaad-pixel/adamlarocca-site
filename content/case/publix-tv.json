@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "image": "https://i.vimeocdn.com/video/141756962-5880892366d5d080a4ac3b9e138ab7341ac0baf4ed215f98f8cf83da146ee63b-d_1920?region=us"
+  },
+  "lead": "Publix is beloved by shoppers all over the Southeast.",
+  "body": [
+    "One of the big reasons why is their numerous Buy One Get One Free sales events. We created simple, visually intriguing spots to drive home the idea that “everything good comes in pairs.”"
+  ],
+  "productionCredit": [
+    "BOGO Breakfast & BOGO Park Director: Rob Pritts",
+    "Production Partner: Backyard",
+    "",
+    "BOGO Paper & BOGO Pairs Director: Mike Bigelow",
+    "Production Partner: Gartner"
+  ],
+  "modules": [
+    {
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "https://player.vimeo.com/video/21983896?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/21983855?title=0&byline=0&portrait=0"
+        }
+      ]
+    },
+    {
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "https://player.vimeo.com/video/21983987?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/239734077?title=0&byline=0&portrait=0"
+        }
+      ]
+    }
+  ]
+}

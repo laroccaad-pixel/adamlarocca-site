@@ -812,5 +812,120 @@
       "Art Director: Adam LaRocca"
     ],
     "source": "larocca2"
+  },
+  {
+    "slug": "gatorade-xbox-kinect",
+    "visible": true,
+    "order": 23,
+    "client": "Gatorade",
+    "title": "XBOX Kinect",
+    "category": "Sports / Gaming",
+    "agency": "VML",
+    "role": "Associate Creative Director",
+    "intro": "Gatorade is constantly looking for new ways to allow teen athletes to experience what it’s like to fuel and train like the pros. We took Gatorade athletes Paul George, JJ Watt and their trainers into XBOX owners’ living rooms using Kinect and XBOX Fitness. Athletes could refine their technique, challenge their fitness levels and see how they measure up to real pros.",
+    "sections": [],
+    "productionCredit": [],
+    "awards": [],
+    "credits": [],
+    "source": "larocca"
+  },
+  {
+    "slug": "azdhs-tobacco-cessation",
+    "visible": true,
+    "order": 24,
+    "client": "Arizona Department of Health Services",
+    "title": "Tobacco Cessation",
+    "category": "Public Health / Alt Media",
+    "agency": "R&R Partners",
+    "role": "Art Director",
+    "intro": "Utilizing alternative media, we targeted smokers where they were practicing the very behavior we wanted to influence. This was a more cost-effective approach versus traditional paid media, and gave us a chance to make a deeper emotional impact.",
+    "sections": [
+      {
+        "title": "Ashcan Graves",
+        "body": "Graves were added to preexisting ashcans in high-rise commercial buildings with designated smoking areas."
+      },
+      {
+        "title": "Smoker's Memorial",
+        "body": "Amping up the emotion through more specific targeting, “roadside-style” memorials were created for cancer victims who worked in high-rise buildings. These memorials gave insight into the death of someone who the audience may have recognized as a fellow smoker."
+      }
+    ],
+    "productionCredit": [],
+    "awards": [],
+    "credits": [],
+    "source": "larocca"
+  },
+  {
+    "slug": "laclede-gas",
+    "visible": true,
+    "order": 25,
+    "client": "Laclede Gas",
+    "title": "Winter Efficiency",
+    "category": "Utilities",
+    "agency": "VML",
+    "role": "Associate Creative Director",
+    "intro": "As someone who grew up in Florida, I severely felt winter's pain points when moving to a colder climate. We used the negatives of inefficient appliances as our inspiration to promote seasonal rebates and show Laclede Gas customers that they can live more comfortably.",
+    "sections": [],
+    "productionCredit": [
+      "Director: Reid Bangert",
+      "Production Partner: NorthPass"
+    ],
+    "awards": [],
+    "credits": [],
+    "source": "larocca"
+  },
+  {
+    "slug": "bayer-animal-health",
+    "visible": true,
+    "order": 26,
+    "client": "Bayer Animal Health",
+    "title": "Seresto & K9 Advantix II",
+    "category": "Animal Health",
+    "agency": "VML",
+    "role": "Associate Creative Director",
+    "intro": "Playing off the circular nature of the Seresto collar, we highlighted the reciprocal love people and pets have for one another. For K9 Advantix II, we created two characters, neighbors having a casual conversation about flea and tick protection. They just happen to be talking dogs. A unique combination of 3D and 2D animation enabled us to give these dogs their voice.",
+    "sections": [
+      {
+        "title": "Seresto TV",
+        "body": ""
+      },
+      {
+        "title": "K9 Advantix II TV",
+        "body": ""
+      },
+      {
+        "title": "K9 Advantix II Pre-roll",
+        "body": ""
+      }
+    ],
+    "productionCredit": [
+      "K9 Advantix II Director: Dean Blumberg",
+      "Production Partner: Bouffant",
+      "Effects: MPC LA"
+    ],
+    "awards": [],
+    "credits": [],
+    "source": "larocca"
+  },
+  {
+    "slug": "publix-tv",
+    "visible": true,
+    "order": 27,
+    "client": "Publix Supermarkets",
+    "title": "BOGO TV",
+    "category": "Grocery / Retail",
+    "agency": "22squared",
+    "role": "Art Director",
+    "intro": "Publix is beloved by shoppers all over the Southeast. One of the big reasons why is their numerous Buy One Get One Free sales events. We created simple, visually intriguing spots to drive home the idea that “everything good comes in pairs.”",
+    "sections": [],
+    "productionCredit": [
+      "BOGO Breakfast & BOGO Park Director: Rob Pritts",
+      "Production Partner: Backyard",
+      "",
+      "BOGO Paper & BOGO Pairs Director: Mike Bigelow",
+      "Production Partner: Gartner"
+    ],
+    "awards": [],
+    "credits": [],
+    "source": "larocca"
   }
 ]
