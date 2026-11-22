@@ -183,9 +183,19 @@ def module(m, pre):
         return film_tile(m, pre)
     if t == "phone3":
         a = E(m.get("alt", ""))
-        return (f'<div class="media phone3" style="--pt:{m.get("post_top",0.33)}">'
+        ic = lambda d: f'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="{d}"/></svg>'
+        heart = "M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z"
+        bubble = "M20.5 11.6a8.4 8.4 0 0 1-12.4 7.4L3.5 20.5l1.6-4.4A8.4 8.4 0 1 1 20.5 11.6z"
+        plane = "M21.5 3 9.9 10.5M21.5 3l-7 18-4.6-10.5L3 7.9z"
+        mark = "M19 21l-7-5-7 5V4.5A1.5 1.5 0 0 1 6.5 3h11A1.5 1.5 0 0 1 19 4.5z"
+        screen = (f'<div class="ig"><div class="ig-head"><img class="ig-av" src="{pre}{m["avatar"]}" alt="">'
+                  f'<div class="ig-id"><b>{E(m["handle"])}<i class="ig-ok"></i></b><span>Sponsored</span></div><span class="ig-more">&middot;&middot;&middot;</span></div>'
+                  f'<img class="ig-post" src="{pre}{m["post"]}" alt="{a}" loading="lazy">'
+                  f'<div class="ig-cta">{E(m["cta"])}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></div>'
+                  f'<div class="ig-act">{ic(heart)}{ic(bubble)}{ic(plane)}<span class="ig-dots"><i></i><i></i><i></i><i class="on"></i></span>{ic(mark)}</div></div>')
+        return (f'<div class="media phone3" style="--pt:{m.get("post_top",0.28)}">'
                 f'<img class="p3-side" src="{pre}{m["left"]}" alt="{a}" loading="lazy">'
-                f'<div class="p3-phone"><img src="{pre}{m["screen"]}" alt="{a}" loading="lazy"></div>'
+                f'<div class="p3-phone">{screen}</div>'
                 f'<img class="p3-side" src="{pre}{m["right"]}" alt="{a}" loading="lazy"></div>')
     if t == "split":
         def cell(i):
