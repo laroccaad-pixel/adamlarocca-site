@@ -79,8 +79,8 @@
     {
       "type": "loop",
       "layout": "full",
-      "src": "video/day-tsq-wide.mp4",
-      "poster": "img/daytona/day-tsq-wide.webp",
+      "src": "video/day-tsq-hero.mp4",
+      "poster": "img/daytona/day-tsq-hero.webp",
       "alt": "Anamorphic billboard in Times Square"
     },
     {
