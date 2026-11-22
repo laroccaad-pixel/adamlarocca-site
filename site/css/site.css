@@ -362,3 +362,4 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 .media[data-space="2"]{margin-top:calc(var(--gap)*2)}
 .phone-tops[data-space="2"]{margin-top:calc(var(--gap)*2)}
 .phone-top video{max-width:804px;margin:0 auto}
+.phone-tops[style*="--n:2"]{grid-template-columns:repeat(2,minmax(0,345px));justify-content:center}
