@@ -105,25 +105,20 @@
       "body": "We created an immersive augmented reality experience that allowed users to explore six iconic Rhode Island landmarks through interactive AR portals. Accessible on mobile devices, the experience transformed any physical space into a window onto the Ocean State. Designed to spark curiosity and inspire travel, it delivered high-impact brand storytelling in a simple, intuitive way.\n\nWe custom-designed a large-scale video wall installation for high-traffic locations to promote the AR experience and drive QR code scans."
     },
     {
-      "type": "loop",
-      "layout": "full",
-      "src": "video/ri-ar.mp4",
-      "poster": "img/ri/ar.webp",
-      "alt": "AR portals experience"
+      "type": "film",
+      "title": "AR Portals Experience",
+      "src": "https://www.youtube.com/embed/J8IoXO7pBGA?rel=0",
+      "coverVideo": "video/ri-ar.mp4",
+      "poster": "img/ri/ar.webp"
     },
     {
-      "type": "videos",
-      "cols": 3,
+      "type": "loops",
+      "cols": 2,
+      "aspect": "1/1",
+      "narrow": true,
       "items": [
-        {
-          "src": "https://www.youtube.com/embed/J8IoXO7pBGA?rel=0"
-        },
-        {
-          "src": "https://www.youtube.com/embed/LhaRD6C2h9o?rel=0"
-        },
-        {
-          "src": "https://www.youtube.com/embed/yn_iizKOgeQ?rel=0"
-        }
+        "video/ri-portal-promo-1.mp4",
+        "video/ri-portal-promo-2.mp4"
       ]
     },
     {
@@ -131,7 +126,7 @@
       "layout": "natural",
       "items": [
         {
-          "src": "img/ri/video-wall.webp",
+          "src": "img/ri/video-wall-cut.webp",
           "alt": "Video wall installation"
         }
       ]

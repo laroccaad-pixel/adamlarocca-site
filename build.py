@@ -134,7 +134,10 @@ def film_tile(m, pre, small=False):
     title = m.get("title", "")
     src = m["src"] if m["src"].startswith("http") else pre + m["src"]
     local = (pre + m["poster"]) if m.get("poster") else ""
-    if m.get("lock") and local:
+    if m.get("coverVideo"):
+        pst = f' poster="{local}"' if local else ""
+        img = f'<video src="{pre}{m["coverVideo"]}"{pst} autoplay muted loop playsinline aria-hidden="true"></video>'
+    elif m.get("lock") and local:
         img = f'<img src="{local}" alt="" loading="lazy">'
     elif "youtube" in src:
         vid = src.split("/embed/")[1].split("?")[0]
