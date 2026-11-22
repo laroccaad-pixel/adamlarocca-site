@@ -30,11 +30,6 @@
       ]
     },
     {
-      "type": "section",
-      "title": "Banner Support",
-      "body": ""
-    },
-    {
       "type": "loop",
       "layout": "natural",
       "src": "video/lfg-banners.mp4",
