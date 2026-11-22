@@ -64,6 +64,7 @@ def footer(pre):
   <small>© 2026 Adam LaRocca</small>
 </footer>
 <script src="{pre}js/site.js"></script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "65a49ff2afe44cc1abe7a54dd15e1950"}}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>'''
 
