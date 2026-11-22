@@ -1,0 +1,133 @@
+{
+  "hero": {
+    "image": "img/daytona/day-0037-exploreflorida-spreadad.webp"
+  },
+  "lead": "Daytona Beach has long been known as a spring break party destination.",
+  "body": [
+    "But the brand set out to redefine itself as an easy, welcoming place for families. Knowing the beach was the undeniable hero, we created a rallying cry that reestablished Daytona Beach as the authority on beach fun and the ultimate family beach vacation, grounded in the carefree memories made there."
+  ],
+  "productionCredit": [
+    "3D Anamorphic Partner: Adolescent NYC"
+  ],
+  "modules": [
+    {
+      "type": "section",
+      "title": "Beach On Brand Campaign",
+      "body": ""
+    },
+    {
+      "type": "film",
+      "title": "Beach On",
+      "src": "https://www.youtube.com/embed/8-aTBb7B1mY?rel=0"
+    },
+    {
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "_EoS_drgrUU"
+        },
+        {
+          "src": "8tTFx5DwD-k"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/daytona/day-0037-exploreflorida-spreadad.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 1,
+      "size": 460,
+      "noun": "print ads",
+      "items": [
+        {
+          "src": "img/daytona/daytonabeach-kidssplashing-printad.webp"
+        },
+        {
+          "src": "img/daytona/daytonabeach-sunrests-printad.webp"
+        },
+        {
+          "src": "img/daytona/daytonabeach-surfermiracle-printad.webp"
+        },
+        {
+          "src": "img/daytona/daytonabeach-kayak-printad2.webp"
+        }
+      ],
+      "aspect": "3/4"
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/daytona/roadtrip-roadendsmock.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Times Square Anamorphic Billboard",
+      "body": "Daytona Beach is a favorite for local weekenders, but longer trips from out-of-state visitors needed a boost. To shift perception, we created an anamorphic billboard in Times Square, spotlighting new direct flights from NYC and showing how easy it is to trade cold for “Beach On” energy."
+    },
+    {
+      "type": "film",
+      "title": "Times Square Takeover",
+      "src": "https://www.youtube.com/embed/BnqgB1nMtXo?rel=0"
+    },
+    {
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "cmvsa6tobOA"
+        },
+        {
+          "src": "sjX2EcRNBK4"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/daytona/daytona-tsx-4618-sml-2.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/daytona/daytona-tsx-4637-smlalll.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "trio",
+      "items": [
+        {
+          "src": "img/daytona/dsc00.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/daytona/dsc00704-large.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/daytona/dsc00913-large.webp",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

@@ -152,7 +152,7 @@ def module(m, pre):
     if t == "section":
         credit = f'<p class="cs-credit-line">{E(m["credit"])}</p>' if m.get("credit") else ""
         body = f'<div><p>{E(m["body"])}</p>{credit}</div>' if m.get("body") else f"<div>{credit}</div>"
-        return f'<div class="cs-section-head"><h2 class="display">{E(m["title"]).replace("-", "\u2011")}</h2>{body}</div>'
+        return f'<div class="cs-section-head"><h2 class="display{' long' if max(len(w) for w in m['title'].split()) > 13 else ''}">{E(m["title"]).replace("-", "\u2011")}</h2>{body}</div>'
     if t == "videos" and m.get("phone"):
         return phones(m["items"], pre)
     if t == "videos":
@@ -163,7 +163,7 @@ def module(m, pre):
         return f'<div class="phone-tops" style="--n:{len(m["items"])}">{vids}</div>'
     if t == "loops":
         vids = "".join(f'<figure><video src="{pre}{v}" autoplay muted loop playsinline data-loop aria-hidden="true"></video></figure>' for v in m["items"])
-        return f'<div class="media m-loops cols-{m.get("cols",4)}{' narrow' if m.get('narrow') else ''}" style="--ar:{m.get("aspect","9/16")}">{vids}</div>'
+        return f'<div class="media m-loops cols-{m.get("cols",4)}{' narrow' if m.get('narrow') else ''}{' skinny' if m.get('skinny') else ''}" style="--ar:{m.get("aspect","9/16")}">{vids}</div>'
     if t == "film" and m.get("phone"):
         return phones([m], pre)
     if t == "film":
@@ -175,6 +175,7 @@ def module(m, pre):
         anchor = f' anchor-{m["anchor"]}' if m.get("anchor") else ""
         if m.get("inset"): anchor += " inset"
         if m.get("pad"): anchor += " padded"
+        if m.get("contain"): anchor += " contain"
         return f'<div class="media m-{m["layout"]}{anchor}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
     if t == "adpage":
         v = lambda f, w, h: f'<video src="{pre}{f}" width="{w}" height="{h}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
@@ -203,7 +204,8 @@ def module(m, pre):
         if m.get("phone"): cls += ' phone-rail center-rail'
         elif m.get("center"): cls += ' center-rail'
         attrs = f' data-start="{m.get("start", 2 if m.get("phone") else 0)}"'
-        if m.get("size"): attrs += f' style="--pw:min({m["size"]}px,86vw)"'
+        sty = (f'--pw:min({m["size"]}px,86vw);' if m.get("size") else '') + (f'--rar:{m["aspect"]};' if m.get("aspect") else '')
+        if sty: attrs += f' style="{sty}"'
         frame = '<div class="rail-phone" aria-hidden="true"></div>' if m.get("phone") else ''
         return f'''<div class="rail-wrap{' has-phone' if m.get('phone') else ''}"><div class="rail-stage">{frame}<div class="rail{cls}"{attrs} tabindex="0" aria-label="{E(m.get("alt","Gallery"))}">{figs}</div></div>
   <div class="rail-controls"><span>{len(m["items"])} {noun}. Swipe or use the arrows.</span><div><button data-dir="-1" aria-label="Previous">&#8592;</button><button data-dir="1" aria-label="Next">&#8594;</button></div></div></div>'''

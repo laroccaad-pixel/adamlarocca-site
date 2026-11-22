@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "image": "img/connelly/diamond.webp"
+  },
+  "lead": "Connelly billiards tables are the finest money can buy.",
+  "body": [
+    "Our print campaign positioned them as the most valued possession you'll ever own."
+  ],
+  "productionCredit": [
+    "Photographer: Patrick Darby"
+  ],
+  "modules": [
+    {
+      "type": "images",
+      "layout": "full",
+      "items": [
+        {
+          "src": "img/connelly/diamond.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "full",
+      "items": [
+        {
+          "src": "img/connelly/anticipation.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "full",
+      "items": [
+        {
+          "src": "img/connelly/divorce.webp",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

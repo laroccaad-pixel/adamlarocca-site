@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "image": "img/barbados/oohmockup.webp"
+  },
+  "lead": "Cricket is one of the most watched sports in the world, and Barbados is one of its most desirable destinations.",
+  "body": [
+    "When the ICC Men’s T20 World Cup came to Barbados, we positioned the tournament not just as a sporting event, but as a once-in-a-lifetime travel moment by fusing cricket iconography with the island’s unmistakable beauty."
+  ],
+  "productionCredit": [
+    "Photographer: Kristopher Streek"
+  ],
+  "modules": [
+    {
+      "type": "film",
+      "title": "T20 World Cup",
+      "src": "https://www.youtube.com/embed/mCLYKMgEoRs?rel=0"
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/barbados/printgrid2.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    },
+    {
+      "type": "images",
+      "layout": "full",
+      "items": [
+        {
+          "src": "img/barbados/oohmockup.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/barbados/banners2.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/barbados/carousel2.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "full",
+      "items": [
+        {
+          "src": "img/barbados/printmockup2.webp",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

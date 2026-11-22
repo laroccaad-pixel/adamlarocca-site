@@ -116,6 +116,8 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 .cs-intro + .cs-section:has(> .cs-section-head:first-child){padding-top:clamp(16px,3vh,32px)}
 .cs-section-head{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,96px);margin-bottom:clamp(24px,4vh,44px);align-items:start}
 .cs-section-head h2{font-size:clamp(48px,6vw,96px)}
+.cs-section-head{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.cs-section-head h2.long{font-size:clamp(32px,3.6vw,60px);overflow-wrap:anywhere}
 .cs-section-head p{color:var(--soft);max-width:58ch;font-size:18px;padding-top:.4em}
 .cs-credit-line{color:var(--mist);font-size:14px;margin-top:12px}
 
@@ -140,7 +142,9 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 .ap-main .ap-ad.lb{margin:22px 0 24px}
 .ap-hero{aspect-ratio:16/7;border-radius:6px;background:linear-gradient(135deg,rgba(243,245,248,.1),rgba(243,245,248,.03));margin:4px 0 18px}
 .ap-card{aspect-ratio:4/3;border-radius:6px;background:rgba(243,245,248,.06);margin:14px 0}
+.media.contain{align-items:start}.media.contain figure{aspect-ratio:auto;background:none}.media.contain img{height:auto;object-fit:contain}
 .media.padded{margin-block:clamp(48px,8vw,112px)}
+.media.m-loops.skinny{width:min(100%,640px);margin-inline:auto}
 .media.m-loops.narrow{width:72%;margin-inline:auto;column-gap:clamp(10px,3vw,44px)}
 .media.padded + .media.m-loops.narrow{margin-top:calc(-1 * clamp(16px,2.67vw,37px))}
 .media.inset{width:82%;margin:clamp(40px,6vw,88px) auto}
@@ -158,7 +162,7 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 /* social rail */
 .rail-wrap{margin:0 calc(var(--gutter) * -1) var(--gap);padding:0 var(--gutter)}
 .rail{display:grid;grid-auto-flow:column;grid-auto-columns:min(560px,82vw);gap:var(--gap);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;scrollbar-width:thin;scrollbar-color:var(--mist) transparent}
-.rail figure{scroll-snap-align:start;aspect-ratio:3/2;border-radius:4px;overflow:hidden;background:var(--deep-2)}
+.rail figure{scroll-snap-align:start;aspect-ratio:var(--rar,3/2);border-radius:4px;overflow:hidden;background:var(--deep-2)}
 .rail-controls{display:flex;justify-content:space-between;align-items:center;margin-top:6px;color:var(--mist);font-size:14px}
 .rail-controls div{display:flex;gap:8px}
 .rail-controls button{width:44px;height:44px;border-radius:50%;border:1px solid rgba(243,245,248,.3);background:none;color:var(--paper);font-size:18px;cursor:pointer}

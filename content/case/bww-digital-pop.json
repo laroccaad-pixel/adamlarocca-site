@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "image": "img/bww/bww-pop-mix4cargo2.webp"
+  },
+  "lead": "Bdubs has a fun-loving, aggro-irreverent tone.",
+  "body": [
+    "It was a lot of fun infusing that brand essence into every piece we made, from banners to menu inserts."
+  ],
+  "productionCredit": [],
+  "modules": [
+    {
+      "type": "section",
+      "title": "March Madness Banners",
+      "body": ""
+    },
+    {
+      "type": "loops",
+      "cols": 3,
+      "aspect": "160/600",
+      "items": [
+        "video/bww-bww-eyepopper160x600.mp4",
+        "video/bww-bww-headspinner160x600.mp4",
+        "video/bww-bww-twoheads160x600.mp4"
+      ],
+      "skinny": true
+    },
+    {
+      "type": "section",
+      "title": "Holiday & Fantasy Draft POP",
+      "body": ""
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/bww/bww-pop-mix4cargo2.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    },
+    {
+      "type": "section",
+      "title": "Sauce Racers",
+      "body": "Beckoning the spine-tingling excitement of a classic ballpark mascot race, we created a captivating rich media experience featuring BWW sauces."
+    },
+    {
+      "type": "loops",
+      "cols": 2,
+      "aspect": "1/1",
+      "items": [
+        "video/bww-bww-racer-preexpand-movie2.mp4",
+        "video/bww-bww-racer-postexpand-movie.mp4"
+      ],
+      "skinny": true
+    },
+    {
+      "type": "section",
+      "title": "March Madness ESPN Homepage Takeover",
+      "body": "March Madness is big business for Buffalo Wild Wings. Our homepage takeover ran the day after Sweet Sixteen weekend ended, a time when most people’s brackets became seemingly worthless. So we gave them a few useful things to do with their useless bracket."
+    },
+    {
+      "type": "film",
+      "title": "ESPN Homepage Takeover",
+      "src": "https://player.vimeo.com/video/59114207?title=0&byline=0&portrait=0"
+    },
+    {
+      "type": "section",
+      "title": "BWW Film School",
+      "body": "We gave fans of Buffalo Wild Wings a shot at making their own BWW commercials. A lot of comedy ensued. Both intentional and otherwise. Participants were able to upload, vote and share their videos with friends (before Meta owned all of that)."
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 0,
+      "size": 745,
+      "noun": "screens",
+      "items": [
+        {
+          "src": "img/bww/bww-filmschool11.webp"
+        },
+        {
+          "src": "img/bww/bww-filmschool22.webp"
+        }
+      ],
+      "aspect": "1773/1080"
+    }
+  ]
+}

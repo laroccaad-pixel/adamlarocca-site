@@ -1,0 +1,176 @@
+{
+  "hero": {
+    "image": "img/uaw/social-z2.webp"
+  },
+  "lead": "Gatorade is synonymous with sports in the U.S. but has limited awareness abroad.",
+  "body": [
+    "We were tasked to launch the brand’s first true global marketing initiative, where we asked elite amateur footballers to demonstrate how their hard work translates to unreal performance on the pitch by uploading a video to GatoradeFootball.com. Five winners would get the chance to play, train and tour at seven of the most iconic clubs around the world.",
+    "We created a launch video to announce the contest, put on live events in London and NYC, and produced a myriad of branded video content, promoted and consumed by thirty key markets across the globe."
+  ],
+  "productionCredit": [
+    "Content & Media Partner: Perform Group"
+  ],
+  "modules": [
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/uaw/g-uaw-devicemockup5.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    },
+    {
+      "type": "section",
+      "title": "Launch Video",
+      "body": ""
+    },
+    {
+      "type": "film",
+      "title": "Unreal Around the World",
+      "src": "https://player.vimeo.com/video/181262331?title=0&byline=0&portrait=0"
+    },
+    {
+      "type": "section",
+      "title": "Global Social Support",
+      "body": "We orchestrated global social support by our pro athletes and clubs, global content distribution partner Goal.com, and Gatorade accounts around the world to spread awareness of the campaign using #BeUnreal."
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 1,
+      "size": 745,
+      "noun": "posts",
+      "items": [
+        {
+          "src": "img/uaw/social-1.webp"
+        },
+        {
+          "src": "img/uaw/social-masha.webp"
+        },
+        {
+          "src": "img/uaw/social-mashb.webp"
+        },
+        {
+          "src": "img/uaw/social-mashc.webp"
+        },
+        {
+          "src": "img/uaw/social-z1.webp"
+        },
+        {
+          "src": "img/uaw/social-z2.webp"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "London & NYC Experiential Events",
+      "body": "We invited the best youth footballers in London and New York to battle in a next-level soccer competition. The events gave the elite footballers a once in a lifetime experience, while helping seed submissions, generate content and create awareness."
+    },
+    {
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "https://player.vimeo.com/video/243946007?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/243946058?title=0&byline=0&portrait=0"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/uaw/uaw-events-picstrip-london1.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/uaw/uaw-events-picstrip-pano.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/uaw/uaw-events-picstrip-nyc1.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/uaw/uaw-events-picstrip-london2.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "GatoradeFootball.com",
+      "body": "We developed GatoradeFootball.com as a content hub for all of Gatorade’s global initiatives. Accommodating five languages, the website housed Unreal Around the World content, top-box content from partner agencies, and profiles on budding semi-professional footballers across the globe."
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/uaw/sitedesignmockups-3screens.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    },
+    {
+      "type": "section",
+      "title": "Winners Trip",
+      "body": "We documented the unreal journey of our five winners, releasing individual videos as exclusive content for use by our professional club partners. A long-form complete journey recap was also created to showcase the unreal trip in its entirety."
+    },
+    {
+      "type": "videos",
+      "cols": 3,
+      "items": [
+        {
+          "src": "https://player.vimeo.com/video/243944558?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/243944519?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/243944613?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/243944357?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/243752863?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/243944363?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/243944465?title=0&byline=0&portrait=0"
+        },
+        {
+          "src": "https://player.vimeo.com/video/181263399?title=0&byline=0&portrait=0"
+        }
+      ]
+    }
+  ]
+}

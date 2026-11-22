@@ -1,0 +1,218 @@
+{
+  "hero": {
+    "image": "img/palm/ooh-spectacular.webp"
+  },
+  "lead": "The Palm Beaches is one of the most diverse destinations in the country, spanning 39 cities and offering everything from family travel to wellness, nature, and luxury.",
+  "body": [
+    "We turned that diversity into the idea itself, inviting travelers to curate their own “collection” and build a vacation tailored to them.",
+    "To break through a category full of predictable beach imagery, we introduced a distinctive tablescape system. Elevated, tactile, and modular, it allowed experiences, activities, and moments to be artfully arranged and recombined, signaling both variety and refinement at a glance. Built around key brand pillars, the campaign flexed seamlessly across audiences and individual cities, while maintaining a consistent visual language across all media."
+  ],
+  "productionCredit": [],
+  "modules": [
+    {
+      "type": "images",
+      "layout": "trio",
+      "items": [
+        {
+          "src": "img/palm/shopping2.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/palm/bocaraton.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/palm/jupiter-junobeach.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "videos",
+      "cols": 2,
+      "items": [
+        {
+          "src": "98f1Swq_aL0"
+        },
+        {
+          "src": "7Pa3CfsmMeE"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Out of Home",
+      "body": ""
+    },
+    {
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/palm/ooh-spectacular.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/palm/ooh-wellington.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Print: Brand Pillars",
+      "body": ""
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 1,
+      "size": 460,
+      "noun": "print ads",
+      "items": [
+        {
+          "src": "img/palm/beachcouple2.webp"
+        },
+        {
+          "src": "img/palm/family2.webp"
+        },
+        {
+          "src": "img/palm/sports2.webp"
+        },
+        {
+          "src": "img/palm/fashion2.webp"
+        },
+        {
+          "src": "img/palm/spa2.webp"
+        },
+        {
+          "src": "img/palm/culinarylgbtq.webp"
+        }
+      ],
+      "aspect": "3/4"
+    },
+    {
+      "type": "section",
+      "title": "Print: Cities",
+      "body": ""
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 1,
+      "size": 460,
+      "noun": "print ads",
+      "items": [
+        {
+          "src": "img/palm/palmbeach.webp"
+        },
+        {
+          "src": "img/palm/westpalmbeach.webp"
+        },
+        {
+          "src": "img/palm/boyntonbeach.webp"
+        },
+        {
+          "src": "img/palm/wellington.webp"
+        },
+        {
+          "src": "img/palm/delreybeach.webp"
+        },
+        {
+          "src": "img/palm/palmbeachgardens.webp"
+        },
+        {
+          "src": "img/palm/rivierabeach-singerisland.webp"
+        },
+        {
+          "src": "img/palm/lakeworthbeach.webp"
+        },
+        {
+          "src": "img/palm/theglades-1.webp"
+        }
+      ],
+      "aspect": "3/4"
+    },
+    {
+      "type": "section",
+      "title": "Print: Business Travel",
+      "body": ""
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 1,
+      "size": 460,
+      "noun": "print ads",
+      "items": [
+        {
+          "src": "img/palm/dtpb-0285-btsx-pillar1-conventions-culinary.webp"
+        },
+        {
+          "src": "img/palm/dtpb-0285-btsx-pillar1-travel-culinary.webp"
+        },
+        {
+          "src": "img/palm/dtpb-0285-btsx-pillar2-multicultural-accessibility.webp"
+        },
+        {
+          "src": "img/palm/dtpb-0285-btsx-pillar3-sciences-wellness.webp"
+        },
+        {
+          "src": "img/palm/dtpb-0285-btsx-pillar4-finance-artsculture.webp"
+        },
+        {
+          "src": "img/palm/dtpb-0285-btsx-pillar5-sustainability-agribusiness.webp"
+        }
+      ],
+      "aspect": "3/4"
+    },
+    {
+      "type": "section",
+      "title": "Digital & Social",
+      "body": ""
+    },
+    {
+      "type": "images",
+      "layout": "trio",
+      "items": [
+        {
+          "src": "img/palm/socialpost1-1x1.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/palm/socialpost1-vert.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/palm/socialpost1-fullscreen.webp",
+          "alt": ""
+        }
+      ],
+      "contain": true
+    },
+    {
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/palm/ogbanner6-300x250.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/palm/theglades.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/palm/carousel1-bannerstoryboardv2.webp",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

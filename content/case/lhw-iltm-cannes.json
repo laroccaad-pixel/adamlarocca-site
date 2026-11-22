@@ -1,0 +1,150 @@
+{
+  "hero": {
+    "image": "img/lhw/rotunda3.webp"
+  },
+  "lead": "Leading Hotels of the World (LHW) is the world’s largest collection of exclusive, independent luxury hotels, each property representing the highest standard of service and hospitality.",
+  "body": [
+    "International Luxury Trade Market Cannes is the premier annual gathering of the global luxury travel industry.",
+    "To reinforce LHW’s position as the definitive leader in luxury, we were challenged to create a full signage takeover of the event. The solution centered on elegantly curated imagery and a bold, brand-forward identity, maintaining impeccable consistency while showcasing the scale, diversity, and prestige of LHW’s portfolio."
+  ],
+  "productionCredit": [],
+  "modules": [
+    {
+      "type": "images",
+      "layout": "full",
+      "items": [
+        {
+          "src": "img/lhw/exterior1.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/lhw/interior1.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/lhw/interior2.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/lhw/interior3.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/lhw/interior4.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "The Rotunda",
+      "body": ""
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 1,
+      "size": 745,
+      "noun": "images",
+      "items": [
+        {
+          "src": "img/lhw/rotunda1.webp"
+        },
+        {
+          "src": "img/lhw/rotunda3.webp"
+        },
+        {
+          "src": "img/lhw/rotunda4.webp"
+        },
+        {
+          "src": "img/lhw/rotunda5.webp"
+        },
+        {
+          "src": "img/lhw/rotunda2.webp"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "The LHW Pavilion",
+      "body": ""
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 1,
+      "size": 745,
+      "noun": "images",
+      "items": [
+        {
+          "src": "img/lhw/lhwarea2.webp"
+        },
+        {
+          "src": "img/lhw/lhwarea1a.webp"
+        },
+        {
+          "src": "img/lhw/lhwarea1.webp"
+        },
+        {
+          "src": "img/lhw/lhwarea3.webp"
+        },
+        {
+          "src": "img/lhw/lhwarea4.webp"
+        },
+        {
+          "src": "img/lhw/lhwarea5.webp"
+        },
+        {
+          "src": "img/lhw/lhwarea6.webp"
+        },
+        {
+          "src": "img/lhw/lhwarea7.webp"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "trio",
+      "items": [
+        {
+          "src": "img/lhw/people1.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/lhw/people2.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/lhw/people3.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/lhw/booths1.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/lhw/booths2.webp",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

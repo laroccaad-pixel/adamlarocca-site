@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "image": "img/reef/btb-socialposts-trash1.webp"
+  },
+  "lead": "Everyone talks about ocean pollution except the ones most affected.",
+  "body": [
+    "Sea life has no voice. So we gave it one. On World Oceans Day, we turned Belize’s most iconic resident, the Belize Barrier Reef, the largest living reef on Earth into “The Reef with a Beef,” an outspoken advocate for the oceans.",
+    "Taking to Twitter and Instagram, the Reef called out polluters directly while rallying environmental allies. Its unapologetic tone reflected the urgency of the issue: change behavior now, or lose what can’t be replaced. The campaign drove over 31,000 engagements, gave consumers clear guidance on protecting our seas, and delivered a 3.1% lift in brand recognition for Belize."
+  ],
+  "productionCredit": [],
+  "modules": [
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/reef/reefwithabeef-twitteralmod3.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "film",
+      "title": "Reef with a Beef",
+      "src": "https://www.youtube.com/embed/ghL8g7KO4j8?rel=0"
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/reef/reef-with-a-beef-picstrip.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/reef/reefwithabeef-deadfishpost-phone3up.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 1,
+      "size": 745,
+      "noun": "posts",
+      "items": [
+        {
+          "src": "img/reef/btb-socialposts-sunscreen1.webp"
+        },
+        {
+          "src": "img/reef/btb-socialposts-sunscreen2.webp"
+        },
+        {
+          "src": "img/reef/btb-socialposts-trash1.webp"
+        },
+        {
+          "src": "img/reef/btb-socialposts-trash2.webp"
+        },
+        {
+          "src": "img/reef/btb-socialposts-video.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -70,5 +70,50 @@
     "role": "Creative Director",
     "agency": "The Mitchells Agency",
     "client": "Piggly Wiggly"
+  },
+  "daytona-beach-on": {
+    "img": "daytona/daytona-tsx-4637-smlalll",
+    "role": "Creative Director",
+    "agency": "Bright Red"
+  },
+  "palm-beaches-collections": {
+    "img": "palm/ooh-wellington",
+    "role": "Creative Director",
+    "agency": "Bright Red"
+  },
+  "barbados-t20": {
+    "img": "barbados/printmockup2",
+    "role": "Creative Director",
+    "agency": "Bright Red"
+  },
+  "belize-reef-with-a-beef": {
+    "img": "reef/btb-socialposts-sunscreen2",
+    "role": "Creative Director",
+    "agency": "Bright Red"
+  },
+  "gatorade-global-football": {
+    "img": "uaw/social-1",
+    "role": "Associate Creative Director",
+    "agency": "VML"
+  },
+  "napa-digital-social": {
+    "img": "napa/swancho-carousel-mosaic",
+    "role": "Associate Creative Director",
+    "agency": "VMLY&R"
+  },
+  "connelly-billiards": {
+    "img": "connelly/anticipation",
+    "role": "Art Director",
+    "agency": "R&R Partners"
+  },
+  "lhw-iltm-cannes": {
+    "img": "lhw/lhwarea1",
+    "role": "Creative Director",
+    "agency": "Bright Red"
+  },
+  "bww-digital-pop": {
+    "img": "bww/bww-pop-mix4cargo2",
+    "role": "Art Director",
+    "agency": "22squared"
   }
 }

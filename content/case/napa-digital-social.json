@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "image": "img/napa/swancho-carousel-mosaic.webp"
+  },
+  "lead": "We made a lot of fun stuff on the NAPA brand team at VML.",
+  "body": [
+    "We were responsible for supporting NAPA Auto Parts U.S.A. and Canada, NAPA Racing, NAPA AUTOPRO, NAPA AutoCare, NAPA Truck Service Centers and NAPA.com."
+  ],
+  "productionCredit": [
+    "Smartest Car Director: Monty Browne",
+    "Production Partner: Liquid9"
+  ],
+  "modules": [
+    {
+      "type": "section",
+      "title": "Smartest Car OLVs",
+      "body": "Smarter technology built into vehicles makes it harder and more expensive for your average joe to be able to fix his. We channeled our obnoxious inner Elon Musk to help people consider keeping the car they already own."
+    },
+    {
+      "type": "videos",
+      "cols": 3,
+      "items": [
+        {
+          "src": "https://www.youtube.com/embed/8CGZGQZaQes?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/IIyaxqd-U-E?rel=0"
+        },
+        {
+          "src": "https://www.youtube.com/embed/uszgzv0Cd9c?rel=0"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "NAPA AUTOPRO",
+      "body": "AUTOPROs are NAPA Canada's nationwide flagship service stations. One of their main focal points is promoting seasonal maintenance. We created attention-grabbing, seasonal key visuals used for in-store signage, fliers, social, and other digital placements."
+    },
+    {
+      "type": "images",
+      "layout": "pair",
+      "items": [
+        {
+          "src": "img/napa/autopro-posts-tophalf.webp",
+          "alt": ""
+        },
+        {
+          "src": "img/napa/autopro-posts-bottomhalf.webp",
+          "alt": ""
+        }
+      ],
+      "contain": true
+    },
+    {
+      "type": "section",
+      "title": "NAPA Racing: Swancho",
+      "body": "NAPA Racing experienced a huge spike in engagement when they showcased a line of faux Chase Elliott products. The Swancho built off the irreverent tone of the NAPA Racing brand, bringing the actual product to life with its own infomercial and social campaign."
+    },
+    {
+      "type": "film",
+      "title": "Swancho Infomercial",
+      "src": "https://player.vimeo.com/video/251672419?title=0&byline=0&portrait=0"
+    },
+    {
+      "type": "loops",
+      "cols": 4,
+      "aspect": "1/1",
+      "items": [
+        "video/napa-swancho-post2.mp4",
+        "video/napa-4-thumbingthisguypost.mp4",
+        "video/napa-3-scissorstechpost-450width.mp4",
+        "video/napa-7-hifivepost.mp4"
+      ]
+    },
+    {
+      "type": "rail",
+      "center": true,
+      "start": 1,
+      "size": 745,
+      "noun": "screens",
+      "items": [
+        {
+          "src": "img/napa/swanchosite1.webp"
+        },
+        {
+          "src": "img/napa/swanchosite2.webp"
+        },
+        {
+          "src": "img/napa/swanchosite3.webp"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/napa/swancho-carousel-mosaic.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "NAPA Online: E-comm Site & Email",
+      "body": "I served as VML's creative lead for NAPA Online. Collaborating with planners and email specialists, we implemented the right touch points in the right places at the right times. Then my team and I went to work to make every asset delivered look and sound undeniably NAPA."
+    },
+    {
+      "type": "images",
+      "layout": "natural",
+      "items": [
+        {
+          "src": "img/napa/napa-online-emails.webp",
+          "alt": ""
+        }
+      ],
+      "pad": true
+    }
+  ]
+}

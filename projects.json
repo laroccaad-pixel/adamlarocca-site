@@ -128,6 +128,39 @@
     "assetsFolder": "Portfolio 4_10_ 2025/Thrifty"
   },
   {
+    "slug": "piggly-wiggly-tv",
+    "cargo": "adjockey/Piggly-Wiggly-Food-For-Less-TV",
+    "visible": true,
+    "order": 4,
+    "client": "Piggly Wiggly Food For Less",
+    "title": "Live the Pig",
+    "category": "Grocery / Retail",
+    "agency": "The Mitchells Agency",
+    "role": "Creative Director",
+    "intro": "There are two kinds of people in this world. Those who love The Pig, and those who have never experienced The Pig. We let pig evangelists introduce the brand to those who may not know about all the amazing reasons to love The Pig.",
+    "sections": [
+      {
+        "title": "Brand TV",
+        "body": ""
+      },
+      {
+        "title": "Departments TV",
+        "body": "We brought our fun brand voice and identity to life in animated spots highlighting different departments."
+      }
+    ],
+    "productionCredit": [
+      "Director: Erich Stefanovich",
+      "Production Partner: Orange Video"
+    ],
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Erich Stefanovich",
+      "Creative Director: Adam LaRocca",
+      "Motion GFX: Ryndrick Gaines"
+    ],
+    "assetsFolder": "The Mitchells Agency/Piggly Wiggly Food For Less"
+  },
+  {
     "slug": "g-recover",
     "cargo": "G-RECOVER-Athlete-Building",
     "visible": true,
@@ -202,39 +235,6 @@
       "Art Director: Emily Bernstein"
     ],
     "assetsFolder": "_Portfolio 2026 (Bright Red + TZA)/Belize/Grab Life Coach"
-  },
-  {
-    "slug": "piggly-wiggly-tv",
-    "cargo": "adjockey/Piggly-Wiggly-Food-For-Less-TV",
-    "visible": true,
-    "order": 4,
-    "client": "Piggly Wiggly Food For Less",
-    "title": "Live the Pig",
-    "category": "Grocery / Retail",
-    "agency": "The Mitchells Agency",
-    "role": "Creative Director",
-    "intro": "There are two kinds of people in this world. Those who love The Pig, and those who have never experienced The Pig. We let pig evangelists introduce the brand to those who may not know about all the amazing reasons to love The Pig.",
-    "sections": [
-      {
-        "title": "Brand TV",
-        "body": ""
-      },
-      {
-        "title": "Departments TV",
-        "body": "We brought our fun brand voice and identity to life in animated spots highlighting different departments."
-      }
-    ],
-    "productionCredit": [
-      "Director: Erich Stefanovich",
-      "Production Partner: Orange Video"
-    ],
-    "awards": [],
-    "credits": [
-      "Chief Creative Officer: Erich Stefanovich",
-      "Creative Director: Adam LaRocca",
-      "Motion GFX: Ryndrick Gaines"
-    ],
-    "assetsFolder": "The Mitchells Agency/Piggly Wiggly Food For Less"
   },
   {
     "slug": "gatorade-behind-the-sweat",
@@ -497,5 +497,320 @@
       "Copywriter: Chris Miller"
     ],
     "assetsFolder": "Portfolio 4_10_ 2025/PODS"
+  },
+  {
+    "slug": "daytona-beach-on",
+    "visible": true,
+    "order": 14,
+    "client": "Daytona Beach",
+    "title": "Beach On",
+    "category": "Tourism",
+    "agency": "Bright Red (OMC)",
+    "role": "Creative Director",
+    "intro": "Daytona Beach has long been known as a spring break party destination. But the brand set out to redefine itself as an easy, welcoming place for families. Knowing the beach was the undeniable hero, we created a rallying cry that reestablished Daytona Beach as the authority on beach fun and the ultimate family beach vacation, grounded in the carefree memories made there.",
+    "sections": [
+      {
+        "title": "Beach On Brand Campaign",
+        "body": ""
+      },
+      {
+        "title": "Times Square Anamorphic Billboard",
+        "body": "Daytona Beach is a favorite for local weekenders, but longer trips from out-of-state visitors needed a boost. To shift perception, we created an anamorphic billboard in Times Square, spotlighting new direct flights from NYC and showing how easy it is to trade cold for “Beach On” energy."
+      }
+    ],
+    "productionCredit": [
+      "3D Anamorphic Partner: Adolescent NYC"
+    ],
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Liz Paradise",
+      "Creative Director: Adam LaRocca",
+      "Creative Director: Jason Piroth",
+      "Senior Art Director: John Towler",
+      "Art Director: Emily Bernstein"
+    ],
+    "source": "larocca2"
+  },
+  {
+    "slug": "palm-beaches-collections",
+    "visible": true,
+    "order": 15,
+    "client": "The Palm Beaches",
+    "title": "The Collections",
+    "category": "Tourism",
+    "agency": "Bright Red (OMC)",
+    "role": "Creative Director",
+    "intro": "The Palm Beaches is one of the most diverse destinations in the country, spanning 39 cities and offering everything from family travel to wellness, nature, and luxury. We turned that diversity into the idea itself, inviting travelers to curate their own “collection” and build a vacation tailored to them.\n\nTo break through a category full of predictable beach imagery, we introduced a distinctive tablescape system. Elevated, tactile, and modular, it allowed experiences, activities, and moments to be artfully arranged and recombined, signaling both variety and refinement at a glance. Built around key brand pillars, the campaign flexed seamlessly across audiences and individual cities, while maintaining a consistent visual language across all media.",
+    "sections": [
+      {
+        "title": "Out of Home",
+        "body": ""
+      },
+      {
+        "title": "Print: Brand Pillars",
+        "body": ""
+      },
+      {
+        "title": "Print: Cities",
+        "body": ""
+      },
+      {
+        "title": "Print: Business Travel",
+        "body": ""
+      },
+      {
+        "title": "Digital & Social",
+        "body": ""
+      }
+    ],
+    "productionCredit": [],
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Liz Paradise",
+      "Creative Director: Adam LaRocca",
+      "Senior Designer: Marie Roberts",
+      "Senior Copywriter: Matt Johnson",
+      "Art Director: Emily Bernstein"
+    ],
+    "source": "larocca2"
+  },
+  {
+    "slug": "barbados-t20",
+    "visible": true,
+    "order": 16,
+    "client": "Barbados Tourism",
+    "title": "T20 World Cup",
+    "category": "Tourism",
+    "agency": "Bright Red (OMC)",
+    "role": "Creative Director",
+    "intro": "Cricket is one of the most watched sports in the world, and Barbados is one of its most desirable destinations. When the ICC Men’s T20 World Cup came to Barbados, we positioned the tournament not just as a sporting event, but as a once-in-a-lifetime travel moment by fusing cricket iconography with the island’s unmistakable beauty.",
+    "sections": [],
+    "productionCredit": [
+      "Photographer: Kristopher Streek"
+    ],
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Liz Paradise",
+      "Creative Director: Adam LaRocca",
+      "Creative Director: Jason Piroth",
+      "Senior Art Director: TJ Stacy"
+    ],
+    "source": "larocca2"
+  },
+  {
+    "slug": "belize-reef-with-a-beef",
+    "visible": true,
+    "order": 17,
+    "client": "Belize Tourism Board",
+    "title": "Reef with a Beef",
+    "category": "Tourism / Social",
+    "agency": "Bright Red (OMC)",
+    "role": "Creative Director",
+    "intro": "Everyone talks about ocean pollution except the ones most affected. Sea life has no voice. So we gave it one. On World Oceans Day, we turned Belize’s most iconic resident, the Belize Barrier Reef, the largest living reef on Earth into “The Reef with a Beef,” an outspoken advocate for the oceans.\n\nTaking to Twitter and Instagram, the Reef called out polluters directly while rallying environmental allies. Its unapologetic tone reflected the urgency of the issue: change behavior now, or lose what can’t be replaced. The campaign drove over 31,000 engagements, gave consumers clear guidance on protecting our seas, and delivered a 3.1% lift in brand recognition for Belize.",
+    "sections": [],
+    "productionCredit": [],
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Liz Paradise",
+      "Creative Director: Adam LaRocca",
+      "Creative Director: Jason Piroth",
+      "Senior Art Director: TJ Stacy",
+      "Senior Copywriter: Matt Johnson",
+      "Art Director: Emily Bernstein",
+      "Designer: Paige Painter"
+    ],
+    "source": "larocca2"
+  },
+  {
+    "slug": "gatorade-global-football",
+    "visible": true,
+    "order": 18,
+    "client": "Gatorade",
+    "title": "Global Football",
+    "category": "Sports / CPG",
+    "agency": "VML",
+    "role": "Associate Creative Director",
+    "intro": "Gatorade is synonymous with sports in the U.S. but has limited awareness abroad. We were tasked to launch the brand’s first true global marketing initiative, where we asked elite amateur footballers to demonstrate how their hard work translates to unreal performance on the pitch by uploading a video to GatoradeFootball.com. Five winners would get the chance to play, train and tour at seven of the most iconic clubs around the world.\n\nWe created a launch video to announce the contest, put on live events in London and NYC, and produced a myriad of branded video content, promoted and consumed by thirty key markets across the globe.",
+    "sections": [
+      {
+        "title": "Launch Video",
+        "body": ""
+      },
+      {
+        "title": "Global Social Support",
+        "body": "We orchestrated global social support by our pro athletes and clubs, global content distribution partner Goal.com, and Gatorade accounts around the world to spread awareness of the campaign using #BeUnreal."
+      },
+      {
+        "title": "London & NYC Experiential Events",
+        "body": "We invited the best youth footballers in London and New York to battle in a next-level soccer competition. The events gave the elite footballers a once in a lifetime experience, while helping seed submissions, generate content and create awareness."
+      },
+      {
+        "title": "GatoradeFootball.com",
+        "body": "We developed GatoradeFootball.com as a content hub for all of Gatorade’s global initiatives. Accommodating five languages, the website housed Unreal Around the World content, top-box content from partner agencies, and profiles on budding semi-professional footballers across the globe."
+      },
+      {
+        "title": "Winners Trip",
+        "body": "We documented the unreal journey of our five winners, releasing individual videos as exclusive content for use by our professional club partners. A long-form complete journey recap was also created to showcase the unreal trip in its entirety."
+      }
+    ],
+    "productionCredit": [
+      "Content & Media Partner: Perform Group"
+    ],
+    "awards": [],
+    "credits": [
+      "Executive Creative Director: Tony Snethen",
+      "Group Creative Director: Josh Kell",
+      "Creative Director: Derek Anderson",
+      "Associate Creative Director: Adam LaRocca",
+      "Senior Art Director: Rob Kaszuba",
+      "Art Director: Amanda Laffoon",
+      "Copywriter: Robert Abasolo"
+    ],
+    "source": "larocca2"
+  },
+  {
+    "slug": "napa-digital-social",
+    "visible": true,
+    "order": 19,
+    "client": "NAPA Auto Parts",
+    "title": "Digital & Social",
+    "category": "Automotive",
+    "agency": "VMLY&R",
+    "role": "Associate Creative Director",
+    "intro": "We made a lot of fun stuff on the NAPA brand team at VML. We were responsible for supporting NAPA Auto Parts U.S.A. and Canada, NAPA Racing, NAPA AUTOPRO, NAPA AutoCare, NAPA Truck Service Centers and NAPA.com.",
+    "sections": [
+      {
+        "title": "Smartest Car OLVs",
+        "body": "Smarter technology built into vehicles makes it harder and more expensive for your average joe to be able to fix his. We channeled our obnoxious inner Elon Musk to help people consider keeping the car they already own."
+      },
+      {
+        "title": "NAPA AUTOPRO",
+        "body": "AUTOPROs are NAPA Canada's nationwide flagship service stations. One of their main focal points is promoting seasonal maintenance. We created attention-grabbing, seasonal key visuals used for in-store signage, fliers, social, and other digital placements."
+      },
+      {
+        "title": "NAPA Racing: Swancho",
+        "body": "NAPA Racing experienced a huge spike in engagement when they showcased a line of faux Chase Elliott products. The Swancho built off the irreverent tone of the NAPA Racing brand, bringing the actual product to life with its own infomercial and social campaign."
+      },
+      {
+        "title": "NAPA Online: E-comm Site & Email",
+        "body": "I served as VML's creative lead for NAPA Online. Collaborating with planners and email specialists, we implemented the right touch points in the right places at the right times. Then my team and I went to work to make every asset delivered look and sound undeniably NAPA."
+      }
+    ],
+    "productionCredit": [
+      "Smartest Car Director: Monty Browne",
+      "Production Partner: Liquid9"
+    ],
+    "awards": [],
+    "credits": [
+      "Executive Creative Director: Aaron Evenson",
+      "Group Creative Director: James Holden",
+      "Creative Director: Derek Anderson",
+      "Associate Creative Director: Robert Schneider",
+      "Associate Creative Director: Adam LaRocca",
+      "Associate Creative Director: Jonathan Vigliaturo",
+      "Associate Creative Director: Monty Browne",
+      "Art Director: Matt McNary",
+      "Copywriter: Patrick Farrell"
+    ],
+    "source": "larocca2"
+  },
+  {
+    "slug": "connelly-billiards",
+    "visible": true,
+    "order": 20,
+    "client": "Connelly Billiards",
+    "title": "Print",
+    "category": "Luxury / Print",
+    "agency": "R&R Partners",
+    "role": "Art Director",
+    "intro": "Connelly billiards tables are the finest money can buy. Our print campaign positioned them as the most valued possession you'll ever own.",
+    "sections": [],
+    "productionCredit": [
+      "Photographer: Patrick Darby"
+    ],
+    "awards": [],
+    "credits": [
+      "Creative Director: Kevin Munk",
+      "Art Director: Adam LaRocca",
+      "Copywriter: Eric Schlaugh"
+    ],
+    "source": "larocca2"
+  },
+  {
+    "slug": "lhw-iltm-cannes",
+    "visible": true,
+    "order": 21,
+    "client": "Leading Hotels of the World",
+    "title": "ILTM Cannes Takeover",
+    "category": "Luxury Travel / Experiential",
+    "agency": "Bright Red (OMC)",
+    "role": "Creative Director",
+    "intro": "Leading Hotels of the World (LHW) is the world’s largest collection of exclusive, independent luxury hotels, each property representing the highest standard of service and hospitality. International Luxury Trade Market Cannes is the premier annual gathering of the global luxury travel industry.\n\nTo reinforce LHW’s position as the definitive leader in luxury, we were challenged to create a full signage takeover of the event. The solution centered on elegantly curated imagery and a bold, brand-forward identity, maintaining impeccable consistency while showcasing the scale, diversity, and prestige of LHW’s portfolio.",
+    "sections": [
+      {
+        "title": "The Rotunda",
+        "body": ""
+      },
+      {
+        "title": "The LHW Pavilion",
+        "body": ""
+      }
+    ],
+    "productionCredit": [],
+    "awards": [],
+    "credits": [
+      "Chief Creative Officer: Liz Paradise",
+      "Creative Director: Adam LaRocca",
+      "Content Director: Eric Vaughn",
+      "Senior Art Director: Chi Hang",
+      "Art Director: Emily Bernstein"
+    ],
+    "source": "larocca2"
+  },
+  {
+    "slug": "bww-digital-pop",
+    "visible": true,
+    "order": 22,
+    "client": "Buffalo Wild Wings",
+    "title": "Digital & POP",
+    "category": "QSR",
+    "agency": "22squared",
+    "role": "Art Director",
+    "intro": "Bdubs has a fun-loving, aggro-irreverent tone. It was a lot of fun infusing that brand essence into every piece we made, from banners to menu inserts.",
+    "sections": [
+      {
+        "title": "March Madness Banners",
+        "body": ""
+      },
+      {
+        "title": "Holiday & Fantasy Draft POP",
+        "body": ""
+      },
+      {
+        "title": "Sauce Racers",
+        "body": "Beckoning the spine-tingling excitement of a classic ballpark mascot race, we created a captivating rich media experience featuring BWW sauces."
+      },
+      {
+        "title": "March Madness ESPN Homepage Takeover",
+        "body": "March Madness is big business for Buffalo Wild Wings. Our homepage takeover ran the day after Sweet Sixteen weekend ended, a time when most people’s brackets became seemingly worthless. So we gave them a few useful things to do with their useless bracket."
+      },
+      {
+        "title": "BWW Film School",
+        "body": "We gave fans of Buffalo Wild Wings a shot at making their own BWW commercials. A lot of comedy ensued. Both intentional and otherwise. Participants were able to upload, vote and share their videos with friends (before Meta owned all of that)."
+      }
+    ],
+    "productionCredit": [],
+    "awards": [],
+    "credits": [
+      "Executive Creative Director: John Stapleton",
+      "Creative Director: Tom Mcmahon",
+      "Creative Director: James Rosene",
+      "Associate Creative Director: Ryan Stafford",
+      "Associate Creative Director: Bill Allen",
+      "Copywriter: Chris Miller",
+      "Copywriter: Jeff Pospichal",
+      "Art Director: Adam LaRocca"
+    ],
+    "source": "larocca2"
   }
 ]
