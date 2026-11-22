@@ -174,6 +174,15 @@ def module(m, pre):
         if m.get("inset"): anchor += " inset"
         if m.get("pad"): anchor += " padded"
         return f'<div class="media m-{m["layout"]}{anchor}">' + "".join(fig(i, pre) for i in m["items"]) + "</div>"
+    if t == "adpage":
+        v = lambda f, w, h: f'<video src="{pre}{f}" width="{w}" height="{h}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
+        sk = lambda n, cls="": "".join(f'<i class="sk{cls}" style="width:{w}%"></i>' for w in n)
+        return f'''<div class="adpage" role="img" aria-label="{E(m.get("alt","Banner ads in a web page"))}"><div class="ap-bar"></div><div class="ap-body">
+  <div class="ap-nav"><i class="sk logo"></i><span>{sk([9,7,8,6])}</span></div>
+  <div class="ap-ad lb">{v(m["top"],728,90)}</div>
+  <div class="ap-cols"><div class="ap-main"><i class="sk h"></i><i class="sk h" style="width:62%"></i><div class="ap-hero"></div>{sk([100,96,98,91,64])}<div class="ap-ad lb">{v(m["mid"],728,90)}</div>{sk([100,94,97,88,99,72])}</div>
+  <aside class="ap-rail"><div class="ap-ad mr">{v(m["rail"],300,250)}</div>{sk([90,100,80])}<div class="ap-card"></div>{sk([100,70])}</aside></div>
+</div></div>'''
     if t == "collage":
         W, H = m["w"], m["h"]
         def tile(i):

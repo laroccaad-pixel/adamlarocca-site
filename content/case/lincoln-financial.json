@@ -74,6 +74,13 @@
           "alt": "Home Equity print ad"
         }
       ]
+    },
+    {
+      "type": "adpage",
+      "alt": "Things Change animated banners in a web page",
+      "top": "video/lfg-princeton.mp4",
+      "mid": "video/lfg-cabo.mp4",
+      "rail": "video/lfg-retire.mp4"
     }
   ],
   "productionCredit": [
