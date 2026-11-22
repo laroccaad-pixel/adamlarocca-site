@@ -11,12 +11,35 @@
 })();
 
 // Films: poster first, load the Vimeo/YouTube player only on click
-document.querySelectorAll(".film button").forEach(b => b.addEventListener("click", () => {
-  const f = b.closest(".film"), src = f.dataset.src;
-  const sep = src.includes("?") ? "&" : "?";
-  f.innerHTML = `<iframe src="${src}${sep}autoplay=1" title="${f.dataset.title}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
-  f.classList.add("on");
-}));
+// Click-to-play films. When a film ends, close the player and restore the cover,
+// so YouTube/Vimeo "more videos" end screens never show.
+function bindFilm(f) {
+  const b = f.querySelector("button"); if (!b) return;
+  b.addEventListener("click", () => {
+    const cover = f.innerHTML, src = f.dataset.src, yt = src.includes("youtube"), sep = src.includes("?") ? "&" : "?";
+    const extra = yt ? "autoplay=1&enablejsapi=1&rel=0&iv_load_policy=3&playsinline=1&origin=" + encodeURIComponent(location.origin)
+                     : "autoplay=1&title=0&byline=0&portrait=0&badge=0&vimeo_logo=0&transparent=0&dnt=1";
+    f.innerHTML = `<iframe src="${src}${sep}${extra}" title="${f.dataset.title}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+    f.classList.add("on");
+    const ifr = f.querySelector("iframe");
+    const post = m => ifr.contentWindow && ifr.contentWindow.postMessage(typeof m === "string" ? m : JSON.stringify(m), "*");
+    const restore = () => { removeEventListener("message", onMsg); f.classList.remove("on"); f.innerHTML = cover; bindFilm(f); loadVimeoCovers(f); };
+    const onMsg = e => {
+      if (e.source !== ifr.contentWindow) return;
+      let d = e.data; try { if (typeof d === "string") d = JSON.parse(d); } catch (_) { return; }
+      if (yt) {
+        if (d.event === "onReady" || d.event === "initialDelivery") post({ event: "command", func: "addEventListener", args: ["onStateChange"] });
+        if ((d.event === "onStateChange" && d.info === 0) || (d.event === "infoDelivery" && d.info && d.info.playerState === 0)) restore();
+      } else {
+        if (d.event === "ready") post({ method: "addEventListener", value: "ended" });
+        if (d.event === "ended") restore();
+      }
+    };
+    addEventListener("message", onMsg);
+    ifr.addEventListener("load", () => yt && post({ event: "listening", id: 1, channel: "widget" }));
+  });
+}
+document.querySelectorAll(".film").forEach(bindFilm);
 
 // Social rail arrows
 document.querySelectorAll(".rail-wrap").forEach(w => {
@@ -47,7 +70,7 @@ document.querySelectorAll(".center-rail").forEach(r => {
 })();
 
 // Vimeo covers: pull the default thumbnail from Vimeo's public oEmbed API
-document.querySelectorAll("img[data-vimeo]").forEach(async img => {
+function loadVimeoCovers(root = document) { root.querySelectorAll("img[data-vimeo]").forEach(async img => {
   const fb = () => { if (img.dataset.fallback) img.src = img.dataset.fallback; else img.remove(); };
   try {
     const r = await fetch(`https://vimeo.com/api/oembed.json?url=https://vimeo.com/${img.dataset.vimeo}&width=1280`);
@@ -56,4 +79,5 @@ document.querySelectorAll("img[data-vimeo]").forEach(async img => {
     img.src = d.thumbnail_url ? d.thumbnail_url.replace(/_\d+x\d+/, "_1280x720") : "";
     img.onerror = () => { img.onerror = null; d.thumbnail_url ? img.src = d.thumbnail_url : fb(); };
   } catch (e) { fb(); }
-});
+}); }
+loadVimeoCovers();
