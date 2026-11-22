@@ -1,6 +1,7 @@
 {
   "hero": {
-    "image": "img/daytona/day-0037-exploreflorida-spreadad.webp"
+    "video": "video/day-hero-1080.mp4",
+    "poster": "img/daytona/hero-poster.webp"
   },
   "lead": "Daytona Beach has long been known as a spring break party destination.",
   "body": [
