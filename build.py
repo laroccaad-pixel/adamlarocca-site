@@ -262,7 +262,7 @@ def build_case(p, nxt, hidden=False):
     for m in cs["modules"]:
         if m["type"] == "section" and groups[-1]: groups.append([])
         groups[-1].append(m)
-    mods = "".join(('<section class="cs-section divided">' if g[0].get("divider") else '<section class="cs-section">') + "".join(module(m, pre) for m in g) + "</section>" for g in groups)
+    mods = "".join(('<section class="cs-section' + (' divided' if g[0].get("divider") else '') + (' tight' if g[0].get("tight") else '') + '">') + "".join(module(m, pre) for m in g) + "</section>" for g in groups)
     credits = "".join(f'<li class="{"me" if "Adam LaRocca" in cr else ""}"><b>{E(cr.split(":")[0])}</b>{E(cr.split(":",1)[1].strip())}</li>' for cr in p["credits"])
     award_chips = "".join(f"<span>{E(a)}</span>" for a in awards)
     nc = cards[nxt["slug"]]

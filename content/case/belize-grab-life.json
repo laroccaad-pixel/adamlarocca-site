@@ -77,7 +77,8 @@
     {
       "type": "section",
       "title": "Owned Channel Integration",
-      "body": "The Grab Life Coaches extended into social and Belize’s trip-planning app, guiding travelers with personalized itineraries, curated recommendations, and a chatbot that spoke in the voice of a coach, turning inspiration into action."
+      "body": "The Grab Life Coaches extended into social and Belize’s trip-planning app, guiding travelers with personalized itineraries, curated recommendations, and a chatbot that spoke in the voice of a coach, turning inspiration into action.",
+      "tight": true
     },
     {
       "type": "images",
