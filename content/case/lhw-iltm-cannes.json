@@ -111,6 +111,12 @@
         },
         {
           "src": "img/lhw/lhwarea7.webp"
+        },
+        {
+          "src": "img/lhw/booths1.webp"
+        },
+        {
+          "src": "img/lhw/booths2.webp"
         }
       ]
     },
@@ -128,20 +134,6 @@
         },
         {
           "src": "img/lhw/people3.webp",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "layout": "pair",
-      "items": [
-        {
-          "src": "img/lhw/booths1.webp",
-          "alt": ""
-        },
-        {
-          "src": "img/lhw/booths2.webp",
           "alt": ""
         }
       ]
