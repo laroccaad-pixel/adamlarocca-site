@@ -15,16 +15,6 @@
       "src": "https://www.youtube.com/embed/YPsJHlkQaZM?rel=0"
     },
     {
-      "type": "loops",
-      "phone": true,
-      "items": [
-        "video/ri-post-inclusivity.mp4",
-        "video/ri-post-culinary.mp4",
-        "video/ri-post-outdoors.mp4",
-        "video/ri-post-history.mp4"
-      ]
-    },
-    {
       "type": "videos",
       "cols": 3,
       "items": [
@@ -64,6 +54,16 @@
         {
           "src": "https://www.youtube.com/embed/IS8XLWZR1R8?rel=0"
         }
+      ]
+    },
+    {
+      "type": "loops",
+      "phone": true,
+      "items": [
+        "video/ri-post-inclusivity.mp4",
+        "video/ri-post-culinary.mp4",
+        "video/ri-post-outdoors.mp4",
+        "video/ri-post-history.mp4"
       ]
     },
     {
