@@ -65,7 +65,8 @@
         "video/ri-post-outdoors.mp4",
         "video/ri-post-history.mp4"
       ],
-      "space": 2
+      "space": 2,
+      "cols": 2
     },
     {
       "type": "section",
