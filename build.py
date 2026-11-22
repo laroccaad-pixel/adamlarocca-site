@@ -16,7 +16,8 @@ has_case = lambda slug: os.path.exists(os.path.join(ROOT, "content", "case", slu
 
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;800;900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">'
 
-def head(title, pre, desc):
+def head(title, pre, desc, noindex=False):
+    robots = '<meta name="robots" content="noindex,nofollow">\n' if noindex else ''
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +25,7 @@ def head(title, pre, desc):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
-{FONTS}
+{robots}{FONTS}
 <link rel="stylesheet" href="{pre}css/site.css">
 </head>
 <body>'''
@@ -211,7 +212,7 @@ def module(m, pre):
   <div class="rail-controls"><span>{len(m["items"])} {noun}. Swipe or use the arrows.</span><div><button data-dir="-1" aria-label="Previous">&#8592;</button><button data-dir="1" aria-label="Next">&#8594;</button></div></div></div>'''
     raise ValueError(t)
 
-def build_case(p, nxt):
+def build_case(p, nxt, hidden=False):
     pre = "../"
     cs = json.load(open(os.path.join(ROOT, "content", "case", p["slug"] + ".json")))
     c = cards[p["slug"]]
@@ -233,7 +234,7 @@ def build_case(p, nxt):
     prod_html = "".join((f'<p class="prod">{E(x)}</p>' if x else '<p class="prod sp" aria-hidden="true"></p>') for x in (pc if isinstance(pc, list) else ([pc] if pc else [])))
     hero_media = (f'<video src="{pre}{hero["video"]}" poster="{pre}{hero["poster"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>'
                   if hero.get("video") else f'<img src="{"" if hero["image"].startswith("http") else pre}{hero["image"]}" alt="" fetchpriority="high">')
-    page = head(f'{p["client"]}: {p["title"]}. Adam LaRocca', pre, cs["lead"]) + nav(pre, "work") + f'''
+    page = head(f'{p["client"]}: {p["title"]}. Adam LaRocca', pre, cs["lead"], noindex=hidden) + nav(pre, "work") + f'''
 <header class="cs-hero{(' tint-' + cs['hero']['tint']) if cs.get('hero',{}).get('tint') else ''}">
   {hero_media}
   <div class="cs-hero-copy">
@@ -261,4 +262,13 @@ if __name__ == "__main__":
         if has_case(p["slug"]):
             build_case(p, live[(i + 1) % len(live)])
             print("built", p["slug"])
-    print("home:", len(live), "projects")
+    # hidden projects: still built as unlisted preview pages (noindex), reachable by URL only
+    hidden = sorted([p for p in projects if not p.get("visible")], key=lambda p: p["order"])
+    for p in hidden:
+        if has_case(p["slug"]):
+            build_case(p, live[0], hidden=True)
+    with open(os.path.join(SITE, "preview.html"), "w") as f:
+        f.write('<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Hidden previews</title>'
+                '<style>body{font:16px system-ui;background:#0D1B2A;color:#F3F5F8;padding:40px}a{color:#FFC83D;display:block;margin:8px 0}</style>'
+                '<h1>Hidden case studies</h1>' + "".join(f'<a href="work/{p["slug"]}.html">{E(p["client"])}: {E(p["title"])}</a>' for p in hidden))
+    print("home:", len(live), "projects;", len(hidden), "hidden previews")

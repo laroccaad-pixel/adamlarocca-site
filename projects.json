@@ -533,7 +533,7 @@
   },
   {
     "slug": "palm-beaches-collections",
-    "visible": true,
+    "visible": false,
     "order": 15,
     "client": "The Palm Beaches",
     "title": "The Collections",
@@ -576,7 +576,7 @@
   },
   {
     "slug": "barbados-t20",
-    "visible": true,
+    "visible": false,
     "order": 16,
     "client": "Barbados Tourism",
     "title": "T20 World Cup",
@@ -599,7 +599,7 @@
   },
   {
     "slug": "belize-reef-with-a-beef",
-    "visible": true,
+    "visible": false,
     "order": 17,
     "client": "Belize Tourism Board",
     "title": "Reef with a Beef",
@@ -623,7 +623,7 @@
   },
   {
     "slug": "gatorade-global-football",
-    "visible": true,
+    "visible": false,
     "order": 18,
     "client": "Gatorade",
     "title": "Global Football",
@@ -670,7 +670,7 @@
   },
   {
     "slug": "napa-digital-social",
-    "visible": true,
+    "visible": false,
     "order": 19,
     "client": "NAPA Auto Parts",
     "title": "Digital & Social",
@@ -716,7 +716,7 @@
   },
   {
     "slug": "connelly-billiards",
-    "visible": true,
+    "visible": false,
     "order": 20,
     "client": "Connelly Billiards",
     "title": "Print",
@@ -738,7 +738,7 @@
   },
   {
     "slug": "lhw-iltm-cannes",
-    "visible": true,
+    "visible": false,
     "order": 21,
     "client": "Leading Hotels of the World",
     "title": "ILTM Cannes Takeover",
@@ -769,7 +769,7 @@
   },
   {
     "slug": "bww-digital-pop",
-    "visible": true,
+    "visible": false,
     "order": 22,
     "client": "Buffalo Wild Wings",
     "title": "Digital & POP",
@@ -815,7 +815,7 @@
   },
   {
     "slug": "gatorade-xbox-kinect",
-    "visible": true,
+    "visible": false,
     "order": 23,
     "client": "Gatorade",
     "title": "XBOX Kinect",
@@ -831,7 +831,7 @@
   },
   {
     "slug": "azdhs-tobacco-cessation",
-    "visible": true,
+    "visible": false,
     "order": 24,
     "client": "Arizona Department of Health Services",
     "title": "Tobacco Cessation",
@@ -856,7 +856,7 @@
   },
   {
     "slug": "laclede-gas",
-    "visible": true,
+    "visible": false,
     "order": 25,
     "client": "Laclede Gas",
     "title": "Winter Efficiency",
@@ -875,7 +875,7 @@
   },
   {
     "slug": "bayer-animal-health",
-    "visible": true,
+    "visible": false,
     "order": 26,
     "client": "Bayer Animal Health",
     "title": "Seresto & K9 Advantix II",
@@ -908,7 +908,7 @@
   },
   {
     "slug": "publix-tv",
-    "visible": true,
+    "visible": false,
     "order": 27,
     "client": "Publix Supermarkets",
     "title": "BOGO TV",
