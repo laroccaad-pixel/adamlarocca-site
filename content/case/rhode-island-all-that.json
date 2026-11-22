@@ -64,7 +64,8 @@
         "video/ri-post-culinary.mp4",
         "video/ri-post-outdoors.mp4",
         "video/ri-post-history.mp4"
-      ]
+      ],
+      "space": 2
     },
     {
       "type": "section",
