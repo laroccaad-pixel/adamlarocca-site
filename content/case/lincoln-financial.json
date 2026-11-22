@@ -9,11 +9,6 @@
   ],
   "modules": [
     {
-      "type": "section",
-      "title": "Futureself Timeline Experience",
-      "body": ""
-    },
-    {
       "type": "film",
       "title": "Futureself Timeline",
       "src": "https://player.vimeo.com/video/222258365?title=0&byline=0&portrait=0",
@@ -41,12 +36,14 @@
       "type": "film",
       "title": "Campaign Case Study Video",
       "src": "https://player.vimeo.com/video/220088951?title=0&byline=0&portrait=0",
-      "poster": "img/lfg/homepage.webp"
+      "poster": "img/lfg/homepage.webp",
+      "darkLabel": true
     },
     {
       "type": "section",
-      "title": "Things Change Campaign",
-      "body": "In the wake of a major market downturn, investor confidence was shaken. Our challenge was to reassure people that while their plans may have changed, Lincoln Financial Group would remain a steady guide, helping them navigate uncertainty, rebuild confidence, and stay on track toward their long-term goals."
+      "title": "Things Change",
+      "body": "In the wake of a major market downturn, investor confidence was shaken. Our challenge was to reassure people that while their plans may have changed, Lincoln Financial Group would remain a steady guide, helping them navigate uncertainty, rebuild confidence, and stay on track toward their long-term goals.",
+      "divider": true
     },
     {
       "type": "images",
@@ -81,6 +78,6 @@
     }
   ],
   "productionCredit": [
-    "Digital Development Partner (Futureself Timeline Experience): Firstborn"
+    "Digital Development Partner: Firstborn"
   ]
 }

@@ -217,14 +217,14 @@ def build_case(p, nxt, hidden=False):
     cs = json.load(open(os.path.join(ROOT, "content", "case", p["slug"] + ".json")))
     c = cards[p["slug"]]
     awards = p.get("awards") or []
-    meta = [("Role", p["role"]), ("Agency", p["agency"]), ("Recognition", ", ".join(awards) if awards else p["category"])]
+    meta = [("Role", p["role"]), ("Agency", p["agency"]), ("Recognition", "\n".join(awards) if awards else p["category"])]
     meta_label = "Recognition" if awards else "Category"
     meta[2] = (meta_label, meta[2][1])
     groups = [[]]
     for m in cs["modules"]:
         if m["type"] == "section" and groups[-1]: groups.append([])
         groups[-1].append(m)
-    mods = "".join('<section class="cs-section">' + "".join(module(m, pre) for m in g) + "</section>" for g in groups)
+    mods = "".join(('<section class="cs-section divided">' if g[0].get("divider") else '<section class="cs-section">') + "".join(module(m, pre) for m in g) + "</section>" for g in groups)
     credits = "".join(f'<li class="{"me" if "Adam LaRocca" in cr else ""}"><b>{E(cr.split(":")[0])}</b>{E(cr.split(":",1)[1].strip())}</li>' for cr in p["credits"])
     award_chips = "".join(f"<span>{E(a)}</span>" for a in awards)
     nc = cards[nxt["slug"]]
@@ -240,7 +240,7 @@ def build_case(p, nxt, hidden=False):
   <div class="cs-hero-copy">
     <p class="kicker">{E(p["client"])}</p>
     <h1 class="display">{E(p["title"])}</h1>
-    <dl class="cs-meta">{"".join(f"<div><dt>{k}</dt><dd>{E(v)}</dd></div>" for k, v in meta)}</dl>
+    <dl class="cs-meta">{"".join(f"<div><dt>{k}</dt><dd>{E(v).replace(chr(10), "<br>")}</dd></div>" for k, v in meta)}</dl>
   </div>
 </header>
 <main>
