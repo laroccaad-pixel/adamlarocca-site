@@ -59,7 +59,7 @@ def footer(pre):
     return f'''<footer class="foot" id="contact">
   <h2 class="display">Let's make people<br>feel something.</h2>
   <div class="foot-row">
-    <a href="mailto:larocca.ad@gmail.com">larocca.ad@gmail.com</a><a href="https://www.linkedin.com/in/alarocca/" target="_blank" rel="noopener">LinkedIn</a><a href="{pre}LaRoccaResume.pdf" target="_blank" rel="noopener">Resumé (PDF)</a>
+    <a href="mailto:larocca.ad@gmail.com">larocca.ad@gmail.com</a><a href="https://www.linkedin.com/in/alarocca/" target="_blank" rel="noopener">LinkedIn</a><a href="{pre}LaRocca_Resume.pdf" target="_blank" rel="noopener">Resumé (PDF)</a>
   </div>
   <small>© 2026 Adam LaRocca</small>
 </footer>
@@ -114,7 +114,7 @@ def build_home():
   <div>
     <h2 class="display">Simple ideas. Just need the feels.</h2>
     {"".join(f"<p>{E(p)}</p>" for p in about[1:])}
-    <p><a href="LaRoccaResume.pdf" target="_blank" rel="noopener" style="color:var(--sun);border-bottom:1px solid var(--sun)">Download Resumé (PDF)</a></p>
+    <p><a href="LaRocca_Resume.pdf" target="_blank" rel="noopener" style="color:var(--sun);border-bottom:1px solid var(--sun)">Download Resumé (PDF)</a></p>
     <div class="chips"><span>Cannes Lions</span><span>The One Show</span><span>Effies</span><span>Clios</span><span>Webbys</span><span>Graphis</span></div>
     <div class="chips chips-sub"><span>B2B ACE Awards</span><span>Adrian Awards</span><span>Magellan Awards</span><span>Flagler Awards</span></div>
   </div>
