@@ -31,8 +31,8 @@ function bindFilm(f) {
         if (d.event === "onReady" || d.event === "initialDelivery") post({ event: "command", func: "addEventListener", args: ["onStateChange"] });
         if ((d.event === "onStateChange" && d.info === 0) || (d.event === "infoDelivery" && d.info && d.info.playerState === 0)) restore();
       } else {
-        if (d.event === "ready") post({ method: "addEventListener", value: "ended" });
-        if (d.event === "ended") restore();
+        if (d.event === "ready") { post({ method: "addEventListener", value: "finish" }); post({ method: "addEventListener", value: "ended" }); }
+        if (d.event === "finish" || d.event === "ended") restore();
       }
     };
     addEventListener("message", onMsg);
