@@ -49,7 +49,6 @@
     },
     {
       "type": "rail",
-      "tall": true,
       "phone": true,
       "noun": "frames",
       "alt": "Piggly Wiggly social carousel",
@@ -73,7 +72,8 @@
           "src": "img/pw/social-carousel-6.webp"
         }
       ],
-      "start": 0
+      "start": 0,
+      "feed": true
     }
   ],
   "productionCredit": [

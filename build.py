@@ -258,12 +258,13 @@ def module(m, pre):
         figs = "".join(rf(i) for i in m["items"])
         noun = m.get("noun", "posts")
         cls = ' tall' if m.get('tall') else ''
+        if m.get('feed'): cls += ' feed'
         if m.get("phone"): cls += ' phone-rail center-rail'
         elif m.get("center"): cls += ' center-rail'
         attrs = f' data-start="{m.get("start", 2 if m.get("phone") else 0)}"'
         sty = (f'--pw:min({m["size"]}px,86vw);' if m.get("size") else '') + (f'--rar:{m["aspect"]};' if m.get("aspect") else '')
         if sty: attrs += f' style="{sty}"'
-        frame = '<div class="rail-phone" aria-hidden="true"></div>' if m.get("phone") else ''
+        frame = (f'<div class="rail-phone{" feed" if m.get("feed") else ""}" aria-hidden="true"></div>') if m.get("phone") else ''
         return f'''<div class="rail-wrap{' has-phone' if m.get('phone') else ''}"><div class="rail-stage">{frame}<div class="rail{cls}"{attrs} tabindex="0" aria-label="{E(m.get("alt","Gallery"))}">{figs}</div></div>
   <div class="rail-controls"><span>{len(m["items"])} {noun}. Swipe or use the arrows.</span><div><button data-dir="-1" aria-label="Previous">&#8592;</button><button data-dir="1" aria-label="Next">&#8594;</button></div></div></div>'''
     raise ValueError(t)
