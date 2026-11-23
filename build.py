@@ -17,7 +17,7 @@ has_case = lambda slug: os.path.exists(os.path.join(ROOT, "content", "case", slu
 
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;800;900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">'
 
-SITE_URL = "https://adamlarocca-site.larocca-ad.workers.dev"  # swap to https://adamlarocca.com at launch
+SITE_URL = "https://adamlarocca.com"
 
 def head(title, pre, desc, noindex=False, og_img=None, path=""):
     robots = '<meta name="robots" content="noindex,nofollow">\n' if noindex else ''
@@ -25,7 +25,7 @@ def head(title, pre, desc, noindex=False, og_img=None, path=""):
     icons = (f'<link rel="icon" href="{pre}favicon.ico" sizes="any"><link rel="icon" type="image/png" href="{pre}favicon-32.png">'
              f'<link rel="apple-touch-icon" href="{pre}apple-touch-icon.png">\n')
     og = (f'<meta property="og:type" content="website"><meta property="og:title" content="{E(title)}">'
-          f'<meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{SITE_URL}/{path}">'
+          f'<meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{SITE_URL}/{path}"><link rel="canonical" href="{SITE_URL}/{path}">'
           + (f'<meta property="og:image" content="{SITE_URL}/{og_img}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
              f'<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE_URL}/{og_img}">' if og_img else "")
           + "\n")
