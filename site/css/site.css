@@ -369,3 +369,4 @@ img,video{display:block;width:100%;height:100%;object-fit:cover}
 .rail-phone.feed::before{top:11px;height:20px}
 .rail-phone.feed + .rail{padding-top:50px}
 .rail.feed.phone-rail figure.in-phone{border-radius:0 0 30px 30px}
+.hero-side p.solo{font-family:var(--display);font-weight:800;font-size:clamp(26px,2.4vw,36px);line-height:1.02;margin:0;color:var(--paper)}

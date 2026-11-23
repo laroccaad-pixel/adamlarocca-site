@@ -99,8 +99,7 @@ def build_home():
   <div class="hero-copy">
     <h1 class="display">Adam<br>LaRocca</h1>
     <div class="hero-side">
-      <p>Make it simple yet significant.</p>
-      <p>Ideas teams rally around and<br class="br-desk"> audiences remember.</p>
+      <p class="solo">Forging connection between humans and brands.</p>
     </div>
   </div>
 </header>
