@@ -46,6 +46,33 @@
           "poster": "img/pw/pw-deli-916.webp"
         }
       ]
+    },
+    {
+      "type": "rail",
+      "tall": true,
+      "phone": true,
+      "noun": "frames",
+      "alt": "Piggly Wiggly social carousel",
+      "items": [
+        {
+          "src": "img/pw/social-carousel-1.webp"
+        },
+        {
+          "src": "img/pw/social-carousel-2.webp"
+        },
+        {
+          "src": "img/pw/social-carousel-3.webp"
+        },
+        {
+          "src": "img/pw/social-carousel-4.webp"
+        },
+        {
+          "src": "img/pw/social-carousel-5.webp"
+        },
+        {
+          "src": "img/pw/social-carousel-6.webp"
+        }
+      ]
     }
   ],
   "productionCredit": [
