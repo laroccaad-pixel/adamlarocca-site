@@ -115,9 +115,3 @@ loadVimeoCovers();
     setTimeout(() => { render(b.dataset.sort); list.classList.remove("sorting"); }, 180);
   });
 })();
-
-document.querySelectorAll(".frame .cine").forEach(v => {
-  const a = v.closest(".frame");
-  a.addEventListener("mouseenter", () => v.pause());
-  a.addEventListener("mouseleave", () => v.play().catch(() => {}));
-});
