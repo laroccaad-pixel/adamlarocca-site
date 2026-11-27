@@ -82,6 +82,9 @@ def frame(p, i, pre=""):
   <div class="frame-copy"><p class="kicker">{E(c.get("client", p["client"]))}</p><h3 class="display">{ttl}</h3></div>
   <p class="frame-meta">{E(c["role"])}<br>{E(c["agency"])}</p></a>'''
 
+SHOW_SORT = False  # sort feature parked; flip to True to bring it back
+SORT_UI = '<div class="sort" role="group" aria-label="Sort work"><span>Sort</span><button aria-pressed="true" data-sort="">Featured</button><button aria-pressed="false" data-sort="client">Client</button><button aria-pressed="false" data-sort="category">Category</button><button aria-pressed="false" data-sort="agency">Agency</button></div>'
+
 def build_home():
     # rhythm: 1 = wide frame, 2 = side-by-side pair
     pattern = [1, 2, 2, 1, 2, 1, 1, 2, 2, 1, 2]
@@ -107,7 +110,7 @@ def build_home():
 </header>
 <main>
 <section class="reel" id="work" aria-labelledby="work-h">
-  <div class="reel-head"><h2 id="work-h">Selected work</h2><div class="sort" role="group" aria-label="Sort work"><span>Sort</span><button aria-pressed="true" data-sort="">Featured</button><button aria-pressed="false" data-sort="client">Client</button><button aria-pressed="false" data-sort="category">Category</button><button aria-pressed="false" data-sort="agency">Agency</button></div></div>
+  <div class="reel-head"><h2 id="work-h">Selected work</h2>{SORT_UI if SHOW_SORT else f"<span>{len(live)} projects</span>"}</div>
   <div class="reel-list">{"".join(out)}</div>
 </section>
 <section class="about" id="about">
