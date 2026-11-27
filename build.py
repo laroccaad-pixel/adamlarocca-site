@@ -74,7 +74,9 @@ def frame(p, i, pre=""):
     href = f'{pre}work/{p["slug"]}.html' if has_case(p["slug"]) else "#"
     tint = f' tint-{c["tint"]}' if c.get("tint") else ""
     ttl = "<br>".join(E(x) for x in c["title"].split("\n")) if c.get("title") else E(p["title"])
-    return f'''<a class="frame{tint}" href="{href}">
+    ag = p.get("agency", c["agency"]).split(" + ")[0].replace(" (OMC)", "")
+    data = f' data-client="{E(p["client"])}" data-category="{E(p.get("category",""))}" data-agency="{E(ag)}"'
+    return f'''<a class="frame{tint}" href="{href}"{data}>
   <img src="{c.get("imgUrl") or pre + "img/" + c["img"] + ".webp"}" alt="{E(p["client"])}, {E(p["title"])}" loading="{"eager" if i < 3 else "lazy"}">
   <span class="watch">View project</span>
   <div class="frame-copy"><p class="kicker">{E(c.get("client", p["client"]))}</p><h3 class="display">{ttl}</h3></div>
@@ -105,8 +107,8 @@ def build_home():
 </header>
 <main>
 <section class="reel" id="work" aria-labelledby="work-h">
-  <div class="reel-head"><h2 id="work-h">Selected work</h2><span>{len(live)} projects</span></div>
-  {"".join(out)}
+  <div class="reel-head"><h2 id="work-h">Selected work</h2><div class="sort" role="group" aria-label="Sort work"><span>Sort</span><button aria-pressed="true" data-sort="">Featured</button><button aria-pressed="false" data-sort="client">Client</button><button aria-pressed="false" data-sort="category">Category</button><button aria-pressed="false" data-sort="agency">Agency</button></div></div>
+  <div class="reel-list">{"".join(out)}</div>
 </section>
 <section class="about" id="about">
   <figure class="portrait"><img src="img/headshot.webp" alt="Adam LaRocca" loading="lazy"></figure>

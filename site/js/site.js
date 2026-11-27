@@ -88,3 +88,30 @@ function loadVimeoCovers(root = document) { root.querySelectorAll("img[data-vime
   } catch (e) { fb(); }
 }); }
 loadVimeoCovers();
+
+(() => {
+  const list = document.querySelector(".reel-list"), ctl = document.querySelector(".sort");
+  if (!list || !ctl) return;
+  const featured = list.innerHTML;
+  const frames = [...list.querySelectorAll(".frame")].map((f, i) => (f.dataset.i = i, f));
+  const wrap = (a, b) => { const d = document.createElement("div"); d.className = "split"; d.append(a, b); return d; };
+  const render = key => {
+    if (!key) { list.innerHTML = featured; return; }
+    const groups = new Map();
+    [...frames].sort((a, b) => a.dataset[key].localeCompare(b.dataset[key]) || a.dataset.i - b.dataset.i)
+      .forEach(f => { const g = f.dataset[key]; groups.has(g) || groups.set(g, []); groups.get(g).push(f.cloneNode(true)); });
+    list.innerHTML = "";
+    groups.forEach((fs, name) => {
+      const h = document.createElement("p"); h.className = "reel-group"; h.textContent = name; list.append(h);
+      let k = 0;
+      if (fs.length % 2) list.append(fs[k++]);
+      for (; k < fs.length; k += 2) list.append(wrap(fs[k], fs[k + 1]));
+    });
+  };
+  ctl.addEventListener("click", e => {
+    const b = e.target.closest("button[data-sort]"); if (!b || b.getAttribute("aria-pressed") === "true") return;
+    ctl.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    list.classList.add("sorting");
+    setTimeout(() => { render(b.dataset.sort); list.classList.remove("sorting"); }, 180);
+  });
+})();
