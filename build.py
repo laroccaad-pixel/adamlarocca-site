@@ -78,7 +78,7 @@ def frame(p, i, pre=""):
     data = f' data-client="{E(p["client"])}" data-category="{E(p.get("category",""))}" data-agency="{E(ag)}"'
     return f'''<a class="frame{tint}" href="{href}"{data}>
   <img src="{c.get("imgUrl") or pre + "img/" + c["img"] + ".webp"}" alt="{E(p["client"])}, {E(p["title"])}" loading="{"eager" if i < 3 else "lazy"}">
-  <span class="watch">View project</span>
+{f'  <video class="cine" src="{pre}{c["loop"]}" autoplay muted loop playsinline data-loop aria-hidden="true"></video>' + chr(10) if c.get("loop") else ""}  <span class="watch">View project</span>
   <div class="frame-copy"><p class="kicker">{E(c.get("client", p["client"]))}</p><h3 class="display">{ttl}</h3></div>
   <p class="frame-meta">{E(c["role"])}<br>{E(c["agency"])}</p></a>'''
 
